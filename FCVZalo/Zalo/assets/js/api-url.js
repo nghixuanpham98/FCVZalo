@@ -1,0 +1,1 @@
+﻿var api_url = window.location.origin + '/api/';

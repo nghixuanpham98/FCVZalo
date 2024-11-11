@@ -1,0 +1,268 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Zalo Setting</title>
+    <script src="../../assets/library/bootstrap/popper.min.js"></script>
+    <script src="../../assets/library/bootstrap/bootstrap.min.js"></script>
+    <link href="../../assets/library/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <script src="../../assets/library/bootstrap/popper2.min.js"></script>
+    <script src="../../assets/library/jquery/jquery-3.3.1.min.js"></script>
+
+    <script src="../../assets/library/fontawesome/all.js"></script>
+    <script src="../../assets/library/fontawesome/brands.js"></script>
+    <script src="../../assets/library/fontawesome/fontawesome.js"></script>
+    <script src="../../assets/library/fontawesome/regular.js"></script>
+    <script src="../../assets/library/fontawesome/solid.js"></script>
+    <link href="../../assets/library/fontawesome/fontawesome-all.css" rel="stylesheet" />
+
+    <link href="../../assets/library/select2/select2.min.css" rel="stylesheet" />
+    <script src="../../assets/library/select2/select2.min.js"></script>
+
+    <link href="../../assets/library/dtpicker/jquery.datetimepicker.min.css" rel="stylesheet" />
+    <script src="../../assets/library/dtpicker/jquery.datetimepicker.full.js"></script>
+
+    <link href="../../assets/library/toast/toastr.min.css" rel="stylesheet" />
+    <script src="../../assets/library/toast/toastr.min.js"></script>
+    <script src="../../assets/library/toast/toastr.js"></script>
+
+    <link href="../../assets/css/ivg-common.css" rel="stylesheet" />
+
+</head>
+<body>
+
+
+    <div class="container-fluid">
+
+        <!-- The Modal -->
+        <div>
+
+            <button hidden id="btnModalDetail" data-toggle="modal" data-target="#modalDetail"></button>
+            <button hidden id="btnModalConfirm" data-toggle="modal" data-target="#modalConfirm"></button>
+
+            <!--modal chi tiết-->
+
+
+            <div class="modal" id="modalDetail" role="dialog" data-backdrop="static" data-keyboard="false">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="lblTitleDetail"></h4>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+
+                        <div class="modal-body">
+                            <div class="container-fluid">
+
+                                <input type="hidden" id="hdfID" />
+                                <div class="row">
+                                    <div class="col">
+
+                                        <div class="form-group row">
+                                            <label class="col-3 col-form-label">Chiến dịch <span class="icon-required">*</span></label>
+                                            <div class="col">
+                                                <input class="form-control" id="txtName" required spellcheck="false" autocomplete="off">
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group row">
+                                            <label class="col-3 col-form-label">Tên View</label>
+                                            <div class="col">
+                                                <input class="form-control" id="txtViewName" spellcheck="false" autocomplete="off" />
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group row">
+                                            <label class="col-3 col-form-label">
+                                                Câu lệnh SQL
+                                                <b hidden data-toggle="tooltip" title="Chạy thử câu truy vấn" class="btn btn-sm btn-outline-success"><i class="fas fa-play"></i> Execute</b>
+                                            </label>
+                                            <div class="col">
+                                                <textarea class="form-control" rows="7" id="txtSQLQuery" spellcheck="false"></textarea>
+                                                <small class="font-weight-bold" id="lblExecResult"></small>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col">
+
+                                        <div class="form-group row">
+                                            <label class="col-3 ">Kích hoạt</label>
+                                            <div class="col">
+                                                <input type="checkbox" id="ckActive" style="transform:scale(1.4)" />
+                                            </div>
+                                        </div>
+
+
+                                        <div class="form-group row">
+                                            <label class="col-3 col-form-label">Dự kiến gửi</label>
+                                            <div class="col">
+                                                <input class="form-control datepicker" id="txtSendOn" spellcheck="false" autocomplete="off" />
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group row" hidden>
+                                            <label class="col-3 col-form-label">Lần gửi cuối</label>
+                                            <div class="col">
+                                                <input class="form-control" disabled id="txtLastSendOn" />
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group row" hidden>
+                                            <label class="col-3 col-form-label">Lần tải KH cuối</label>
+                                            <div class="col">
+                                                <input class="form-control" disabled id="txtLastLoadData" />
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group row">
+                                            <label class="col-3 col-form-label">Ghi chú</label>
+                                            <div class="col">
+                                                <textarea class="form-control" rows="3" spellcheck="false" id="txtDescription"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col">
+                                        <b class="text-danger" id="lblError"></b>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-success" onclick="Save()">Lưu</button>
+                            <button type="button" class="btn btn-danger btn-close" data-dismiss="modal">Đóng</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!--modal xác nhận xóa-->
+
+            <div class="modal" id="modalConfirm" role="dialog" data-backdrop="static" data-keyboard="false">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                            <h3 class="text-danger">Xác nhận xóa thông tin?</h3>
+                        </div>
+
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-success" onclick="Delete(1)">Xác nhận</button>
+                            <button type="button" class="btn btn-danger btn-close" data-dismiss="modal">Đóng</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+        <div class="row">
+            <div class="col-sm row lblPaging">
+
+                <div class="col-sm-2">
+                    <input class="form-control" type="search" spellcheck="false" autocomplete="off" placeholder="Tìm kiếm ..." id="txtKeyword" onchange="AdvancedFind(1)" />
+                </div>
+
+
+                <div class="form-group col-sm">
+                </div>
+
+
+                <div class="form-group col-sm-3 text-right">
+                    <div class="btn-group">
+
+                        <button onclick="New()" title="Thêm mới thông tin" data-toggle="tooltip" class="btn btn-sm btn-success"><i class="fas fa-plus-circle"></i> Thêm</button>
+
+                        <button title="Xóa thông tin" data-toggle="tooltip" class="btn btn-sm btn-danger" type="button" onclick="Delete()"><i class="fas fa-trash"></i> Xóa</button>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <div class="row">
+
+            <div class="col-sm lblPaging">
+
+                <span>Tổng cộng: <b id="TotalRecords"></b> bản ghi</span>
+
+            </div>
+
+            <div class="col-sm text-right lblPaging">
+
+                <div>
+                    Hiển thị:
+                    <select id="PageSize" onchange="AdvancedFind(1)">
+                        <option value="25">25</option>
+                        <option value="50">50</option>
+                        <option value="100">100</option>
+                        <option value="500">500</option>
+                    </select> bản ghi
+                    &nbsp;
+
+                    <button onclick="FirstPage()" data-toggle="tooltip" title="Trang đầu" type="button" class="btn btn-sm btn-outline-primary"><i class="fa fa-angle-double-left"></i></button>
+                    <button onclick="PreviousPage()" data-toggle="tooltip" title="Trang trước" type="button" class="btn btn-sm btn-outline-primary"><i class="fa fa-angle-left"></i></button>
+                    Trang: <span id="PageIndex">1</span>/<span id="TotalPages">1</span>
+                    <button onclick="NextPage()" data-toggle="tooltip" title="Trang sau" type="button" class="btn btn-sm btn-outline-primary"><i class="fa fa-angle-right"></i></button>
+                    <button onclick="LastPage()" data-toggle="tooltip" title="Trang cuối" type="button" class="btn btn-sm btn-outline-primary"><i class="fa fa-angle-double-right"></i></button>
+                </div>
+
+                <input type="hidden" name="PageIndex" id="PageIndex" />
+
+            </div>
+
+        </div>
+
+        
+        <div class="DataTable" style="overflow-y: scroll; height: calc(100vh - 200px)!important;">
+
+            <table class="ivgTable ivg-table">
+                <thead>
+                    <tr class="text-center">
+                        <th width="30" class="text-center"><input type="checkbox" onchange="common_select_all(this)" /></th>
+                        <th width="200">Tên chiến dịch</th>
+                        <th width="80">Dự kiến gửi</th>
+                        <!--<th width="150">Thời gian gửi cuối</th>-->
+                        <!--<th width="150">Thời gian tải KH</th>-->
+                        <th width="80">Kích hoạt</th>
+                        <th width="80">Ngày sửa</th>
+                        <th width="50">Tổng yêu cầu</th>
+                        <th width="30"><i class="fas fa-cogs"></i></th>
+                    </tr>
+                </thead>
+                <tbody id="tbl_Data"></tbody>
+            </table>
+        </div>
+
+    </div>
+
+    <div id="loading"></div>
+
+    <script>
+        $(".datepicker").datetimepicker({ format: 'Y-m-d', timepicker: false, });
+    </script>
+
+    <script src="../../assets/library/bootstrap/bootstrap.bundle.min.js"></script>
+
+    <script src="../../assets/js/ivg-common.js?ver=1.1"></script>
+
+    <script src="request.js?ver=1.2"></script>
+</body>
+</html>

@@ -1,0 +1,273 @@
+--==================================================================================================================
+/****** Object:  Table [dbo].[tbl_ChatZaloSharedInfo]    Script Date: 27-Mar-23 05:09:19 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[tbl_ChatZaloSharedInfo](
+	[ID] [uniqueidentifier] NOT NULL,
+	[UserID] [nvarchar](50) NULL,
+	[Name] [nvarchar](250) NULL,
+	[PhoneNumber] [nvarchar](50) NULL,
+	[Ward] [nvarchar](250) NULL,
+	[District] [nvarchar](250) NULL,
+	[City] [nvarchar](250) NULL,
+	[Address] [nvarchar](max) NULL,
+ CONSTRAINT [PK_tbl_ChatZaloSharedInfo] PRIMARY KEY CLUSTERED 
+(
+	[ID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+--==================================================================================================================
+/****** Object:  Table [dbo].[tbl_ChatZaloTagsAndNotes]    Script Date: 27-Mar-23 05:09:19 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[tbl_ChatZaloTagsAndNotes](
+	[ID] [uniqueidentifier] NOT NULL,
+	[UserID] [nvarchar](50) NULL,
+	[TagsName] [nvarchar](max) NULL,
+	[Notes] [nvarchar](max) NULL,
+ CONSTRAINT [PK_tbl_ChatZaloTagsAndNotes] PRIMARY KEY CLUSTERED 
+(
+	[ID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+--==================================================================================================================
+/****** Object:  Table [dbo].[tbl_ChatZaloUsers]    Script Date: 27-Mar-23 05:09:19 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[tbl_ChatZaloUsers](
+	[UserID] [nvarchar](50) NOT NULL,
+	[DisplayName] [nvarchar](250) NULL,
+	[UserGender] [int] NULL,
+	[UserIDByApp] [nvarchar](50) NULL,
+	[AvatarDefaultApp] [nvarchar](max) NULL,
+	[BirthDate] [datetime] NULL,
+	[IsFollower] [bit] NULL,
+	[LastMessage] [nvarchar](max) NULL,
+	[TypeLastMessage] [nvarchar](50) NULL,
+	[LastTimeMessage] [nvarchar](50) NULL,
+	[CreatedOn] [datetime] NULL,
+	[CreatedBy] [uniqueidentifier] NULL,
+	[ModifiedOn] [datetime] NULL,
+	[ModifiedBy] [uniqueidentifier] NULL,
+ CONSTRAINT [PK_tbl_ChatZaloFollowers] PRIMARY KEY CLUSTERED 
+(
+	[UserID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+--==================================================================================================================
+/****** Object:  View [dbo].[vw_ChatZaloUsers]    Script Date: 27-Mar-23 05:09:19 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE VIEW [dbo].[vw_ChatZaloUsers]
+AS
+SELECT        dbo.tbl_ChatZaloUsers.UserID, dbo.tbl_ChatZaloUsers.DisplayName, dbo.tbl_ChatZaloUsers.UserGender, dbo.tbl_ChatZaloUsers.UserIDByApp, dbo.tbl_ChatZaloUsers.AvatarDefaultApp, dbo.tbl_ChatZaloUsers.BirthDate, 
+                         dbo.tbl_ChatZaloUsers.IsFollower, dbo.tbl_ChatZaloUsers.LastMessage, dbo.tbl_ChatZaloUsers.TypeLastMessage, dbo.tbl_ChatZaloUsers.LastTimeMessage, dbo.tbl_ChatZaloSharedInfo.ID AS SharedID, 
+                         dbo.tbl_ChatZaloSharedInfo.Name, dbo.tbl_ChatZaloSharedInfo.PhoneNumber, dbo.tbl_ChatZaloSharedInfo.Ward, dbo.tbl_ChatZaloSharedInfo.District, dbo.tbl_ChatZaloSharedInfo.City, dbo.tbl_ChatZaloSharedInfo.Address, 
+                         dbo.tbl_ChatZaloTagsAndNotes.ID AS TagAndNoteID, dbo.tbl_ChatZaloTagsAndNotes.TagsName, dbo.tbl_ChatZaloTagsAndNotes.Notes, 
+                         dbo.tbl_ChatZaloUsers.CreatedOn, dbo.tbl_ChatZaloUsers.CreatedBy, dbo.tbl_ChatZaloUsers.ModifiedOn, dbo.tbl_ChatZaloUsers.ModifiedBy
+FROM            dbo.tbl_ChatZaloSharedInfo INNER JOIN
+                         dbo.tbl_ChatZaloUsers ON dbo.tbl_ChatZaloSharedInfo.UserID = dbo.tbl_ChatZaloUsers.UserID INNER JOIN
+                         dbo.tbl_ChatZaloTagsAndNotes ON dbo.tbl_ChatZaloUsers.UserID = dbo.tbl_ChatZaloTagsAndNotes.UserID
+GO
+--==================================================================================================================
+/****** Object:  Table [dbo].[tbl_ChatZaloMessages]    Script Date: 27-Mar-23 05:09:19 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[tbl_ChatZaloMessages](
+	[ID] [nvarchar](50) NOT NULL,
+	[Src] [int] NULL,
+	[Time] [nvarchar](50) NULL,
+	[Type] [nvarchar](50) NULL,
+	[MessageContent] [nvarchar](max) NULL,
+	[Links] [nvarchar](max) NULL,
+	[Thumb] [nvarchar](max) NULL,
+	[Url] [nvarchar](max) NULL,
+	[Description] [nvarchar](max) NULL,
+	[FromID] [nvarchar](50) NULL,
+	[FromDisplayName] [nvarchar](250) NULL,
+	[FromAvatar] [nvarchar](max) NULL,
+	[ToID] [nvarchar](50) NULL,
+	[ToDisplayName] [nvarchar](250) NULL,
+	[ToAvatar] [nvarchar](max) NULL,
+	[Location] [nvarchar](max) NULL,
+	[IsRecent] [bit] NULL,
+ CONSTRAINT [PK_tbl_ChatZaloMessages] PRIMARY KEY CLUSTERED 
+(
+	[ID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO 
+ 
+  
+--==================================================================================================================
+CREATE VIEW [dbo].[vw_ChatZaloCheckUnReadMessages]
+AS
+select us.UserID,msg.Time from vw_ChatZaloUsers  us
+	left join tbl_ChatZaloMessages  msg on us.UserID=msg.FromID OR us.UserID=msg.ToID
+where isnull(msg.IsRecent,0)=1
+--==================================================================================================================
+CREATE TABLE [dbo].[tbl_ChatZaloMessageDetails](
+	[ID] [uniqueidentifier] NOT NULL,
+	[MessageID] [nvarchar](50) NULL,
+	[UserID] [nvarchar](50) NULL,
+	[Request] [nvarchar](max) NULL,
+	[Response] [nvarchar](max) NULL,
+	[CreatedOn] [datetime] NULL,
+	[CreatedBy] [uniqueidentifier] NULL,
+	[ModifiedOn] [datetime] NULL,
+	[ModifiedBy] [uniqueidentifier] NULL,
+ CONSTRAINT [PK_ChatZaloMessageDetails] PRIMARY KEY CLUSTERED 
+(
+	[ID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+--==================================================================================================================
+CREATE TABLE [dbo].[tbl_ChatZaloOAInfo](
+	[ID] [nvarchar](50) NOT NULL,
+	[DisplayName] [nvarchar](max) NULL,
+	[Description] [nvarchar](max) NULL,
+	[Avatar] [nvarchar](max) NULL,
+	[CoverImage] [nvarchar](max) NULL,
+	[IsVerified] [bit] NULL,
+	[CreatedOn] [datetime] NULL,
+	[CreatedBy] [uniqueidentifier] NULL,
+	[ModifiedOn] [datetime] NULL,
+	[ModifiedBy] [uniqueidentifier] NULL,
+ CONSTRAINT [PK_tbl_ChatZaloOAInfo] PRIMARY KEY CLUSTERED 
+(
+	[ID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+--==================================================================================================================
+CREATE TABLE [dbo].[tbl_ChatZaloSettings](
+	[id] [int] IDENTITY(1,1) NOT NULL,
+	[text] [nvarchar](max) NULL,
+	[value] [nvarchar](max) NULL,
+	[expires_in] [nvarchar](max) NULL,
+	[modified_on] [datetime] NULL,
+ CONSTRAINT [PK_tbl_ChatZaloSettings] PRIMARY KEY CLUSTERED 
+(
+	[id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+--==================================================================================================================
+CREATE TABLE [dbo].[tbl_ChatZaloWebhook](
+	[ID] [uniqueidentifier] NOT NULL,
+	[EventName] [nvarchar](250) NULL,
+	[TimeReceived] [nvarchar](50) NULL,
+	[ResponseContent] [nvarchar](max) NULL,
+ CONSTRAINT [PK_ChatZaloWebhook] PRIMARY KEY CLUSTERED 
+(
+	[ID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+--==================================================================================================================
+CREATE TABLE [dbo].[tbl_ChatZaloWebhookAfterHandled](
+	[ID] [uniqueidentifier] NOT NULL,
+	[EventName] [nvarchar](250) NULL,
+	[TimeReceived] [nvarchar](50) NULL,
+	[TimeDone] [datetime] NULL,
+	[ResponseContent] [nvarchar](max) NULL,
+ CONSTRAINT [PK_tbl_ChatZaloWebhookAfterHandled] PRIMARY KEY CLUSTERED 
+(
+	[ID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+
+
+
+
+
+--==================================================================================================================
+ CREATE view [dbo].[v_Zalo_Test] as 
+ select top 100
+ 
+	ct.id [CustomerId]
+	, concat( isnull(ct.lastname,''),' ',isnull(ct.firstname,'')) [FullName]
+	, ct.sfid [SalesForceId]
+	, case when isnull(ct.mobilephone,'')<>'' then concat('',ct.mobilephone) end [mobilephone]
+	, case when isnull(ct.phone,'')<>'' then concat('',ct.phone) end [phone]
+	, ct.email
+	, ct.birthdate [Birthdate] --khác
+	, ISNULL(ct.street__c,'') +', '+ ISNULL(ct.district__c,'')+', '+ISNULL(ct.province__c,'')+', '+ISNULL(ct.country__C,'') as [Address]
+	, concat(
+			'Zalo test '
+			,replace(cast(getdate() as date),'-','') , ' '
+			,isnull(ct.lastname,''),' ',isnull(ct.firstname,'')
+		) [Subject]
+	
+	, 1000 [Priority]
+ from tbl_SFContact ct where mobilephone in ('0932032276','0904994990','0913233022')
+ 
+--==================================================================================================================
+
+
+CREATE TABLE [dbo].[tbl_ChatZaloRequestConsent](
+	[ID] [uniqueidentifier] NOT NULL,
+	[Phone] [nvarchar](50) NULL,
+	[IsApproved] [bit] NULL,
+	[ExpiredOn] [datetime] NULL,
+	[LastSendOn] [datetime] NULL,
+	[LastSendCode] [int] NULL,
+	[LastSendMessage] [nvarchar](max) NULL,
+	[LastSendBy] [uniqueidentifier] NULL,
+	[LastCheckOn] [datetime] NULL,
+	[LastCheckCode] [int] NULL,
+	[LastCheckMessage] [nvarchar](max) NULL,
+	[LastCheckBy] [uniqueidentifier] NULL,
+ CONSTRAINT [PK_tbl_ChatZaloRequestConsent] PRIMARY KEY CLUSTERED 
+(
+	[ID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO 
+
+--==================================================================================================================
+ create view [dbo].[v_Zalo_Test_CallList] as 
+select 
+ 
+		[CustomerId]
+	, zalo.[FullName]
+	, zalo.[SalesForceId]
+	, concat('Z',zalo.[mobilephone]) [mobilephone]
+	, concat('Z',zalo.[phone]) [phone]
+	, zalo.[email]
+	, zalo.[Birthdate]
+	, zalo.[Address]
+	, zalo.[Subject]
+	, zalo.[Priority]
+
+from v_Zalo_Test zalo 
+left join [dbo].[tbl_ChatZaloRequestConsent] req on req.phone=zalo.mobilephone 
+where isnull(req.[IsApproved],0)=1
+
+
+--==================================================================================================================
+
+USE [FCVWebportal]
+GO
+SET IDENTITY_INSERT [dbo].[tbl_ChatZaloSettings] ON 
+
+INSERT [dbo].[tbl_ChatZaloSettings] ([id], [text], [value], [expires_in], [modified_on]) VALUES (1, N'access_token', N'QWzsOMbmxa5e1tXhQNdYJcO8UcrdORa-AK507snAY5fjF5Pn8J-u5NyJHr5a89jq5YPiNr8xb0yG8tb_KGY17XydI5WT0wOXNo0-PGuozaK0E00XJn3AMquVKZqN2wfcP0Di8W8UWd933XGb4IVQ15us8dm1GFS-06Hi65b5f51PIsSTNpI5UYG4UZaa4x98SovyCtmJiHWcDYzwO2dP8nCd1s9nCUKcBq86Tc5FqmisNWLZL7JS5310G3LYR9bk6Hf1KM1etGrd6o0lDoIuJZOiK6mn9CmSTW5JQGjphqbkOqqNAH68ILWO56qF6VeBKYyILIC9-YflUcGA20k3AaGQVL05FEC5DaUl4cXcwaS', N'90000', CAST(N'2023-03-27T17:07:32.243' AS DateTime))
+INSERT [dbo].[tbl_ChatZaloSettings] ([id], [text], [value], [expires_in], [modified_on]) VALUES (2, N'refresh_token', N'6MZ6nvN7mtba5hFsWyY77LfmzCZYrF8FFNJf_SBsvNLtQVJyjBA897rKWjgKqlC08dV1rz7fqXivNk2GXCBy5K8PYysE_u0mQNRnvjhRpp4iIDtGqyB74NqOaCd_cBi4NIdqkzFnq7feBAAjWB-pAXy1iQAgdw0jQ4xHehs0nobOSUZ9ouVsMW0RrA3jVc-EOTHACxHiJjn6nrT5iY99_nNgN47MDrVhMFaBSf5tVEenm65q71Pw1iBjpNq', NULL, CAST(N'2023-03-27T17:07:32.243' AS DateTime))
+INSERT [dbo].[tbl_ChatZaloSettings] ([id], [text], [value], [expires_in], [modified_on]) VALUES (3, N'app_name', N'IVGVN', NULL, CAST(N'2023-03-27T14:54:28.260' AS DateTime))
+INSERT [dbo].[tbl_ChatZaloSettings] ([id], [text], [value], [expires_in], [modified_on]) VALUES (4, N'app_id', N'3458727098795796717', NULL, CAST(N'2023-03-27T14:54:28.260' AS DateTime))
+INSERT [dbo].[tbl_ChatZaloSettings] ([id], [text], [value], [expires_in], [modified_on]) VALUES (5, N'secret_key', N'dVz57rT2O157j6LDji1l', NULL, CAST(N'2023-03-27T14:54:28.260' AS DateTime))
+SET IDENTITY_INSERT [dbo].[tbl_ChatZaloSettings] OFF
+GO
+

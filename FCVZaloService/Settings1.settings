@@ -1,0 +1,39 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="FCVZaloService" GeneratedClassName="Settings1">
+  <Profiles />
+  <Settings>
+    <Setting Name="apiUrl" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://192.168.0.214:8098/api/</Value>
+    </Setting>
+    <Setting Name="ivgUrl" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://192.168.0.214:8098/api/</Value>
+    </Setting>
+    <Setting Name="scheduleTimeResetToken" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">600000</Value>
+    </Setting>
+    <Setting Name="scheduleTimeScanUsers" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">180000</Value>
+    </Setting>
+    <Setting Name="scheduleTimeScanMessages" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">60000</Value>
+    </Setting>
+    <Setting Name="scheduleTimeScanWebhook" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">1000</Value>
+    </Setting>
+    <Setting Name="scheduleTimeScanCheckConsent" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">300000</Value>
+    </Setting>
+    <Setting Name="turnOnRequestConsent" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="scheduleTimeScanRequestConsent" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">300000</Value>
+    </Setting>
+    <Setting Name="scheduleTimeScanOA" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">86400000</Value>
+    </Setting>
+    <Setting Name="connectionString" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Data Source=192.168.0.214;Initial Catalog=FCVWebportal;Persist Security Info=True;User ID=sa;Password=ivgvn123$</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,246 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FCV Chat</title>
+    <!--Reset CSS-->
+    <link href="../../assets/reset-css/normalize.css" rel="stylesheet" />
+    <!--Bootstrap-->
+    <link href="../../assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="../../assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!--Fontawesome-->
+    <link href="../../assets/fontawesome/css/all.min.css" rel="stylesheet" />
+    <!--Jquery-->
+    <script src="../../assets/jquery/jquery-360.min.js"></script>
+    <!--JavaScript-->
+    <script src="../../assets/js/api-url.js"></script>
+    <script src="../../assets/js/common.js"></script>
+    <script src="zalo-chat.js"></script>
+    <!--Css-->
+    <link href="../../assets/css/common.css" rel="stylesheet" />
+    <link href="zalo-chat.css" rel="stylesheet" />
+    <!--Toast Notifications-->
+    <link href="../../assets/toast/toastr.min.css" rel="stylesheet" />
+    <script src="../../assets/toast/toastr.min.js"></script>
+    <!--Sweet Alert-->
+    <script src="../../assets/sweat-alert/sweetalert.min.js"></script>
+</head>
+
+<body>
+    <div class="chat-content col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+        <!--Chat Conversations-->
+        <div class="chat-content__conv">
+            <div class="content-conv-header">
+                <div class="conv-header__block">
+                    <h3 class="conv-header__block-title">Chat</h3>
+                    <div class="conv-header__block-add-new">
+                        <div class="secondary__block me-2">
+                            <i class="secondary__block-icon fa-solid fa-users"></i>
+                        </div>
+
+                        <div class="secondary__block me-2">
+                            <i class="secondary__block-icon fa-solid fa-circle-plus"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="conv-header__block flex-column align-items-start justify-content-center">
+                    <input onchange="mainSearch()" id="txtConvSearch" class="conv-header__block-search" type="text" spellcheck="false" autocomplete="off" placeholder="Tìm kiếm..." />
+                    <select onchange="filterTag()" id="filterTag" class="form-select conv-header__block-select">
+                        <option selected value="1">Đang xử lý</option>
+                        <option value="2">Hoàn thành</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="content-conv-body">
+                <ul onscroll="loadMoreUser()" id="convList" class="conv-body-list">
+                </ul>
+            </div>
+
+            <div hidden class="pagination">
+                <div class="hide-on-mobile me-2">
+                    <span class="page-item totalRecords" id="totalRecordsConv"></span>
+                </div>
+
+                <div class="me-2">
+                    <input type="hidden" id="pageSizeConv" value="10" />
+                </div>
+
+                <ul class="pagination m-0">
+                    <li class="page-item disabled"><a class="next-pre-link">Trang trước</a></li>
+                    <li class="page-item"><input readonly class="pageNumber mx-2" type="number" value="1" id="pageIndexConv"></li>
+                    <li class="page-item "><a class="next-pre-link">Trang sau</a></li>
+                </ul>
+            </div>
+
+            <input type="hidden" id="userID" />
+            <input type="hidden" id="nameOfUser" />
+            <input type="hidden" id="avatarOfUser" />
+            <input type="hidden" id="tagName" />
+            <input type="hidden" id="isFollower" />
+        </div>
+
+        <!--Chat Messages-->
+        <div class="chat-content__msg">
+            <div class="content-msg-header">
+                <div class="msg-header__block">
+                    <img alt="Hình ảnh" class="user-img msg-header__block-img" />
+                    <div class="d-flex flex-column align-items-start mx-3">
+                        <span class="msg-header__block-name"></span>
+                        <i class="msg-header__block-title"></i>
+                    </div>
+                </div>
+
+                <div class="msg-header__block">
+                    <div hidden class="secondary__block me-2">
+                        <i class="secondary__block-icon fa-solid fa-phone"></i>
+                    </div>
+
+                    <div hidden class="secondary__block me-2">
+                        <i class="secondary__block-icon fa-solid fa-video"></i>
+                    </div>
+
+                    <div id="updateTagDone" onclick="updateTagDone()" title="Hoàn thành" class="secondary__block me-2">
+                        <i class="secondary__block-icon fa-solid fa-check"></i>
+                    </div>
+
+                    <div class="secondary__block">
+                        <i class="secondary__block-icon fa-solid fa-ellipsis"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-msg-body">
+                <ul onscroll="loadMoreMessage()" id="messageList" class="msg-body-list">
+                </ul>
+            </div>
+
+            <div class="content-msg-footer">
+                <div id="inputEmoji" title="Biểu cảm" class="secondary__block me-2">
+                    <i class="secondary__block-icon fa-regular fa-face-smile"></i>
+                    <ul class="emojiList">
+                        <li onclick="sendMessageText('&#128512;')" class="emojiList__item">&#128512;</li>
+                        <li onclick="sendMessageText('&#128513;')" class="emojiList__item">&#128513;</li>
+                        <li onclick="sendMessageText('&#128514;')" class="emojiList__item">&#128514;</li>
+                        <li onclick="sendMessageText('&#128515;')" class="emojiList__item">&#128515;</li>
+                        <li onclick="sendMessageText('&#128516;')" class="emojiList__item">&#128516;</li>
+                        <li onclick="sendMessageText('&#128517;')" class="emojiList__item">&#128517;</li>
+                        <li onclick="sendMessageText('&#128518;')" class="emojiList__item">&#128518;</li>
+                        <li onclick="sendMessageText('&#128519;')" class="emojiList__item">&#128519;</li>
+                        <li onclick="sendMessageText('&#128520;')" class="emojiList__item">&#128520;</li>
+                        <li onclick="sendMessageText('&#128521;')" class="emojiList__item">&#128521;</li>
+                        <li onclick="sendMessageText('&#128522;')" class="emojiList__item">&#128522;</li>
+                        <li onclick="sendMessageText('&#128523;')" class="emojiList__item">&#128523;</li>
+                        <li onclick="sendMessageText('&#128524;')" class="emojiList__item">&#128524;</li>
+                        <li onclick="sendMessageText('&#128525;')" class="emojiList__item">&#128525;</li>
+                        <li onclick="sendMessageText('&#128526;')" class="emojiList__item">&#128526;</li>
+                        <li onclick="sendMessageText('&#128527;')" class="emojiList__item">&#128527;</li>
+                        <li onclick="sendMessageText('&#128528;')" class="emojiList__item">&#128528;</li>
+                        <li onclick="sendMessageText('&#128529;')" class="emojiList__item">&#128529;</li>
+                        <li onclick="sendMessageText('&#128530;')" class="emojiList__item">&#128530;</li>
+                        <li onclick="sendMessageText('&#128531;')" class="emojiList__item">&#128531;</li>
+                        <li onclick="sendMessageText('&#128532;')" class="emojiList__item">&#128532;</li>
+                        <li onclick="sendMessageText('&#128533;')" class="emojiList__item">&#128533;</li>
+                        <li onclick="sendMessageText('&#128534;')" class="emojiList__item">&#128534;</li>
+                        <li onclick="sendMessageText('&#128535;')" class="emojiList__item">&#128535;</li>
+                        <li onclick="sendMessageText('&#128536;')" class="emojiList__item">&#128536;</li>
+                        <li onclick="sendMessageText('&#128537;')" class="emojiList__item">&#128537;</li>
+                        <li onclick="sendMessageText('&#128538;')" class="emojiList__item">&#128538;</li>
+                        <li onclick="sendMessageText('&#128539;')" class="emojiList__item">&#128539;</li>
+                    </ul>
+                </div>
+
+                <div class="content-msg-footer__block me-2">
+                    <input id="messageValueInput" class="msg-footer__block-input" type="text" spellcheck="false" autocomplete="off" placeholder="Nhập tin nhắn..." />
+                </div>
+
+                <div onclick="openUploadImage()" title="Chọn hình ảnh" class="secondary__block me-2">
+                    <i class="secondary__block-icon fa-regular fa-file-image"></i>
+                </div>
+
+                <div onclick="openUploadFile()" title="Chọn file" class="secondary__block me-2">
+                    <i class="secondary__block-icon fa-solid fa-paperclip"></i>
+                </div>
+
+                <div onclick="sendMessageText()" title="Gửi" class="secondary__block secondary__block--special">
+                    <i class="text-white secondary__block-icon fa-solid fa-paper-plane"></i>
+                </div>
+            </div>
+
+            <div hidden class="pagination">
+                <div class="hide-on-mobile me-2">
+                    <span class="page-item totalRecords" id="totalRecordsMsg"></span>
+                </div>
+
+                <div class="me-2">
+                    <input type="hidden" id="pageSizeMsg" value="10" />
+                </div>
+
+                <ul class="pagination m-0">
+                    <li class="page-item disabled"><a class="next-pre-link">Trang trước</a></li>
+                    <li class="page-item"><input readonly class="pageNumber mx-2" type="number" value="1" id="pageIndexMsg"></li>
+                    <li class="page-item "><a class="next-pre-link">Trang sau</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!--Loader-->
+    <div id="loader">
+        <div id="effBackground">
+            Đang tải
+            <span class="spanLoading"></span>
+        </div>
+    </div>
+
+    <!--Modal upload image-->
+    <div class="modal fade" id="modalUploadImage" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" data-bs-backdrop="static">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header justify-content-center">
+                    <h4 style="color: var(--text-color-secondary);" class="m-0">Chọn hình ảnh</h4>
+                </div>
+
+                <div class="modal-body">
+                    <div class="tab-pane fade show" id="tab-info">
+                        <div class="row m-2">
+                            <input id="fileImage" type="file" accept="image/*" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-footer justify-content-around align-items-center">
+                    <button onclick="closeUploadImage()" style="width: 140px;" class="btn-secondary btn fw-bold" type="button">Đóng</button>
+                    <button onclick="uploadImage()" style="width: 140px;" class="btn-primary btn fw-bold text-white" type="button">Tải lên</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Modal upload file-->
+    <div class="modal fade" id="modalUploadFile" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" data-bs-backdrop="static">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header justify-content-center">
+                    <h4 style="color: var(--text-color-secondary);" class="m-0">Chọn tệp tin</h4>
+                </div>
+
+                <div class="modal-body">
+                    <div class="tab-pane fade show" id="tab-info">
+                        <div class="row m-2">
+                            <input id="file" type="file" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-footer justify-content-around align-items-center">
+                    <button onclick="closeUploadFile()" style="width: 140px;" class="btn-secondary btn fw-bold" type="button">Đóng</button>
+                    <button onclick="uploadFile()" style="width: 140px;" class="btn-primary btn fw-bold text-white" type="button">Tải lên</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

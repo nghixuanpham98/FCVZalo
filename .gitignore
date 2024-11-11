@@ -1,0 +1,5 @@
+#Visual studio auto generate file
+.vs/
+packages/
+bin/
+obj/

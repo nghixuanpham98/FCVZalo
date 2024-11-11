@@ -1,0 +1,2079 @@
+
+16:08:19	kiem_tra_yeu_cau_goi -result	{"error":-216,"message":"Access token is invalid"}
+ 
+16:09:44	kiem_tra_yeu_cau_goi -result	{"error":-216,"message":"Access token is invalid"} 
+============================================================================================================================================================================================================
+16:26:33	kiem_tra_yeu_cau_goi -result { phone = 84987838124 }	{"error":20,"message":"OA has not yet requested user consent"}
+ 
+16:30:24	kiem_tra_yeu_cau_goi -result { phone = 84966928238 }	{"error":20,"message":"OA has not yet requested user consent"}
+============================================================================================================================================================================================================ 
+
+16:33:33	kiem_tra_yeu_cau_goi -result { phone = 84987838124 }	{"error":20,"message":"OA has not yet requested user consent"} 
+
+16:35:12	kiem_tra_yeu_cau_goi -result { phone = 84966928238 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+16:35:12	kiem_tra_yeu_cau_goi ---------- Before
+
+16:35:19	kiem_tra_yeu_cau_goi ---------- After
+
+16:38:49	kiem_tra_yeu_cau_goi -result -0 { phone = 84908712878 }	{"error":20,"message":"OA has not yet requested user consent"}
+ 
+
+16:46:42	kiem_tra_yeu_cau_goi -result -4999 { phone = 84907790920 }	{"error":-216,"message":"Access token is invalid"}
+
+16:46:42	kiem_tra_yeu_cau_goi ---------- Before
+
+16:48:09	kiem_tra_yeu_cau_goi -result -0 { phone = 84327456583 }	{"error":-216,"message":"Access token is invalid"}
+
+16:48:09	kiem_tra_yeu_cau_goi -result -1 { phone = 84932032276 }	{"error":-216,"message":"Access token is invalid"}
+
+16:48:09	kiem_tra_yeu_cau_goi -result -2 { phone = 84965862648 }	{"error":-216,"message":"Access token is invalid"}
+
+16:48:09	kiem_tra_yeu_cau_goi -result -3 { phone = 84348010010 }	{"error":-216,"message":"Access token is invalid"}
+
+16:48:09	kiem_tra_yeu_cau_goi ---------- Before
+
+16:48:10	kiem_tra_yeu_cau_goi ---------- After
+
+16:59:04	kiem_tra_yeu_cau_goi -result -0 { phone = 84327456583 }	{"data":{"expired_time":1690362101025},"error":0,"message":"User approved the request"}
+
+16:59:04	kiem_tra_yeu_cau_goi -result -1 { phone = 84932032276 }	{"data":{"expired_time":1690087824691},"error":0,"message":"User approved the request"}
+
+16:59:04	kiem_tra_yeu_cau_goi -result -2 { phone = 84965862648 }	{"data":{"expired_time":1690363978531},"error":0,"message":"User approved the request"}
+
+16:59:04	kiem_tra_yeu_cau_goi -result -3 { phone = 84348010010 }	{"data":{"expired_time":1690364302094},"error":0,"message":"User approved the request"}
+
+16:59:04	kiem_tra_yeu_cau_goi ---------- Before
+
+16:59:04	kiem_tra_yeu_cau_goi ---------- After
+
+17:15:29	kiem_tra_yeu_cau_goi -result -0 { phone = 84352367929 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:29	kiem_tra_yeu_cau_goi -result -1 { phone = 84366224631 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:29	kiem_tra_yeu_cau_goi -result -2 { phone = 84937778366 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:29	kiem_tra_yeu_cau_goi -result -3 { phone = 84353376287 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:29	kiem_tra_yeu_cau_goi -result -4 { phone = 84985345018 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:29	kiem_tra_yeu_cau_goi -result -5 { phone = 84706925217 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:29	kiem_tra_yeu_cau_goi -result -6 { phone = 84968820281 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:30	kiem_tra_yeu_cau_goi -result -7 { phone = 84917648301 }	{"error":-201,"message":"phone is invalid"}
+
+17:15:30	kiem_tra_yeu_cau_goi -result -8 { phone = 84988139910 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:30	kiem_tra_yeu_cau_goi -result -9 { phone = 84773712111 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:30	kiem_tra_yeu_cau_goi -result -10 { phone = 84986861992 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:30	kiem_tra_yeu_cau_goi -result -11 { phone = 84939496955 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:30	kiem_tra_yeu_cau_goi -result -12 { phone = 84928863631 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:30	kiem_tra_yeu_cau_goi -result -13 { phone = 84939587287 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:30	kiem_tra_yeu_cau_goi -result -14 { phone = 84969414448 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:30	kiem_tra_yeu_cau_goi -result -15 { phone = 84972866631 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:30	kiem_tra_yeu_cau_goi -result -16 { phone = 84869183393 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:31	kiem_tra_yeu_cau_goi -result -17 { phone = 84937636913 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:31	kiem_tra_yeu_cau_goi -result -18 { phone = 84384825133 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:31	kiem_tra_yeu_cau_goi -result -19 { phone = 84974624255 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:31	kiem_tra_yeu_cau_goi -result -20 { phone = 84974075946 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:31	kiem_tra_yeu_cau_goi -result -21 { phone = 84988701650 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:31	kiem_tra_yeu_cau_goi -result -22 { phone = 84984819972 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:31	kiem_tra_yeu_cau_goi -result -23 { phone = 84388471900 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:31	kiem_tra_yeu_cau_goi -result -24 { phone = 84343676336 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:31	kiem_tra_yeu_cau_goi -result -25 { phone = 84395959346 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:31	kiem_tra_yeu_cau_goi -result -26 { phone = 84981089239 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:31	kiem_tra_yeu_cau_goi -result -27 { phone = 84378835858 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:32	kiem_tra_yeu_cau_goi -result -28 { phone = 84987518147 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:32	kiem_tra_yeu_cau_goi -result -29 { phone = 84962374096 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:32	kiem_tra_yeu_cau_goi -result -30 { phone = 84909734182 }	{"error":-201,"message":"phone is invalid"}
+
+17:15:32	kiem_tra_yeu_cau_goi -result -31 { phone = 84336687691 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:32	kiem_tra_yeu_cau_goi -result -32 { phone = 84972508208 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:32	kiem_tra_yeu_cau_goi -result -33 { phone = 84906581316 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:32	kiem_tra_yeu_cau_goi -result -34 { phone = 84986668402 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:32	kiem_tra_yeu_cau_goi -result -35 { phone = 84708949580 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:32	kiem_tra_yeu_cau_goi -result -36 { phone = 84967618980 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:32	kiem_tra_yeu_cau_goi -result -37 { phone = 84787082859 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:33	kiem_tra_yeu_cau_goi -result -38 { phone = 84971302070 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:33	kiem_tra_yeu_cau_goi -result -39 { phone = 84968074734 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:33	kiem_tra_yeu_cau_goi -result -40 { phone = 84764057090 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:33	kiem_tra_yeu_cau_goi -result -41 { phone = 84387340578 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:33	kiem_tra_yeu_cau_goi -result -42 { phone = 84988706592 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:33	kiem_tra_yeu_cau_goi -result -43 { phone = 84352418503 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:33	kiem_tra_yeu_cau_goi -result -44 { phone = 84934177452 }	{"error":-201,"message":"phone is invalid"}
+
+17:15:33	kiem_tra_yeu_cau_goi -result -45 { phone = 84933093139 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:33	kiem_tra_yeu_cau_goi -result -46 { phone = 84932878911 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:34	kiem_tra_yeu_cau_goi -result -47 { phone = 84867899820 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:34	kiem_tra_yeu_cau_goi -result -48 { phone = 84366705438 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:34	kiem_tra_yeu_cau_goi -result -49 { phone = 84335712798 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:34	kiem_tra_yeu_cau_goi -result -50 { phone = 84905619710 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:34	kiem_tra_yeu_cau_goi -result -51 { phone = 84937124154 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:35	kiem_tra_yeu_cau_goi -result -52 { phone = 84901561481 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:35	kiem_tra_yeu_cau_goi -result -53 { phone = 84936786777 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:35	kiem_tra_yeu_cau_goi -result -54 { phone = 84961665999 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:35	kiem_tra_yeu_cau_goi -result -55 { phone = 84902618585 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:35	kiem_tra_yeu_cau_goi -result -56 { phone = 84914998423 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:35	kiem_tra_yeu_cau_goi -result -57 { phone = 84966716730 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:35	kiem_tra_yeu_cau_goi -result -58 { phone = 84937004727 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:35	kiem_tra_yeu_cau_goi -result -59 { phone = 84348418645 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:35	kiem_tra_yeu_cau_goi -result -60 { phone = 84916343959 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:35	kiem_tra_yeu_cau_goi -result -61 { phone = 84396873153 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:35	kiem_tra_yeu_cau_goi -result -62 { phone = 84932851471 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:36	kiem_tra_yeu_cau_goi -result -63 { phone = 84935653461 }	{"error":-201,"message":"phone is invalid"}
+
+17:15:36	kiem_tra_yeu_cau_goi -result -64 { phone = 84789972296 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:36	kiem_tra_yeu_cau_goi -result -65 { phone = 84937285091 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:36	kiem_tra_yeu_cau_goi -result -66 { phone = 84906162216 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:36	kiem_tra_yeu_cau_goi -result -67 { phone = 84898532246 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:36	kiem_tra_yeu_cau_goi -result -68 { phone = 84338192000 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:36	kiem_tra_yeu_cau_goi -result -69 { phone = 84349926285 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:36	kiem_tra_yeu_cau_goi -result -70 { phone = 84355746863 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:36	kiem_tra_yeu_cau_goi -result -71 { phone = 84797448207 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:37	kiem_tra_yeu_cau_goi -result -72 { phone = 84919167286 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:37	kiem_tra_yeu_cau_goi -result -73 { phone = 84339484495 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:37	kiem_tra_yeu_cau_goi -result -74 { phone = 84389775449 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:37	kiem_tra_yeu_cau_goi -result -75 { phone = 84906618905 }	{"error":-201,"message":"phone is invalid"}
+
+17:15:37	kiem_tra_yeu_cau_goi -result -76 { phone = 84933520108 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:37	kiem_tra_yeu_cau_goi -result -77 { phone = 84963501127 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:37	kiem_tra_yeu_cau_goi -result -78 { phone = 84352289379 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:37	kiem_tra_yeu_cau_goi -result -79 { phone = 84339146528 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:37	kiem_tra_yeu_cau_goi -result -80 { phone = 84343841447 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:38	kiem_tra_yeu_cau_goi -result -81 { phone = 84397891107 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:38	kiem_tra_yeu_cau_goi -result -82 { phone = 84906015387 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:38	kiem_tra_yeu_cau_goi -result -83 { phone = 84941097798 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:38	kiem_tra_yeu_cau_goi -result -84 { phone = 84964127126 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:38	kiem_tra_yeu_cau_goi -result -85 { phone = 84984725911 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:38	kiem_tra_yeu_cau_goi -result -86 { phone = 84785543072 }	{"error":-201,"message":"phone is invalid"}
+
+17:15:38	kiem_tra_yeu_cau_goi -result -87 { phone = 84899751758 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:38	kiem_tra_yeu_cau_goi -result -88 { phone = 84779515848 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:38	kiem_tra_yeu_cau_goi -result -89 { phone = 84394656968 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:38	kiem_tra_yeu_cau_goi -result -90 { phone = 84988245414 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:38	kiem_tra_yeu_cau_goi -result -91 { phone = 84372363158 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:39	kiem_tra_yeu_cau_goi -result -92 { phone = 84939490429 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:39	kiem_tra_yeu_cau_goi -result -93 { phone = 84367585229 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:39	kiem_tra_yeu_cau_goi -result -94 { phone = 84813669559 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:39	kiem_tra_yeu_cau_goi -result -95 { phone = 84793367474 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:39	kiem_tra_yeu_cau_goi -result -96 { phone = 84946754848 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:39	kiem_tra_yeu_cau_goi -result -97 { phone = 84979371998 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:39	kiem_tra_yeu_cau_goi -result -98 { phone = 84792453462 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:40	kiem_tra_yeu_cau_goi -result -99 { phone = 84962799775 }	{"error":-201,"message":"phone is invalid"}
+
+17:15:40	kiem_tra_yeu_cau_goi -result -100 { phone = 84935067631 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:40	kiem_tra_yeu_cau_goi -result -101 { phone = 84398600702 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:40	kiem_tra_yeu_cau_goi -result -102 { phone = 84986787557 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:40	kiem_tra_yeu_cau_goi -result -103 { phone = 84933192110 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:40	kiem_tra_yeu_cau_goi -result -104 { phone = 84339009721 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:40	kiem_tra_yeu_cau_goi -result -105 { phone = 84907860136 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:40	kiem_tra_yeu_cau_goi -result -106 { phone = 84933255510 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:40	kiem_tra_yeu_cau_goi -result -107 { phone = 84932226065 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:40	kiem_tra_yeu_cau_goi -result -108 { phone = 84396803312 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:40	kiem_tra_yeu_cau_goi -result -109 { phone = 84983521918 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:41	kiem_tra_yeu_cau_goi -result -110 { phone = 84974975297 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:41	kiem_tra_yeu_cau_goi -result -111 { phone = 84986295293 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:41	kiem_tra_yeu_cau_goi -result -112 { phone = 84902197119 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:41	kiem_tra_yeu_cau_goi -result -113 { phone = 84904809038 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:41	kiem_tra_yeu_cau_goi -result -114 { phone = 84901254121 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:41	kiem_tra_yeu_cau_goi -result -115 { phone = 84963881397 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:41	kiem_tra_yeu_cau_goi -result -116 { phone = 84355068031 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:41	kiem_tra_yeu_cau_goi -result -117 { phone = 84336705921 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:42	kiem_tra_yeu_cau_goi -result -118 { phone = 84338548061 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:42	kiem_tra_yeu_cau_goi -result -119 { phone = 84981709090 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:42	kiem_tra_yeu_cau_goi -result -120 { phone = 84905349798 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:42	kiem_tra_yeu_cau_goi -result -121 { phone = 84336175391 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:42	kiem_tra_yeu_cau_goi -result -122 { phone = 84912992532 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:42	kiem_tra_yeu_cau_goi -result -123 { phone = 84387343049 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:42	kiem_tra_yeu_cau_goi -result -124 { phone = 84931314410 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:42	kiem_tra_yeu_cau_goi -result -125 { phone = 84795321587 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:42	kiem_tra_yeu_cau_goi -result -126 { phone = 84945332367 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:43	kiem_tra_yeu_cau_goi -result -127 { phone = 84979178728 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:44	kiem_tra_yeu_cau_goi -result -128 { phone = 84352113178 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:44	kiem_tra_yeu_cau_goi -result -129 { phone = 84908957128 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:44	kiem_tra_yeu_cau_goi -result -130 { phone = 84963108145 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:44	kiem_tra_yeu_cau_goi -result -131 { phone = 84367955430 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:44	kiem_tra_yeu_cau_goi -result -132 { phone = 84937293609 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:45	kiem_tra_yeu_cau_goi -result -133 { phone = 84373666080 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:45	kiem_tra_yeu_cau_goi -result -134 { phone = 84396096945 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:45	kiem_tra_yeu_cau_goi -result -135 { phone = 84971069700 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:45	kiem_tra_yeu_cau_goi -result -136 { phone = 84976391103 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:45	kiem_tra_yeu_cau_goi -result -137 { phone = 84353276587 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:45	kiem_tra_yeu_cau_goi -result -138 { phone = 84983429584 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:46	kiem_tra_yeu_cau_goi -result -139 { phone = 84767844640 }	{"error":-201,"message":"phone is invalid"}
+
+17:15:46	kiem_tra_yeu_cau_goi -result -140 { phone = 84977957447 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:46	kiem_tra_yeu_cau_goi -result -141 { phone = 84348210889 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:46	kiem_tra_yeu_cau_goi -result -142 { phone = 84383279875 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:46	kiem_tra_yeu_cau_goi -result -143 { phone = 84767891388 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:46	kiem_tra_yeu_cau_goi -result -144 { phone = 84931492816 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:46	kiem_tra_yeu_cau_goi -result -145 { phone = 84981236221 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:46	kiem_tra_yeu_cau_goi -result -146 { phone = 84908228624 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:46	kiem_tra_yeu_cau_goi -result -147 { phone = 84346866778 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:46	kiem_tra_yeu_cau_goi -result -148 { phone = 84564815974 }	{"error":-201,"message":"phone is invalid"}
+
+17:15:46	kiem_tra_yeu_cau_goi -result -149 { phone = 84395239839 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:47	kiem_tra_yeu_cau_goi -result -150 { phone = 84963159095 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:47	kiem_tra_yeu_cau_goi -result -151 { phone = 84979415323 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:47	kiem_tra_yeu_cau_goi -result -152 { phone = 84394517785 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:47	kiem_tra_yeu_cau_goi -result -153 { phone = 84378918051 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:47	kiem_tra_yeu_cau_goi -result -154 { phone = 84966431140 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:47	kiem_tra_yeu_cau_goi -result -155 { phone = 84349577937 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:47	kiem_tra_yeu_cau_goi -result -156 { phone = 84336178839 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:47	kiem_tra_yeu_cau_goi -result -157 { phone = 84974610501 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:47	kiem_tra_yeu_cau_goi -result -158 { phone = 84374131758 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:47	kiem_tra_yeu_cau_goi -result -159 { phone = 84911108299 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:48	kiem_tra_yeu_cau_goi -result -160 { phone = 84375916147 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:48	kiem_tra_yeu_cau_goi -result -161 { phone = 84987928957 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:48	kiem_tra_yeu_cau_goi -result -162 { phone = 84976682760 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:48	kiem_tra_yeu_cau_goi -result -163 { phone = 84989662643 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:48	kiem_tra_yeu_cau_goi -result -164 { phone = 84981538914 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:48	kiem_tra_yeu_cau_goi -result -165 { phone = 84333970852 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:48	kiem_tra_yeu_cau_goi -result -166 { phone = 84966584319 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:49	kiem_tra_yeu_cau_goi -result -167 { phone = 84942387800 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:49	kiem_tra_yeu_cau_goi -result -168 { phone = 84785072793 }	{"error":-201,"message":"phone is invalid"}
+
+17:15:49	kiem_tra_yeu_cau_goi -result -169 { phone = 84933528591 }	{"error":-201,"message":"phone is invalid"}
+
+17:15:49	kiem_tra_yeu_cau_goi -result -170 { phone = 84935242654 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:49	kiem_tra_yeu_cau_goi -result -171 { phone = 84799624369 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:49	kiem_tra_yeu_cau_goi -result -172 { phone = 84916208608 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:49	kiem_tra_yeu_cau_goi -result -173 { phone = 84932723587 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:49	kiem_tra_yeu_cau_goi -result -174 { phone = 84834909294 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:49	kiem_tra_yeu_cau_goi -result -175 { phone = 84973285519 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:49	kiem_tra_yeu_cau_goi -result -176 { phone = 84947697991 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:49	kiem_tra_yeu_cau_goi -result -177 { phone = 84382152462 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:50	kiem_tra_yeu_cau_goi -result -178 { phone = 84708478847 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:50	kiem_tra_yeu_cau_goi -result -179 { phone = 84345284959 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:50	kiem_tra_yeu_cau_goi -result -180 { phone = 84988891319 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:50	kiem_tra_yeu_cau_goi -result -181 { phone = 84945647578 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:50	kiem_tra_yeu_cau_goi -result -182 { phone = 84905319126 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:50	kiem_tra_yeu_cau_goi -result -183 { phone = 84968522991 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:50	kiem_tra_yeu_cau_goi -result -184 { phone = 84779465164 }	{"error":-201,"message":"phone is invalid"}
+
+17:15:50	kiem_tra_yeu_cau_goi -result -185 { phone = 84978777277 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:50	kiem_tra_yeu_cau_goi -result -186 { phone = 84349361536 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:50	kiem_tra_yeu_cau_goi -result -187 { phone = 84988606396 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:50	kiem_tra_yeu_cau_goi -result -188 { phone = 84378777943 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:51	kiem_tra_yeu_cau_goi -result -189 { phone = 84961374146 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:51	kiem_tra_yeu_cau_goi -result -190 { phone = 84982006174 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:51	kiem_tra_yeu_cau_goi -result -191 { phone = 84359371673 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:51	kiem_tra_yeu_cau_goi -result -192 { phone = 84355051997 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:51	kiem_tra_yeu_cau_goi -result -193 { phone = 84792722899 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:51	kiem_tra_yeu_cau_goi -result -194 { phone = 84964630730 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:51	kiem_tra_yeu_cau_goi -result -195 { phone = 84936873821 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:51	kiem_tra_yeu_cau_goi -result -196 { phone = 84399755728 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:52	kiem_tra_yeu_cau_goi -result -197 { phone = 84915189015 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:52	kiem_tra_yeu_cau_goi -result -198 { phone = 84339242928 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:52	kiem_tra_yeu_cau_goi -result -199 { phone = 84378112609 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:52	kiem_tra_yeu_cau_goi -result -200 { phone = 84567035440 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:52	kiem_tra_yeu_cau_goi -result -201 { phone = 84907447377 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:52	kiem_tra_yeu_cau_goi -result -202 { phone = 84989717369 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:52	kiem_tra_yeu_cau_goi -result -203 { phone = 84917718343 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:52	kiem_tra_yeu_cau_goi -result -204 { phone = 84904708015 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:52	kiem_tra_yeu_cau_goi -result -205 { phone = 84937410734 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:52	kiem_tra_yeu_cau_goi -result -206 { phone = 84777800088 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:52	kiem_tra_yeu_cau_goi -result -207 { phone = 84968243991 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:53	kiem_tra_yeu_cau_goi -result -208 { phone = 84972650785 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:53	kiem_tra_yeu_cau_goi -result -209 { phone = 84782245544 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:53	kiem_tra_yeu_cau_goi -result -210 { phone = 84706008916 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:53	kiem_tra_yeu_cau_goi -result -211 { phone = 84379886356 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:53	kiem_tra_yeu_cau_goi -result -212 { phone = 84335489458 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:53	kiem_tra_yeu_cau_goi -result -213 { phone = 84365382166 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:53	kiem_tra_yeu_cau_goi -result -214 { phone = 84931154287 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:53	kiem_tra_yeu_cau_goi -result -215 { phone = 84967230572 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:53	kiem_tra_yeu_cau_goi -result -216 { phone = 84967104415 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:53	kiem_tra_yeu_cau_goi -result -217 { phone = 84352581801 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:54	kiem_tra_yeu_cau_goi -result -218 { phone = 84783271294 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:54	kiem_tra_yeu_cau_goi -result -219 { phone = 84975309649 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:54	kiem_tra_yeu_cau_goi -result -220 { phone = 84773670864 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:54	kiem_tra_yeu_cau_goi -result -221 { phone = 84906859546 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:54	kiem_tra_yeu_cau_goi -result -222 { phone = 84389777232 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:54	kiem_tra_yeu_cau_goi -result -223 { phone = 84912489553 }	{"error":-201,"message":"phone is invalid"}
+
+17:15:54	kiem_tra_yeu_cau_goi -result -224 { phone = 84938618265 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:54	kiem_tra_yeu_cau_goi -result -225 { phone = 84345185188 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:55	kiem_tra_yeu_cau_goi -result -226 { phone = 84353512396 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:55	kiem_tra_yeu_cau_goi -result -227 { phone = 84839307945 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:55	kiem_tra_yeu_cau_goi -result -228 { phone = 84983579194 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:55	kiem_tra_yeu_cau_goi -result -229 { phone = 84941112030 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:55	kiem_tra_yeu_cau_goi -result -230 { phone = 84975801100 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:55	kiem_tra_yeu_cau_goi -result -231 { phone = 84901187297 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:55	kiem_tra_yeu_cau_goi -result -232 { phone = 84949452914 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:55	kiem_tra_yeu_cau_goi -result -233 { phone = 84909248758 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:55	kiem_tra_yeu_cau_goi -result -234 { phone = 84966436936 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:55	kiem_tra_yeu_cau_goi -result -235 { phone = 84947924040 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:56	kiem_tra_yeu_cau_goi -result -236 { phone = 84399942341 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:56	kiem_tra_yeu_cau_goi -result -237 { phone = 84792831793 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:56	kiem_tra_yeu_cau_goi -result -238 { phone = 84392034865 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:56	kiem_tra_yeu_cau_goi -result -239 { phone = 84982333141 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:56	kiem_tra_yeu_cau_goi -result -240 { phone = 84934506966 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:56	kiem_tra_yeu_cau_goi -result -241 { phone = 84974979127 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:56	kiem_tra_yeu_cau_goi -result -242 { phone = 84393242491 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:56	kiem_tra_yeu_cau_goi -result -243 { phone = 84388287186 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:56	kiem_tra_yeu_cau_goi -result -244 { phone = 84919753589 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:57	kiem_tra_yeu_cau_goi -result -245 { phone = 84981402734 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:57	kiem_tra_yeu_cau_goi -result -246 { phone = 84989876492 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:57	kiem_tra_yeu_cau_goi -result -247 { phone = 84966538156 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:57	kiem_tra_yeu_cau_goi -result -248 { phone = 84974747810 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:57	kiem_tra_yeu_cau_goi -result -249 { phone = 84934983819 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:57	kiem_tra_yeu_cau_goi -result -250 { phone = 84329030952 }	{"error":-201,"message":"phone is invalid"}
+
+17:15:57	kiem_tra_yeu_cau_goi -result -251 { phone = 84983369292 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:57	kiem_tra_yeu_cau_goi -result -252 { phone = 84358801286 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:57	kiem_tra_yeu_cau_goi -result -253 { phone = 84384060262 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:57	kiem_tra_yeu_cau_goi -result -254 { phone = 84368991596 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:57	kiem_tra_yeu_cau_goi -result -255 { phone = 84974965398 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:58	kiem_tra_yeu_cau_goi -result -256 { phone = 84783775398 }	{"error":-201,"message":"phone is invalid"}
+
+17:15:58	kiem_tra_yeu_cau_goi -result -257 { phone = 84348951454 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:58	kiem_tra_yeu_cau_goi -result -258 { phone = 84967625942 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:58	kiem_tra_yeu_cau_goi -result -259 { phone = 84967034461 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:58	kiem_tra_yeu_cau_goi -result -260 { phone = 84387949326 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:59	kiem_tra_yeu_cau_goi -result -261 { phone = 84386830633 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:59	kiem_tra_yeu_cau_goi -result -262 { phone = 84965182292 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:59	kiem_tra_yeu_cau_goi -result -263 { phone = 84989519896 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:59	kiem_tra_yeu_cau_goi -result -264 { phone = 84902797384 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:59	kiem_tra_yeu_cau_goi -result -265 { phone = 84986012433 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:59	kiem_tra_yeu_cau_goi -result -266 { phone = 84987166684 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:59	kiem_tra_yeu_cau_goi -result -267 { phone = 84978337176 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:59	kiem_tra_yeu_cau_goi -result -268 { phone = 84375379755 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:59	kiem_tra_yeu_cau_goi -result -269 { phone = 84382587041 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:15:59	kiem_tra_yeu_cau_goi -result -270 { phone = 84962039705 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:00	kiem_tra_yeu_cau_goi -result -271 { phone = 84964433944 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:00	kiem_tra_yeu_cau_goi -result -272 { phone = 84979261689 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:00	kiem_tra_yeu_cau_goi -result -273 { phone = 84335631507 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:00	kiem_tra_yeu_cau_goi -result -274 { phone = 84918999903 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:00	kiem_tra_yeu_cau_goi -result -275 { phone = 84702899413 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:00	kiem_tra_yeu_cau_goi -result -276 { phone = 84339844705 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:00	kiem_tra_yeu_cau_goi -result -277 { phone = 84899206260 }	{"error":-201,"message":"phone is invalid"}
+
+17:16:00	kiem_tra_yeu_cau_goi -result -278 { phone = 84708852710 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:00	kiem_tra_yeu_cau_goi -result -279 { phone = 84962888683 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:00	kiem_tra_yeu_cau_goi -result -280 { phone = 84777918591 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:01	kiem_tra_yeu_cau_goi -result -281 { phone = 84766846847 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:01	kiem_tra_yeu_cau_goi -result -282 { phone = 84935472234 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:01	kiem_tra_yeu_cau_goi -result -283 { phone = 84968259574 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:01	kiem_tra_yeu_cau_goi -result -284 { phone = 84939301939 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:01	kiem_tra_yeu_cau_goi -result -285 { phone = 84347279887 }	{"error":-201,"message":"phone is invalid"}
+
+17:16:01	kiem_tra_yeu_cau_goi -result -286 { phone = 84779111172 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:01	kiem_tra_yeu_cau_goi -result -287 { phone = 84354878456 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:01	kiem_tra_yeu_cau_goi -result -288 { phone = 84909572996 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:02	kiem_tra_yeu_cau_goi -result -289 { phone = 84975113011 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:02	kiem_tra_yeu_cau_goi -result -290 { phone = 84375981095 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:02	kiem_tra_yeu_cau_goi -result -291 { phone = 84937894714 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:02	kiem_tra_yeu_cau_goi -result -292 { phone = 84785996140 }	{"error":-201,"message":"phone is invalid"}
+
+17:16:02	kiem_tra_yeu_cau_goi -result -293 { phone = 84935603083 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:02	kiem_tra_yeu_cau_goi -result -294 { phone = 84768681235 }	{"error":-201,"message":"phone is invalid"}
+
+17:16:02	kiem_tra_yeu_cau_goi -result -295 { phone = 84338171743 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:02	kiem_tra_yeu_cau_goi -result -296 { phone = 84939454199 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:03	kiem_tra_yeu_cau_goi -result -297 { phone = 84345882863 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:03	kiem_tra_yeu_cau_goi -result -298 { phone = 84938688387 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:03	kiem_tra_yeu_cau_goi -result -299 { phone = 84346268671 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:03	kiem_tra_yeu_cau_goi -result -300 { phone = 84982353284 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:03	kiem_tra_yeu_cau_goi -result -301 { phone = 84853799198 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:03	kiem_tra_yeu_cau_goi -result -302 { phone = 84982423467 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:03	kiem_tra_yeu_cau_goi -result -303 { phone = 84982729572 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:03	kiem_tra_yeu_cau_goi -result -304 { phone = 84904592198 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:03	kiem_tra_yeu_cau_goi -result -305 { phone = 84967643193 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:03	kiem_tra_yeu_cau_goi -result -306 { phone = 84852356216 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:04	kiem_tra_yeu_cau_goi -result -307 { phone = 84386099908 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:04	kiem_tra_yeu_cau_goi -result -308 { phone = 84967160365 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:04	kiem_tra_yeu_cau_goi -result -309 { phone = 84961227844 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:04	kiem_tra_yeu_cau_goi -result -310 { phone = 84363120907 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:04	kiem_tra_yeu_cau_goi -result -311 { phone = 84982821102 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:04	kiem_tra_yeu_cau_goi -result -312 { phone = 84333420234 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:04	kiem_tra_yeu_cau_goi -result -313 { phone = 84369917250 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:04	kiem_tra_yeu_cau_goi -result -314 { phone = 84834841992 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:04	kiem_tra_yeu_cau_goi -result -315 { phone = 84383258833 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:04	kiem_tra_yeu_cau_goi -result -316 { phone = 84932634316 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:04	kiem_tra_yeu_cau_goi -result -317 { phone = 84813070001 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:05	kiem_tra_yeu_cau_goi -result -318 { phone = 84977420853 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:05	kiem_tra_yeu_cau_goi -result -319 { phone = 84976643663 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:05	kiem_tra_yeu_cau_goi -result -320 { phone = 84984203294 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:05	kiem_tra_yeu_cau_goi -result -321 { phone = 84911498598 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:05	kiem_tra_yeu_cau_goi -result -322 { phone = 84586870754 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:05	kiem_tra_yeu_cau_goi -result -323 { phone = 84869682000 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:05	kiem_tra_yeu_cau_goi -result -324 { phone = 84909611472 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:05	kiem_tra_yeu_cau_goi -result -325 { phone = 84706854976 }	{"error":-201,"message":"phone is invalid"}
+
+17:16:06	kiem_tra_yeu_cau_goi -result -326 { phone = 84835841992 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:06	kiem_tra_yeu_cau_goi -result -327 { phone = 84775892518 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:06	kiem_tra_yeu_cau_goi -result -328 { phone = 84988496993 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:06	kiem_tra_yeu_cau_goi -result -329 { phone = 84941768978 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:06	kiem_tra_yeu_cau_goi -result -330 { phone = 84383426326 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:06	kiem_tra_yeu_cau_goi -result -331 { phone = 84389625611 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:06	kiem_tra_yeu_cau_goi -result -332 { phone = 84982458537 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:06	kiem_tra_yeu_cau_goi -result -333 { phone = 84397888080 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:06	kiem_tra_yeu_cau_goi -result -334 { phone = 84372314742 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:06	kiem_tra_yeu_cau_goi -result -335 { phone = 84919887112 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:07	kiem_tra_yeu_cau_goi -result -336 { phone = 84399443414 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:07	kiem_tra_yeu_cau_goi -result -337 { phone = 84383858575 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:07	kiem_tra_yeu_cau_goi -result -338 { phone = 84962717740 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:07	kiem_tra_yeu_cau_goi -result -339 { phone = 84963856773 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:07	kiem_tra_yeu_cau_goi -result -340 { phone = 84976111464 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:07	kiem_tra_yeu_cau_goi -result -341 { phone = 84332939110 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:07	kiem_tra_yeu_cau_goi -result -342 { phone = 84398135269 }	{"error":-201,"message":"phone is invalid"}
+
+17:16:07	kiem_tra_yeu_cau_goi -result -343 { phone = 84344359092 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:07	kiem_tra_yeu_cau_goi -result -344 { phone = 84338807406 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:08	kiem_tra_yeu_cau_goi -result -345 { phone = 84947919630 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:08	kiem_tra_yeu_cau_goi -result -346 { phone = 84868871113 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:08	kiem_tra_yeu_cau_goi -result -347 { phone = 84348375465 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:08	kiem_tra_yeu_cau_goi -result -348 { phone = 84907581829 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:08	kiem_tra_yeu_cau_goi -result -349 { phone = 84376515393 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:08	kiem_tra_yeu_cau_goi -result -350 { phone = 84908083934 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:08	kiem_tra_yeu_cau_goi -result -351 { phone = 84903967112 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:08	kiem_tra_yeu_cau_goi -result -352 { phone = 84965795790 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:08	kiem_tra_yeu_cau_goi -result -353 { phone = 84945769468 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:08	kiem_tra_yeu_cau_goi -result -354 { phone = 84969852154 }	{"error":-201,"message":"phone is invalid"}
+
+17:16:09	kiem_tra_yeu_cau_goi -result -355 { phone = 84934408043 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:09	kiem_tra_yeu_cau_goi -result -356 { phone = 84357016479 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:09	kiem_tra_yeu_cau_goi -result -357 { phone = 84784027227 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:09	kiem_tra_yeu_cau_goi -result -358 { phone = 84965919389 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:09	kiem_tra_yeu_cau_goi -result -359 { phone = 84902968992 }	{"error":-201,"message":"phone is invalid"}
+
+17:16:09	kiem_tra_yeu_cau_goi -result -360 { phone = 84968800340 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:09	kiem_tra_yeu_cau_goi -result -361 { phone = 84365051537 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:09	kiem_tra_yeu_cau_goi -result -362 { phone = 84368088166 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:09	kiem_tra_yeu_cau_goi -result -363 { phone = 84779569311 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:10	kiem_tra_yeu_cau_goi -result -364 { phone = 84704175155 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:10	kiem_tra_yeu_cau_goi -result -365 { phone = 84919993304 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:10	kiem_tra_yeu_cau_goi -result -366 { phone = 84374226909 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:10	kiem_tra_yeu_cau_goi -result -367 { phone = 84979127489 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:10	kiem_tra_yeu_cau_goi -result -368 { phone = 84966096307 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:10	kiem_tra_yeu_cau_goi -result -369 { phone = 84949413248 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:10	kiem_tra_yeu_cau_goi -result -370 { phone = 84934113939 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:10	kiem_tra_yeu_cau_goi -result -371 { phone = 84975692075 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:11	kiem_tra_yeu_cau_goi -result -372 { phone = 84947128048 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:11	kiem_tra_yeu_cau_goi -result -373 { phone = 84914577973 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:11	kiem_tra_yeu_cau_goi -result -374 { phone = 84937702902 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:11	kiem_tra_yeu_cau_goi -result -375 { phone = 84977187792 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:11	kiem_tra_yeu_cau_goi -result -376 { phone = 84948432756 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:11	kiem_tra_yeu_cau_goi -result -377 { phone = 84939964485 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:11	kiem_tra_yeu_cau_goi -result -378 { phone = 84898164470 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:11	kiem_tra_yeu_cau_goi -result -379 { phone = 84787500384 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:12	kiem_tra_yeu_cau_goi -result -380 { phone = 84966185723 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:12	kiem_tra_yeu_cau_goi -result -381 { phone = 84356017003 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:12	kiem_tra_yeu_cau_goi -result -382 { phone = 84907397672 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:12	kiem_tra_yeu_cau_goi -result -383 { phone = 84708231927 }	{"error":-201,"message":"phone is invalid"}
+
+17:16:12	kiem_tra_yeu_cau_goi -result -384 { phone = 84945256535 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:12	kiem_tra_yeu_cau_goi -result -385 { phone = 84394300322 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:12	kiem_tra_yeu_cau_goi -result -386 { phone = 84965472184 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:12	kiem_tra_yeu_cau_goi -result -387 { phone = 84907820108 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:12	kiem_tra_yeu_cau_goi -result -388 { phone = 84374491706 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:12	kiem_tra_yeu_cau_goi -result -389 { phone = 84328716927 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:13	kiem_tra_yeu_cau_goi -result -390 { phone = 84868924800 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:13	kiem_tra_yeu_cau_goi -result -391 { phone = 84978306322 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:13	kiem_tra_yeu_cau_goi -result -392 { phone = 84384237371 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:13	kiem_tra_yeu_cau_goi -result -393 { phone = 84902069995 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:13	kiem_tra_yeu_cau_goi -result -394 { phone = 84344518440 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:13	kiem_tra_yeu_cau_goi -result -395 { phone = 84984400749 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:13	kiem_tra_yeu_cau_goi -result -396 { phone = 84969545233 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:13	kiem_tra_yeu_cau_goi -result -397 { phone = 84784585767 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:13	kiem_tra_yeu_cau_goi -result -398 { phone = 84868088295 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:14	kiem_tra_yeu_cau_goi -result -399 { phone = 84912079689 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:15	kiem_tra_yeu_cau_goi -result -400 { phone = 84327608934 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:15	kiem_tra_yeu_cau_goi -result -401 { phone = 84908418591 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:15	kiem_tra_yeu_cau_goi -result -402 { phone = 84935681897 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:15	kiem_tra_yeu_cau_goi -result -403 { phone = 84773907331 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:15	kiem_tra_yeu_cau_goi -result -404 { phone = 84399334885 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:15	kiem_tra_yeu_cau_goi -result -405 { phone = 84387404997 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:15	kiem_tra_yeu_cau_goi -result -406 { phone = 84962099863 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:15	kiem_tra_yeu_cau_goi -result -407 { phone = 84355978790 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:15	kiem_tra_yeu_cau_goi -result -408 { phone = 84343014525 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:15	kiem_tra_yeu_cau_goi -result -409 { phone = 84762656576 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:15	kiem_tra_yeu_cau_goi -result -410 { phone = 84898181969 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:16	kiem_tra_yeu_cau_goi -result -411 { phone = 84355588709 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:16	kiem_tra_yeu_cau_goi -result -412 { phone = 84966921876 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:16	kiem_tra_yeu_cau_goi -result -413 { phone = 84938297883 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:16	kiem_tra_yeu_cau_goi -result -414 { phone = 84918786026 }	{"error":-201,"message":"phone is invalid"}
+
+17:16:16	kiem_tra_yeu_cau_goi -result -415 { phone = 84924744011 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:16	kiem_tra_yeu_cau_goi -result -416 { phone = 84345654169 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:16	kiem_tra_yeu_cau_goi -result -417 { phone = 84973617067 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:16	kiem_tra_yeu_cau_goi -result -418 { phone = 84972017600 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:16	kiem_tra_yeu_cau_goi -result -419 { phone = 84934755859 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:16	kiem_tra_yeu_cau_goi -result -420 { phone = 84979272269 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:16	kiem_tra_yeu_cau_goi -result -421 { phone = 84342417159 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:17	kiem_tra_yeu_cau_goi -result -422 { phone = 84373484854 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:17	kiem_tra_yeu_cau_goi -result -423 { phone = 84962646668 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:17	kiem_tra_yeu_cau_goi -result -424 { phone = 84384719226 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:17	kiem_tra_yeu_cau_goi -result -425 { phone = 84349461538 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:17	kiem_tra_yeu_cau_goi -result -426 { phone = 84906641324 }	{"error":-201,"message":"phone is invalid"}
+
+17:16:17	kiem_tra_yeu_cau_goi -result -427 { phone = 84798787628 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:18	kiem_tra_yeu_cau_goi -result -428 { phone = 84933288320 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:18	kiem_tra_yeu_cau_goi -result -429 { phone = 84988909712 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:18	kiem_tra_yeu_cau_goi -result -430 { phone = 84933766229 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:18	kiem_tra_yeu_cau_goi -result -431 { phone = 84335545984 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:18	kiem_tra_yeu_cau_goi -result -432 { phone = 84898392640 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:18	kiem_tra_yeu_cau_goi -result -433 { phone = 84377730472 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:18	kiem_tra_yeu_cau_goi -result -434 { phone = 84989396436 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:18	kiem_tra_yeu_cau_goi -result -435 { phone = 84337701806 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:18	kiem_tra_yeu_cau_goi -result -436 { phone = 84362414371 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:19	kiem_tra_yeu_cau_goi -result -437 { phone = 84396838824 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:19	kiem_tra_yeu_cau_goi -result -438 { phone = 84889806898 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:19	kiem_tra_yeu_cau_goi -result -439 { phone = 84974189717 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:19	kiem_tra_yeu_cau_goi -result -440 { phone = 84793389098 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:19	kiem_tra_yeu_cau_goi -result -441 { phone = 84938342549 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:19	kiem_tra_yeu_cau_goi -result -442 { phone = 84912814391 }	{"error":-201,"message":"phone is invalid"}
+
+17:16:19	kiem_tra_yeu_cau_goi -result -443 { phone = 84355080926 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:19	kiem_tra_yeu_cau_goi -result -444 { phone = 84968500929 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:19	kiem_tra_yeu_cau_goi -result -445 { phone = 84332333450 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:19	kiem_tra_yeu_cau_goi -result -446 { phone = 84329526676 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:20	kiem_tra_yeu_cau_goi -result -447 { phone = 84905485116 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:20	kiem_tra_yeu_cau_goi -result -448 { phone = 84835476677 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:20	kiem_tra_yeu_cau_goi -result -449 { phone = 84978382710 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:20	kiem_tra_yeu_cau_goi -result -450 { phone = 84359645208 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:20	kiem_tra_yeu_cau_goi -result -451 { phone = 84985508807 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:20	kiem_tra_yeu_cau_goi -result -452 { phone = 84961699493 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:20	kiem_tra_yeu_cau_goi -result -453 { phone = 84397608633 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:20	kiem_tra_yeu_cau_goi -result -454 { phone = 84776866144 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:20	kiem_tra_yeu_cau_goi -result -455 { phone = 84988795258 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:20	kiem_tra_yeu_cau_goi -result -456 { phone = 84936597355 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:21	kiem_tra_yeu_cau_goi -result -457 { phone = 84948772722 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:21	kiem_tra_yeu_cau_goi -result -458 { phone = 84964266415 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:21	kiem_tra_yeu_cau_goi -result -459 { phone = 84344001907 }	{"error":-201,"message":"phone is invalid"}
+
+17:16:21	kiem_tra_yeu_cau_goi -result -460 { phone = 84902106456 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:21	kiem_tra_yeu_cau_goi -result -461 { phone = 84976928548 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:21	kiem_tra_yeu_cau_goi -result -462 { phone = 84973796381 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:21	kiem_tra_yeu_cau_goi -result -463 { phone = 84379261629 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:21	kiem_tra_yeu_cau_goi -result -464 { phone = 84797771985 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:21	kiem_tra_yeu_cau_goi -result -465 { phone = 84973496495 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:22	kiem_tra_yeu_cau_goi -result -466 { phone = 84949357872 }	{"error":-201,"message":"phone is invalid"}
+
+17:16:22	kiem_tra_yeu_cau_goi -result -467 { phone = 84986327552 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:22	kiem_tra_yeu_cau_goi -result -468 { phone = 84702038598 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:22	kiem_tra_yeu_cau_goi -result -469 { phone = 84913039697 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:22	kiem_tra_yeu_cau_goi -result -470 { phone = 84367898939 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:22	kiem_tra_yeu_cau_goi -result -471 { phone = 84934912745 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:22	kiem_tra_yeu_cau_goi -result -472 { phone = 84855899399 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:22	kiem_tra_yeu_cau_goi -result -473 { phone = 84338044897 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:22	kiem_tra_yeu_cau_goi -result -474 { phone = 84364105445 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:22	kiem_tra_yeu_cau_goi -result -475 { phone = 84975231687 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:23	kiem_tra_yeu_cau_goi -result -476 { phone = 84868701280 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:23	kiem_tra_yeu_cau_goi -result -477 { phone = 84384425428 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:23	kiem_tra_yeu_cau_goi -result -478 { phone = 84792271144 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:23	kiem_tra_yeu_cau_goi -result -479 { phone = 84949227669 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:23	kiem_tra_yeu_cau_goi -result -480 { phone = 84797838878 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:23	kiem_tra_yeu_cau_goi -result -481 { phone = 84975474222 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:23	kiem_tra_yeu_cau_goi -result -482 { phone = 84961789332 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:23	kiem_tra_yeu_cau_goi -result -483 { phone = 84396389779 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:23	kiem_tra_yeu_cau_goi -result -484 { phone = 84919421836 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:23	kiem_tra_yeu_cau_goi -result -485 { phone = 84987533462 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:23	kiem_tra_yeu_cau_goi -result -486 { phone = 84775194632 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:24	kiem_tra_yeu_cau_goi -result -487 { phone = 84918341362 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:24	kiem_tra_yeu_cau_goi -result -488 { phone = 84347194077 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:24	kiem_tra_yeu_cau_goi -result -489 { phone = 84383626480 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:24	kiem_tra_yeu_cau_goi -result -490 { phone = 84392890931 }	{"error":-201,"message":"phone is invalid"}
+
+17:16:24	kiem_tra_yeu_cau_goi -result -491 { phone = 84987015797 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:24	kiem_tra_yeu_cau_goi -result -492 { phone = 84862802209 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:24	kiem_tra_yeu_cau_goi -result -493 { phone = 84949176899 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:24	kiem_tra_yeu_cau_goi -result -494 { phone = 84782033088 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:24	kiem_tra_yeu_cau_goi -result -495 { phone = 84369973748 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:25	kiem_tra_yeu_cau_goi -result -496 { phone = 84948277179 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:25	kiem_tra_yeu_cau_goi -result -497 { phone = 84869668309 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:25	kiem_tra_yeu_cau_goi -result -498 { phone = 84904567415 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:25	kiem_tra_yeu_cau_goi -result -499 { phone = 84906111654 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:25	kiem_tra_yeu_cau_goi -result -500 { phone = 84983208790 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:25	kiem_tra_yeu_cau_goi -result -501 { phone = 84974071073 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:25	kiem_tra_yeu_cau_goi -result -502 { phone = 84936968600 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:25	kiem_tra_yeu_cau_goi -result -503 { phone = 84346368698 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:25	kiem_tra_yeu_cau_goi -result -504 { phone = 84855240106 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:26	kiem_tra_yeu_cau_goi -result -505 { phone = 84384258209 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:26	kiem_tra_yeu_cau_goi -result -506 { phone = 84933276341 }	{"error":-201,"message":"phone is invalid"}
+
+17:16:26	kiem_tra_yeu_cau_goi -result -507 { phone = 84325167468 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:26	kiem_tra_yeu_cau_goi -result -508 { phone = 84982726764 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:26	kiem_tra_yeu_cau_goi -result -509 { phone = 84976757516 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:26	kiem_tra_yeu_cau_goi -result -510 { phone = 84337003765 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:26	kiem_tra_yeu_cau_goi -result -511 { phone = 84948731000 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:26	kiem_tra_yeu_cau_goi -result -512 { phone = 84904193188 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:26	kiem_tra_yeu_cau_goi -result -513 { phone = 84977985281 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:27	kiem_tra_yeu_cau_goi -result -514 { phone = 84343747291 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:27	kiem_tra_yeu_cau_goi -result -515 { phone = 84395532152 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:27	kiem_tra_yeu_cau_goi -result -516 { phone = 84961142691 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:27	kiem_tra_yeu_cau_goi -result -517 { phone = 84379045482 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:27	kiem_tra_yeu_cau_goi -result -518 { phone = 84938148711 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:27	kiem_tra_yeu_cau_goi -result -519 { phone = 84962691501 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:27	kiem_tra_yeu_cau_goi -result -520 { phone = 84931633828 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:27	kiem_tra_yeu_cau_goi -result -521 { phone = 84777099860 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:27	kiem_tra_yeu_cau_goi -result -522 { phone = 84375358921 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:28	kiem_tra_yeu_cau_goi -result -523 { phone = 84989648574 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:28	kiem_tra_yeu_cau_goi -result -524 { phone = 84972305581 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:28	kiem_tra_yeu_cau_goi -result -525 { phone = 84368907097 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:28	kiem_tra_yeu_cau_goi -result -526 { phone = 84968854674 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:28	kiem_tra_yeu_cau_goi -result -527 { phone = 84393266049 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:28	kiem_tra_yeu_cau_goi -result -528 { phone = 84963413338 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:28	kiem_tra_yeu_cau_goi -result -529 { phone = 84964294222 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:28	kiem_tra_yeu_cau_goi -result -530 { phone = 84355830543 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:28	kiem_tra_yeu_cau_goi -result -531 { phone = 84869069670 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:28	kiem_tra_yeu_cau_goi -result -532 { phone = 84967609183 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:29	kiem_tra_yeu_cau_goi -result -533 { phone = 84908944979 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:29	kiem_tra_yeu_cau_goi -result -534 { phone = 84928505709 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:29	kiem_tra_yeu_cau_goi -result -535 { phone = 84985459297 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:29	kiem_tra_yeu_cau_goi -result -536 { phone = 84938309906 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:29	kiem_tra_yeu_cau_goi -result -537 { phone = 84931350045 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:29	kiem_tra_yeu_cau_goi -result -538 { phone = 84972414538 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:29	kiem_tra_yeu_cau_goi -result -539 { phone = 84376994652 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:30	kiem_tra_yeu_cau_goi -result -540 { phone = 84774417642 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:30	kiem_tra_yeu_cau_goi -result -541 { phone = 84763745588 }	{"error":-201,"message":"phone is invalid"}
+
+17:16:30	kiem_tra_yeu_cau_goi -result -542 { phone = 84586468086 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:30	kiem_tra_yeu_cau_goi -result -543 { phone = 84987592370 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:30	kiem_tra_yeu_cau_goi -result -544 { phone = 84769005174 }	{"error":-201,"message":"phone is invalid"}
+
+17:16:30	kiem_tra_yeu_cau_goi -result -545 { phone = 84368950265 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:30	kiem_tra_yeu_cau_goi -result -546 { phone = 84966928238 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:30	kiem_tra_yeu_cau_goi -result -547 { phone = 84916155856 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:30	kiem_tra_yeu_cau_goi -result -548 { phone = 84799422011 }	{"error":-201,"message":"phone is invalid"}
+
+17:16:31	kiem_tra_yeu_cau_goi -result -549 { phone = 84812334577 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:31	kiem_tra_yeu_cau_goi -result -550 { phone = 84988727281 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:31	kiem_tra_yeu_cau_goi -result -551 { phone = 84355561639 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:32	kiem_tra_yeu_cau_goi -result -552 { phone = 84914955778 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:32	kiem_tra_yeu_cau_goi -result -553 { phone = 84372426997 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:32	kiem_tra_yeu_cau_goi -result -554 { phone = 84902660836 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:32	kiem_tra_yeu_cau_goi -result -555 { phone = 84365881570 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:32	kiem_tra_yeu_cau_goi -result -556 { phone = 84902954117 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:32	kiem_tra_yeu_cau_goi -result -557 { phone = 84833326846 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:32	kiem_tra_yeu_cau_goi -result -558 { phone = 84393816695 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:33	kiem_tra_yeu_cau_goi -result -559 { phone = 84356261849 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:33	kiem_tra_yeu_cau_goi -result -560 { phone = 84976884736 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:33	kiem_tra_yeu_cau_goi -result -561 { phone = 84988338926 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:33	kiem_tra_yeu_cau_goi -result -562 { phone = 84836371671 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:33	kiem_tra_yeu_cau_goi -result -563 { phone = 84972755895 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:33	kiem_tra_yeu_cau_goi -result -564 { phone = 84379142770 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:33	kiem_tra_yeu_cau_goi -result -565 { phone = 84935601096 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:33	kiem_tra_yeu_cau_goi -result -566 { phone = 84779082017 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:33	kiem_tra_yeu_cau_goi -result -567 { phone = 84329683086 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:34	kiem_tra_yeu_cau_goi -result -568 { phone = 84342396141 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:34	kiem_tra_yeu_cau_goi -result -569 { phone = 84986066622 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:34	kiem_tra_yeu_cau_goi -result -570 { phone = 84983362168 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:34	kiem_tra_yeu_cau_goi -result -571 { phone = 84963500046 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:34	kiem_tra_yeu_cau_goi -result -572 { phone = 84966841496 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:34	kiem_tra_yeu_cau_goi -result -573 { phone = 84973200514 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:34	kiem_tra_yeu_cau_goi -result -574 { phone = 84399749034 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:34	kiem_tra_yeu_cau_goi -result -575 { phone = 84869927355 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:34	kiem_tra_yeu_cau_goi -result -576 { phone = 84986447334 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:34	kiem_tra_yeu_cau_goi -result -577 { phone = 84981529794 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:35	kiem_tra_yeu_cau_goi -result -578 { phone = 84972484203 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:35	kiem_tra_yeu_cau_goi -result -579 { phone = 84379925663 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:35	kiem_tra_yeu_cau_goi -result -580 { phone = 84395350938 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:35	kiem_tra_yeu_cau_goi -result -581 { phone = 84348097837 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:35	kiem_tra_yeu_cau_goi -result -582 { phone = 84339887236 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:36	kiem_tra_yeu_cau_goi -result -583 { phone = 84977469033 }	{"error":-201,"message":"phone is invalid"}
+
+17:16:36	kiem_tra_yeu_cau_goi -result -584 { phone = 84563882002 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:36	kiem_tra_yeu_cau_goi -result -585 { phone = 84346122704 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:36	kiem_tra_yeu_cau_goi -result -586 { phone = 84968683015 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:36	kiem_tra_yeu_cau_goi -result -587 { phone = 84916115207 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:36	kiem_tra_yeu_cau_goi -result -588 { phone = 84905277242 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:36	kiem_tra_yeu_cau_goi -result -589 { phone = 84975697236 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:36	kiem_tra_yeu_cau_goi -result -590 { phone = 84702310194 }	{"error":-201,"message":"phone is invalid"}
+
+17:16:36	kiem_tra_yeu_cau_goi -result -591 { phone = 84368397331 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:37	kiem_tra_yeu_cau_goi -result -592 { phone = 84349159801 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:37	kiem_tra_yeu_cau_goi -result -593 { phone = 84379105067 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:37	kiem_tra_yeu_cau_goi -result -594 { phone = 84377228124 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:37	kiem_tra_yeu_cau_goi -result -595 { phone = 84975549687 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:37	kiem_tra_yeu_cau_goi -result -596 { phone = 84355430404 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:37	kiem_tra_yeu_cau_goi -result -597 { phone = 84373862394 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:37	kiem_tra_yeu_cau_goi -result -598 { phone = 84383820658 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:37	kiem_tra_yeu_cau_goi -result -599 { phone = 84786498554 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:37	kiem_tra_yeu_cau_goi -result -600 { phone = 84973410089 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:38	kiem_tra_yeu_cau_goi -result -601 { phone = 84348809410 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:38	kiem_tra_yeu_cau_goi -result -602 { phone = 84888777394 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:38	kiem_tra_yeu_cau_goi -result -603 { phone = 84764313130 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:38	kiem_tra_yeu_cau_goi -result -604 { phone = 84937555619 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:38	kiem_tra_yeu_cau_goi -result -605 { phone = 84334256002 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:38	kiem_tra_yeu_cau_goi -result -606 { phone = 84903538545 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:38	kiem_tra_yeu_cau_goi -result -607 { phone = 84962975190 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:38	kiem_tra_yeu_cau_goi -result -608 { phone = 84967862272 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:38	kiem_tra_yeu_cau_goi -result -609 { phone = 84906967604 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:38	kiem_tra_yeu_cau_goi -result -610 { phone = 84797489841 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:38	kiem_tra_yeu_cau_goi -result -611 { phone = 84988546851 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:39	kiem_tra_yeu_cau_goi -result -612 { phone = 84938507999 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:39	kiem_tra_yeu_cau_goi -result -613 { phone = 84905829177 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:39	kiem_tra_yeu_cau_goi -result -614 { phone = 84374009182 }	{"error":-201,"message":"phone is invalid"}
+
+17:16:39	kiem_tra_yeu_cau_goi -result -615 { phone = 84798705308 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:39	kiem_tra_yeu_cau_goi -result -616 { phone = 84376014613 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:39	kiem_tra_yeu_cau_goi -result -617 { phone = 84348393528 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:39	kiem_tra_yeu_cau_goi -result -618 { phone = 84985498940 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:39	kiem_tra_yeu_cau_goi -result -619 { phone = 84974945873 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:39	kiem_tra_yeu_cau_goi -result -620 { phone = 84903772909 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:40	kiem_tra_yeu_cau_goi -result -621 { phone = 84849888979 }	{"error":-201,"message":"phone is invalid"}
+
+17:16:40	kiem_tra_yeu_cau_goi -result -622 { phone = 84375902898 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:40	kiem_tra_yeu_cau_goi -result -623 { phone = 84383524624 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:40	kiem_tra_yeu_cau_goi -result -624 { phone = 84377353256 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:40	kiem_tra_yeu_cau_goi -result -625 { phone = 84976642938 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:40	kiem_tra_yeu_cau_goi -result -626 { phone = 84973414209 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:40	kiem_tra_yeu_cau_goi -result -627 { phone = 84865922965 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:40	kiem_tra_yeu_cau_goi -result -628 { phone = 84981561096 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:40	kiem_tra_yeu_cau_goi -result -629 { phone = 84974964526 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:41	kiem_tra_yeu_cau_goi -result -630 { phone = 84937764876 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:41	kiem_tra_yeu_cau_goi -result -631 { phone = 84903375801 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:41	kiem_tra_yeu_cau_goi -result -632 { phone = 84936369683 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:41	kiem_tra_yeu_cau_goi -result -633 { phone = 84337998241 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:41	kiem_tra_yeu_cau_goi -result -634 { phone = 84813008883 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:41	kiem_tra_yeu_cau_goi -result -635 { phone = 84981560540 }	{"error":-201,"message":"phone is invalid"}
+
+17:16:41	kiem_tra_yeu_cau_goi -result -636 { phone = 84888053998 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:41	kiem_tra_yeu_cau_goi -result -637 { phone = 84354048468 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:41	kiem_tra_yeu_cau_goi -result -638 { phone = 84907532925 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:42	kiem_tra_yeu_cau_goi -result -639 { phone = 84855712612 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:42	kiem_tra_yeu_cau_goi -result -640 { phone = 84934725401 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:42	kiem_tra_yeu_cau_goi -result -641 { phone = 84332112169 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:42	kiem_tra_yeu_cau_goi -result -642 { phone = 84975122567 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:42	kiem_tra_yeu_cau_goi -result -643 { phone = 84978561718 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:43	kiem_tra_yeu_cau_goi -result -644 { phone = 84909359887 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:43	kiem_tra_yeu_cau_goi -result -645 { phone = 84939144406 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:43	kiem_tra_yeu_cau_goi -result -646 { phone = 84325102525 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:43	kiem_tra_yeu_cau_goi -result -647 { phone = 84948578386 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:43	kiem_tra_yeu_cau_goi -result -648 { phone = 84393317398 }	{"error":-201,"message":"phone is invalid"}
+
+17:16:43	kiem_tra_yeu_cau_goi -result -649 { phone = 84909018882 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:43	kiem_tra_yeu_cau_goi -result -650 { phone = 84984299810 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:43	kiem_tra_yeu_cau_goi -result -651 { phone = 84366753534 }	{"error":-201,"message":"phone is invalid"}
+
+17:16:43	kiem_tra_yeu_cau_goi -result -652 { phone = 84344713286 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:43	kiem_tra_yeu_cau_goi -result -653 { phone = 84336861559 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:44	kiem_tra_yeu_cau_goi -result -654 { phone = 84353285096 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:44	kiem_tra_yeu_cau_goi -result -655 { phone = 84919563639 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:44	kiem_tra_yeu_cau_goi -result -656 { phone = 84368059056 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:44	kiem_tra_yeu_cau_goi -result -657 { phone = 84768858659 }	{"error":-201,"message":"phone is invalid"}
+
+17:16:44	kiem_tra_yeu_cau_goi -result -658 { phone = 84977611838 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:44	kiem_tra_yeu_cau_goi -result -659 { phone = 84939200279 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:44	kiem_tra_yeu_cau_goi -result -660 { phone = 84963023353 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:45	kiem_tra_yeu_cau_goi -result -661 { phone = 84972548185 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:45	kiem_tra_yeu_cau_goi -result -662 { phone = 84388400919 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:45	kiem_tra_yeu_cau_goi -result -663 { phone = 84977594498 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:45	kiem_tra_yeu_cau_goi -result -664 { phone = 84373855673 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:45	kiem_tra_yeu_cau_goi -result -665 { phone = 84393704636 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:45	kiem_tra_yeu_cau_goi -result -666 { phone = 84782113256 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:45	kiem_tra_yeu_cau_goi -result -667 { phone = 84817398419 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:45	kiem_tra_yeu_cau_goi -result -668 { phone = 84982983013 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:45	kiem_tra_yeu_cau_goi -result -669 { phone = 84368121511 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:45	kiem_tra_yeu_cau_goi -result -670 { phone = 84932545852 }	{"error":-201,"message":"phone is invalid"}
+
+17:16:46	kiem_tra_yeu_cau_goi -result -671 { phone = 84986107651 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:46	kiem_tra_yeu_cau_goi -result -672 { phone = 84909040186 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:46	kiem_tra_yeu_cau_goi -result -673 { phone = 84787676009 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:46	kiem_tra_yeu_cau_goi -result -674 { phone = 84909057723 }	{"error":-201,"message":"phone is invalid"}
+
+17:16:46	kiem_tra_yeu_cau_goi -result -675 { phone = 84339723939 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:46	kiem_tra_yeu_cau_goi -result -676 { phone = 84911648104 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:47	kiem_tra_yeu_cau_goi -result -677 { phone = 84943084293 }	{"error":-201,"message":"phone is invalid"}
+
+17:16:47	kiem_tra_yeu_cau_goi -result -678 { phone = 84906443014 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:47	kiem_tra_yeu_cau_goi -result -679 { phone = 84987937446 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:47	kiem_tra_yeu_cau_goi -result -680 { phone = 84839400889 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:47	kiem_tra_yeu_cau_goi -result -681 { phone = 84933102731 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:47	kiem_tra_yeu_cau_goi -result -682 { phone = 84395327977 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:47	kiem_tra_yeu_cau_goi -result -683 { phone = 84369798418 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:47	kiem_tra_yeu_cau_goi -result -684 { phone = 84963289027 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:48	kiem_tra_yeu_cau_goi -result -685 { phone = 84906541164 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:48	kiem_tra_yeu_cau_goi -result -686 { phone = 84363651887 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:48	kiem_tra_yeu_cau_goi -result -687 { phone = 84986377154 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:48	kiem_tra_yeu_cau_goi -result -688 { phone = 84329420015 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:48	kiem_tra_yeu_cau_goi -result -689 { phone = 84937091235 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:48	kiem_tra_yeu_cau_goi -result -690 { phone = 84986736790 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:48	kiem_tra_yeu_cau_goi -result -691 { phone = 84911517648 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:48	kiem_tra_yeu_cau_goi -result -692 { phone = 84365968263 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:49	kiem_tra_yeu_cau_goi -result -693 { phone = 84888497243 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:49	kiem_tra_yeu_cau_goi -result -694 { phone = 84987381866 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:49	kiem_tra_yeu_cau_goi -result -695 { phone = 84961564295 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:49	kiem_tra_yeu_cau_goi -result -696 { phone = 84966228205 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:49	kiem_tra_yeu_cau_goi -result -697 { phone = 84987755028 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:49	kiem_tra_yeu_cau_goi -result -698 { phone = 84389667802 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:49	kiem_tra_yeu_cau_goi -result -699 { phone = 84962396479 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:49	kiem_tra_yeu_cau_goi -result -700 { phone = 84947083666 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:49	kiem_tra_yeu_cau_goi -result -701 { phone = 84703928237 }	{"error":-201,"message":"phone is invalid"}
+
+17:16:49	kiem_tra_yeu_cau_goi -result -702 { phone = 84326793821 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:49	kiem_tra_yeu_cau_goi -result -703 { phone = 84344221709 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:50	kiem_tra_yeu_cau_goi -result -704 { phone = 84969557702 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:50	kiem_tra_yeu_cau_goi -result -705 { phone = 84902939659 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:50	kiem_tra_yeu_cau_goi -result -706 { phone = 84905048079 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:50	kiem_tra_yeu_cau_goi -result -707 { phone = 84386507234 }	{"error":-201,"message":"phone is invalid"}
+
+17:16:50	kiem_tra_yeu_cau_goi -result -708 { phone = 84931540064 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:50	kiem_tra_yeu_cau_goi -result -709 { phone = 84967133839 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:50	kiem_tra_yeu_cau_goi -result -710 { phone = 84935270864 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:50	kiem_tra_yeu_cau_goi -result -711 { phone = 84858747646 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:50	kiem_tra_yeu_cau_goi -result -712 { phone = 84396566986 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:50	kiem_tra_yeu_cau_goi -result -713 { phone = 84908016254 }	{"error":-201,"message":"phone is invalid"}
+
+17:16:51	kiem_tra_yeu_cau_goi -result -714 { phone = 84792334453 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:51	kiem_tra_yeu_cau_goi -result -715 { phone = 84937399454 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:51	kiem_tra_yeu_cau_goi -result -716 { phone = 84918641792 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:51	kiem_tra_yeu_cau_goi -result -717 { phone = 84357756936 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:51	kiem_tra_yeu_cau_goi -result -718 { phone = 84967526344 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:51	kiem_tra_yeu_cau_goi -result -719 { phone = 84984281030 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:51	kiem_tra_yeu_cau_goi -result -720 { phone = 84972719975 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:51	kiem_tra_yeu_cau_goi -result -721 { phone = 84938659754 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:51	kiem_tra_yeu_cau_goi -result -722 { phone = 84906370157 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:51	kiem_tra_yeu_cau_goi -result -723 { phone = 84329249334 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:52	kiem_tra_yeu_cau_goi -result -724 { phone = 84363528116 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:52	kiem_tra_yeu_cau_goi -result -725 { phone = 84932961322 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:52	kiem_tra_yeu_cau_goi -result -726 { phone = 84962656346 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:52	kiem_tra_yeu_cau_goi -result -727 { phone = 84377132992 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:52	kiem_tra_yeu_cau_goi -result -728 { phone = 84909092334 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:52	kiem_tra_yeu_cau_goi -result -729 { phone = 84763254800 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:52	kiem_tra_yeu_cau_goi -result -730 { phone = 84797714463 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:52	kiem_tra_yeu_cau_goi -result -731 { phone = 84942375025 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:52	kiem_tra_yeu_cau_goi -result -732 { phone = 84903021435 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:52	kiem_tra_yeu_cau_goi -result -733 { phone = 84985195200 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:53	kiem_tra_yeu_cau_goi -result -734 { phone = 84969337080 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:53	kiem_tra_yeu_cau_goi -result -735 { phone = 84354556441 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:53	kiem_tra_yeu_cau_goi -result -736 { phone = 84906032320 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:53	kiem_tra_yeu_cau_goi -result -737 { phone = 84702997994 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:53	kiem_tra_yeu_cau_goi -result -738 { phone = 84946565775 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:53	kiem_tra_yeu_cau_goi -result -739 { phone = 84383623997 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:53	kiem_tra_yeu_cau_goi -result -740 { phone = 84335855655 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:53	kiem_tra_yeu_cau_goi -result -741 { phone = 84332091339 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:53	kiem_tra_yeu_cau_goi -result -742 { phone = 84385844750 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:54	kiem_tra_yeu_cau_goi -result -743 { phone = 84979319773 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:54	kiem_tra_yeu_cau_goi -result -744 { phone = 84375576805 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:54	kiem_tra_yeu_cau_goi -result -745 { phone = 84971091943 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:54	kiem_tra_yeu_cau_goi -result -746 { phone = 84908552441 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:54	kiem_tra_yeu_cau_goi -result -747 { phone = 84968838393 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:54	kiem_tra_yeu_cau_goi -result -748 { phone = 84367226386 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:54	kiem_tra_yeu_cau_goi -result -749 { phone = 84867990302 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:54	kiem_tra_yeu_cau_goi -result -750 { phone = 84905261571 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:54	kiem_tra_yeu_cau_goi -result -751 { phone = 84963648229 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:54	kiem_tra_yeu_cau_goi -result -752 { phone = 84825770256 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:54	kiem_tra_yeu_cau_goi -result -753 { phone = 84349740266 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:55	kiem_tra_yeu_cau_goi -result -754 { phone = 84968447870 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:55	kiem_tra_yeu_cau_goi -result -755 { phone = 84909654493 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:55	kiem_tra_yeu_cau_goi -result -756 { phone = 84978608060 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:55	kiem_tra_yeu_cau_goi -result -757 { phone = 84982611619 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:55	kiem_tra_yeu_cau_goi -result -758 { phone = 84917223982 }	{"error":-201,"message":"phone is invalid"}
+
+17:16:55	kiem_tra_yeu_cau_goi -result -759 { phone = 84899157938 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:55	kiem_tra_yeu_cau_goi -result -760 { phone = 84935598038 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:55	kiem_tra_yeu_cau_goi -result -761 { phone = 84975589582 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:56	kiem_tra_yeu_cau_goi -result -762 { phone = 84965411864 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:56	kiem_tra_yeu_cau_goi -result -763 { phone = 84783427179 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:56	kiem_tra_yeu_cau_goi -result -764 { phone = 84363811436 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:56	kiem_tra_yeu_cau_goi -result -765 { phone = 84776789733 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:56	kiem_tra_yeu_cau_goi -result -766 { phone = 84793966456 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:56	kiem_tra_yeu_cau_goi -result -767 { phone = 84934286239 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:56	kiem_tra_yeu_cau_goi -result -768 { phone = 84976095394 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:56	kiem_tra_yeu_cau_goi -result -769 { phone = 84768726034 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:56	kiem_tra_yeu_cau_goi -result -770 { phone = 84984160457 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:57	kiem_tra_yeu_cau_goi -result -771 { phone = 84354898028 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:57	kiem_tra_yeu_cau_goi -result -772 { phone = 84972919868 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:57	kiem_tra_yeu_cau_goi -result -773 { phone = 84964890051 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:57	kiem_tra_yeu_cau_goi -result -774 { phone = 84936217291 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:57	kiem_tra_yeu_cau_goi -result -775 { phone = 84985779678 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:57	kiem_tra_yeu_cau_goi -result -776 { phone = 84388068572 }	{"error":-201,"message":"phone is invalid"}
+
+17:16:57	kiem_tra_yeu_cau_goi -result -777 { phone = 84962305905 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:57	kiem_tra_yeu_cau_goi -result -778 { phone = 84793994542 }	{"error":-201,"message":"phone is invalid"}
+
+17:16:57	kiem_tra_yeu_cau_goi -result -779 { phone = 84986418902 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:57	kiem_tra_yeu_cau_goi -result -780 { phone = 84357493888 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:57	kiem_tra_yeu_cau_goi -result -781 { phone = 84946302827 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:58	kiem_tra_yeu_cau_goi -result -782 { phone = 84943977240 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:58	kiem_tra_yeu_cau_goi -result -783 { phone = 84383811551 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:58	kiem_tra_yeu_cau_goi -result -784 { phone = 84382626196 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:58	kiem_tra_yeu_cau_goi -result -785 { phone = 84962651487 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:58	kiem_tra_yeu_cau_goi -result -786 { phone = 84938108894 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:58	kiem_tra_yeu_cau_goi -result -787 { phone = 84965696752 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:58	kiem_tra_yeu_cau_goi -result -788 { phone = 84905824819 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:58	kiem_tra_yeu_cau_goi -result -789 { phone = 84934178048 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:58	kiem_tra_yeu_cau_goi -result -790 { phone = 84976608808 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:58	kiem_tra_yeu_cau_goi -result -791 { phone = 84977439360 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:59	kiem_tra_yeu_cau_goi -result -792 { phone = 84363538969 }	{"error":-201,"message":"phone is invalid"}
+
+17:16:59	kiem_tra_yeu_cau_goi -result -793 { phone = 84989373315 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:59	kiem_tra_yeu_cau_goi -result -794 { phone = 84345133796 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:59	kiem_tra_yeu_cau_goi -result -795 { phone = 84388438300 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:59	kiem_tra_yeu_cau_goi -result -796 { phone = 84927245080 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:59	kiem_tra_yeu_cau_goi -result -797 { phone = 84945483555 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:59	kiem_tra_yeu_cau_goi -result -798 { phone = 84768238825 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:59	kiem_tra_yeu_cau_goi -result -799 { phone = 84963253596 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:59	kiem_tra_yeu_cau_goi -result -800 { phone = 84367423637 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:16:59	kiem_tra_yeu_cau_goi -result -801 { phone = 84905397367 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:00	kiem_tra_yeu_cau_goi -result -802 { phone = 84946734241 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:00	kiem_tra_yeu_cau_goi -result -803 { phone = 84933736552 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:00	kiem_tra_yeu_cau_goi -result -804 { phone = 84347970548 }	{"error":-201,"message":"phone is invalid"}
+
+17:17:00	kiem_tra_yeu_cau_goi -result -805 { phone = 84989181199 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:00	kiem_tra_yeu_cau_goi -result -806 { phone = 84365377926 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:00	kiem_tra_yeu_cau_goi -result -807 { phone = 84397774182 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:00	kiem_tra_yeu_cau_goi -result -808 { phone = 84937507791 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:00	kiem_tra_yeu_cau_goi -result -809 { phone = 84966527034 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:00	kiem_tra_yeu_cau_goi -result -810 { phone = 84868936629 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:00	kiem_tra_yeu_cau_goi -result -811 { phone = 84359107393 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:01	kiem_tra_yeu_cau_goi -result -812 { phone = 84373128888 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:01	kiem_tra_yeu_cau_goi -result -813 { phone = 84357792696 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:01	kiem_tra_yeu_cau_goi -result -814 { phone = 84973094895 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:01	kiem_tra_yeu_cau_goi -result -815 { phone = 84934417531 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:01	kiem_tra_yeu_cau_goi -result -816 { phone = 84949829533 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:01	kiem_tra_yeu_cau_goi -result -817 { phone = 84379591223 }	{"error":-201,"message":"phone is invalid"}
+
+17:17:01	kiem_tra_yeu_cau_goi -result -818 { phone = 84386595959 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:01	kiem_tra_yeu_cau_goi -result -819 { phone = 84355853072 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:01	kiem_tra_yeu_cau_goi -result -820 { phone = 84974789834 }	{"error":-201,"message":"phone is invalid"}
+
+17:17:02	kiem_tra_yeu_cau_goi -result -821 { phone = 84797257019 }	{"error":-201,"message":"phone is invalid"}
+
+17:17:02	kiem_tra_yeu_cau_goi -result -822 { phone = 84342518528 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:02	kiem_tra_yeu_cau_goi -result -823 { phone = 84368650959 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:02	kiem_tra_yeu_cau_goi -result -824 { phone = 84978314206 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:02	kiem_tra_yeu_cau_goi -result -825 { phone = 84898592082 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:02	kiem_tra_yeu_cau_goi -result -826 { phone = 84859438398 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:02	kiem_tra_yeu_cau_goi -result -827 { phone = 84934136585 }	{"error":-201,"message":"phone is invalid"}
+
+17:17:03	kiem_tra_yeu_cau_goi -result -828 { phone = 84936593288 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:03	kiem_tra_yeu_cau_goi -result -829 { phone = 84973095198 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:03	kiem_tra_yeu_cau_goi -result -830 { phone = 84984804781 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:03	kiem_tra_yeu_cau_goi -result -831 { phone = 84375887719 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:03	kiem_tra_yeu_cau_goi -result -832 { phone = 84906641324 }	{"error":-201,"message":"phone is invalid"}
+
+17:17:03	kiem_tra_yeu_cau_goi -result -833 { phone = 84857507157 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:03	kiem_tra_yeu_cau_goi -result -834 { phone = 84937364473 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:03	kiem_tra_yeu_cau_goi -result -835 { phone = 84909792480 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:04	kiem_tra_yeu_cau_goi -result -836 { phone = 84964817893 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:04	kiem_tra_yeu_cau_goi -result -837 { phone = 84707523618 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:04	kiem_tra_yeu_cau_goi -result -838 { phone = 84902629284 }	{"error":-201,"message":"phone is invalid"}
+
+17:17:04	kiem_tra_yeu_cau_goi -result -839 { phone = 84981921993 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:04	kiem_tra_yeu_cau_goi -result -840 { phone = 84932799014 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:04	kiem_tra_yeu_cau_goi -result -841 { phone = 84785776236 }	{"error":-201,"message":"phone is invalid"}
+
+17:17:04	kiem_tra_yeu_cau_goi -result -842 { phone = 84937183500 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:04	kiem_tra_yeu_cau_goi -result -843 { phone = 84365408441 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:04	kiem_tra_yeu_cau_goi -result -844 { phone = 84842222308 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:04	kiem_tra_yeu_cau_goi -result -845 { phone = 84985407671 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:05	kiem_tra_yeu_cau_goi -result -846 { phone = 84973685872 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:05	kiem_tra_yeu_cau_goi -result -847 { phone = 84399279722 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:05	kiem_tra_yeu_cau_goi -result -848 { phone = 84369786518 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:05	kiem_tra_yeu_cau_goi -result -849 { phone = 84912262692 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:05	kiem_tra_yeu_cau_goi -result -850 { phone = 84965556596 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:05	kiem_tra_yeu_cau_goi -result -851 { phone = 84987838124 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:05	kiem_tra_yeu_cau_goi -result -852 { phone = 84939256911 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:05	kiem_tra_yeu_cau_goi -result -853 { phone = 84338410582 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:05	kiem_tra_yeu_cau_goi -result -854 { phone = 84935839244 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:06	kiem_tra_yeu_cau_goi -result -855 { phone = 84349821746 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:06	kiem_tra_yeu_cau_goi -result -856 { phone = 84397927060 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:06	kiem_tra_yeu_cau_goi -result -857 { phone = 84338539283 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:06	kiem_tra_yeu_cau_goi -result -858 { phone = 84332593381 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:06	kiem_tra_yeu_cau_goi -result -859 { phone = 84905077803 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:06	kiem_tra_yeu_cau_goi -result -860 { phone = 84966558748 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:06	kiem_tra_yeu_cau_goi -result -861 { phone = 84706689654 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:06	kiem_tra_yeu_cau_goi -result -862 { phone = 84847379897 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:06	kiem_tra_yeu_cau_goi -result -863 { phone = 84383548630 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:06	kiem_tra_yeu_cau_goi -result -864 { phone = 84904363579 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:07	kiem_tra_yeu_cau_goi -result -865 { phone = 84356789839 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:07	kiem_tra_yeu_cau_goi -result -866 { phone = 84908615641 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:07	kiem_tra_yeu_cau_goi -result -867 { phone = 84395877118 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:07	kiem_tra_yeu_cau_goi -result -868 { phone = 84376387287 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:07	kiem_tra_yeu_cau_goi -result -869 { phone = 84369779967 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:07	kiem_tra_yeu_cau_goi -result -870 { phone = 84799398987 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:07	kiem_tra_yeu_cau_goi -result -871 { phone = 84969760387 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:07	kiem_tra_yeu_cau_goi -result -872 { phone = 84832446506 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:07	kiem_tra_yeu_cau_goi -result -873 { phone = 84865342167 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:07	kiem_tra_yeu_cau_goi -result -874 { phone = 84962617920 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:08	kiem_tra_yeu_cau_goi -result -875 { phone = 84346844823 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:08	kiem_tra_yeu_cau_goi -result -876 { phone = 84899517276 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:08	kiem_tra_yeu_cau_goi -result -877 { phone = 84977155875 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:08	kiem_tra_yeu_cau_goi -result -878 { phone = 84973411504 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:08	kiem_tra_yeu_cau_goi -result -879 { phone = 84985862969 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:08	kiem_tra_yeu_cau_goi -result -880 { phone = 84913788215 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:08	kiem_tra_yeu_cau_goi -result -881 { phone = 84374185349 }	{"error":-201,"message":"phone is invalid"}
+
+17:17:08	kiem_tra_yeu_cau_goi -result -882 { phone = 84357301506 }	{"error":-201,"message":"phone is invalid"}
+
+17:17:08	kiem_tra_yeu_cau_goi -result -883 { phone = 84907735966 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:08	kiem_tra_yeu_cau_goi -result -884 { phone = 84389190078 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:08	kiem_tra_yeu_cau_goi -result -885 { phone = 84528320844 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:09	kiem_tra_yeu_cau_goi -result -886 { phone = 84707375399 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:09	kiem_tra_yeu_cau_goi -result -887 { phone = 84786883375 }	{"error":-201,"message":"phone is invalid"}
+
+17:17:09	kiem_tra_yeu_cau_goi -result -888 { phone = 84965361435 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:09	kiem_tra_yeu_cau_goi -result -889 { phone = 84909940204 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:09	kiem_tra_yeu_cau_goi -result -890 { phone = 84772205167 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:09	kiem_tra_yeu_cau_goi -result -891 { phone = 84933362460 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:10	kiem_tra_yeu_cau_goi -result -892 { phone = 84978180793 }	{"error":-201,"message":"phone is invalid"}
+
+17:17:10	kiem_tra_yeu_cau_goi -result -893 { phone = 84907777150 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:10	kiem_tra_yeu_cau_goi -result -894 { phone = 84365045628 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:11	kiem_tra_yeu_cau_goi -result -895 { phone = 84327798282 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:11	kiem_tra_yeu_cau_goi -result -896 { phone = 84386091794 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:11	kiem_tra_yeu_cau_goi -result -897 { phone = 84907601307 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:11	kiem_tra_yeu_cau_goi -result -898 { phone = 84364881693 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:11	kiem_tra_yeu_cau_goi -result -899 { phone = 84354301531 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:12	kiem_tra_yeu_cau_goi -result -900 { phone = 84932652812 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:12	kiem_tra_yeu_cau_goi -result -901 { phone = 84931945518 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:12	kiem_tra_yeu_cau_goi -result -902 { phone = 84903971035 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:12	kiem_tra_yeu_cau_goi -result -903 { phone = 84396019394 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:13	kiem_tra_yeu_cau_goi -result -904 { phone = 84335751869 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:13	kiem_tra_yeu_cau_goi -result -905 { phone = 84353627295 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:13	kiem_tra_yeu_cau_goi -result -906 { phone = 84947299972 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:13	kiem_tra_yeu_cau_goi -result -907 { phone = 84907891650 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:13	kiem_tra_yeu_cau_goi -result -908 { phone = 84964729609 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:13	kiem_tra_yeu_cau_goi -result -909 { phone = 84972428955 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:13	kiem_tra_yeu_cau_goi -result -910 { phone = 84373378622 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:14	kiem_tra_yeu_cau_goi -result -911 { phone = 84961178203 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:14	kiem_tra_yeu_cau_goi -result -912 { phone = 84905649260 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:14	kiem_tra_yeu_cau_goi -result -913 { phone = 84856891445 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:14	kiem_tra_yeu_cau_goi -result -914 { phone = 84968082783 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:14	kiem_tra_yeu_cau_goi -result -915 { phone = 84329387429 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:14	kiem_tra_yeu_cau_goi -result -916 { phone = 84986986437 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:14	kiem_tra_yeu_cau_goi -result -917 { phone = 84976877167 }	{"error":-201,"message":"phone is invalid"}
+
+17:17:14	kiem_tra_yeu_cau_goi -result -918 { phone = 84979663255 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:14	kiem_tra_yeu_cau_goi -result -919 { phone = 84933632311 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:14	kiem_tra_yeu_cau_goi -result -920 { phone = 84395575946 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:15	kiem_tra_yeu_cau_goi -result -921 { phone = 84939303430 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:15	kiem_tra_yeu_cau_goi -result -922 { phone = 84982926501 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:15	kiem_tra_yeu_cau_goi -result -923 { phone = 84906694216 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:15	kiem_tra_yeu_cau_goi -result -924 { phone = 84918520154 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:15	kiem_tra_yeu_cau_goi -result -925 { phone = 84986805294 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:15	kiem_tra_yeu_cau_goi -result -926 { phone = 84369792019 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:15	kiem_tra_yeu_cau_goi -result -927 { phone = 84928599678 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:15	kiem_tra_yeu_cau_goi -result -928 { phone = 84962699651 }	{"error":-201,"message":"phone is invalid"}
+
+17:17:15	kiem_tra_yeu_cau_goi -result -929 { phone = 84763404938 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:15	kiem_tra_yeu_cau_goi -result -930 { phone = 84979916035 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:15	kiem_tra_yeu_cau_goi -result -931 { phone = 84989269501 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:16	kiem_tra_yeu_cau_goi -result -932 { phone = 84979122099 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:16	kiem_tra_yeu_cau_goi -result -933 { phone = 84334923332 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:16	kiem_tra_yeu_cau_goi -result -934 { phone = 84989712510 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:16	kiem_tra_yeu_cau_goi -result -935 { phone = 84368713848 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:16	kiem_tra_yeu_cau_goi -result -936 { phone = 84788050554 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:16	kiem_tra_yeu_cau_goi -result -937 { phone = 84354031860 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:16	kiem_tra_yeu_cau_goi -result -938 { phone = 84983156941 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:17	kiem_tra_yeu_cau_goi -result -939 { phone = 84949573794 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:17	kiem_tra_yeu_cau_goi -result -940 { phone = 84903165255 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:17	kiem_tra_yeu_cau_goi -result -941 { phone = 84355937943 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:17	kiem_tra_yeu_cau_goi -result -942 { phone = 84374195001 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:17	kiem_tra_yeu_cau_goi -result -943 { phone = 84975766419 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:17	kiem_tra_yeu_cau_goi -result -944 { phone = 84977367822 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:17	kiem_tra_yeu_cau_goi -result -945 { phone = 84362740757 }	{"error":-201,"message":"phone is invalid"}
+
+17:17:17	kiem_tra_yeu_cau_goi -result -946 { phone = 84905608678 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:17	kiem_tra_yeu_cau_goi -result -947 { phone = 84974356473 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:17	kiem_tra_yeu_cau_goi -result -948 { phone = 84987396663 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:17	kiem_tra_yeu_cau_goi -result -949 { phone = 84336320593 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:18	kiem_tra_yeu_cau_goi -result -950 { phone = 84862113886 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:18	kiem_tra_yeu_cau_goi -result -951 { phone = 84396488798 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:18	kiem_tra_yeu_cau_goi -result -952 { phone = 84945085882 }	{"error":-201,"message":"phone is invalid"}
+
+17:17:18	kiem_tra_yeu_cau_goi -result -953 { phone = 84932094913 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:18	kiem_tra_yeu_cau_goi -result -954 { phone = 84366199898 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:18	kiem_tra_yeu_cau_goi -result -955 { phone = 84908582698 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:18	kiem_tra_yeu_cau_goi -result -956 { phone = 84396831006 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:19	kiem_tra_yeu_cau_goi -result -957 { phone = 84906252182 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:19	kiem_tra_yeu_cau_goi -result -958 { phone = 84948192471 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:19	kiem_tra_yeu_cau_goi -result -959 { phone = 84979046093 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:19	kiem_tra_yeu_cau_goi -result -960 { phone = 84387616790 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:19	kiem_tra_yeu_cau_goi -result -961 { phone = 84344442292 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:19	kiem_tra_yeu_cau_goi -result -962 { phone = 84336574556 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:19	kiem_tra_yeu_cau_goi -result -963 { phone = 84935999871 }	{"error":-201,"message":"phone is invalid"}
+
+17:17:19	kiem_tra_yeu_cau_goi -result -964 { phone = 84966847755 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:20	kiem_tra_yeu_cau_goi -result -965 { phone = 84908903451 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:20	kiem_tra_yeu_cau_goi -result -966 { phone = 84396653355 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:20	kiem_tra_yeu_cau_goi -result -967 { phone = 84784033567 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:20	kiem_tra_yeu_cau_goi -result -968 { phone = 84905909007 }	{"error":-201,"message":"phone is invalid"}
+
+17:17:20	kiem_tra_yeu_cau_goi -result -969 { phone = 84903782734 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:20	kiem_tra_yeu_cau_goi -result -970 { phone = 84984480180 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:20	kiem_tra_yeu_cau_goi -result -971 { phone = 84398471641 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:20	kiem_tra_yeu_cau_goi -result -972 { phone = 84939379414 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:20	kiem_tra_yeu_cau_goi -result -973 { phone = 84928290395 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:21	kiem_tra_yeu_cau_goi -result -974 { phone = 84911600582 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:21	kiem_tra_yeu_cau_goi -result -975 { phone = 84984764446 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:21	kiem_tra_yeu_cau_goi -result -976 { phone = 84334881792 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:21	kiem_tra_yeu_cau_goi -result -977 { phone = 84977592598 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:21	kiem_tra_yeu_cau_goi -result -978 { phone = 84972884973 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:21	kiem_tra_yeu_cau_goi -result -979 { phone = 84907933888 }	{"error":-201,"message":"phone is invalid"}
+
+17:17:22	kiem_tra_yeu_cau_goi -result -980 { phone = 84389457629 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:22	kiem_tra_yeu_cau_goi -result -981 { phone = 84902816962 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:23	kiem_tra_yeu_cau_goi -result -982 { phone = 84968728887 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:23	kiem_tra_yeu_cau_goi -result -983 { phone = 84989981238 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:23	kiem_tra_yeu_cau_goi -result -984 { phone = 84972082064 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:23	kiem_tra_yeu_cau_goi -result -985 { phone = 84776714056 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:23	kiem_tra_yeu_cau_goi -result -986 { phone = 84335999351 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:23	kiem_tra_yeu_cau_goi -result -987 { phone = 84397767476 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:23	kiem_tra_yeu_cau_goi -result -988 { phone = 84908803267 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:24	kiem_tra_yeu_cau_goi -result -989 { phone = 84935045871 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:24	kiem_tra_yeu_cau_goi -result -990 { phone = 84832525355 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:24	kiem_tra_yeu_cau_goi -result -991 { phone = 84937395919 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:24	kiem_tra_yeu_cau_goi -result -992 { phone = 84383271999 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:24	kiem_tra_yeu_cau_goi -result -993 { phone = 84987005875 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:24	kiem_tra_yeu_cau_goi -result -994 { phone = 84967632343 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:24	kiem_tra_yeu_cau_goi -result -995 { phone = 84335605663 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:24	kiem_tra_yeu_cau_goi -result -996 { phone = 84916763780 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:24	kiem_tra_yeu_cau_goi -result -997 { phone = 84904094821 }	{"error":-201,"message":"phone is invalid"}
+
+17:17:24	kiem_tra_yeu_cau_goi -result -998 { phone = 84344239993 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:17:24	kiem_tra_yeu_cau_goi -result -999 { phone = 84935016825 }	{"error":-201,"message":"phone is invalid"}
+
+17:19:15	kiem_tra_yeu_cau_goi ---------- Exception Cannot insert the value NULL into column 'random_id', table 'FCVWebportal.dbo.tbl_ChatZaloRequestProcessing'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+
+17:19:57	kiem_tra_yeu_cau_goi -result -0 { phone = 84327456583 }	{"data":{"expired_time":1690362101025},"error":0,"message":"User approved the request"}
+
+17:19:58	kiem_tra_yeu_cau_goi -result -1 { phone = 84932032276 }	{"data":{"expired_time":1690087824691},"error":0,"message":"User approved the request"}
+
+17:19:58	kiem_tra_yeu_cau_goi -result -2 { phone = 84965862648 }	{"data":{"expired_time":1690363978531},"error":0,"message":"User approved the request"}
+
+17:19:58	kiem_tra_yeu_cau_goi -result -3 { phone = 84348010010 }	{"data":{"expired_time":1690364302094},"error":0,"message":"User approved the request"}
+
+17:21:36	kiem_tra_yeu_cau_goi -result -0 { phone = 84903021435 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:21:36	kiem_tra_yeu_cau_goi -result -1 { phone = 84979916035 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:21:36	kiem_tra_yeu_cau_goi -result -2 { phone = 84989662643 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:21:37	kiem_tra_yeu_cau_goi -result -3 { phone = 84945085882 }	{"error":-201,"message":"phone is invalid"}
+
+17:21:37	kiem_tra_yeu_cau_goi -result -4 { phone = 84909057723 }	{"error":-201,"message":"phone is invalid"}
+
+17:21:37	kiem_tra_yeu_cau_goi -result -5 { phone = 84969852154 }	{"error":-201,"message":"phone is invalid"}
+
+17:21:37	kiem_tra_yeu_cau_goi -result -6 { phone = 84976877167 }	{"error":-201,"message":"phone is invalid"}
+
+17:21:38	kiem_tra_yeu_cau_goi -result -7 { phone = 84906618905 }	{"error":-201,"message":"phone is invalid"}
+
+17:21:38	kiem_tra_yeu_cau_goi -result -8 { phone = 84937091235 }	{"error":20,"message":"OA has not yet requested user consent"}
+
+17:21:38	kiem_tra_yeu_cau_goi -result -9 { phone = 84936873821 }	{"error":20,"message":"OA has not yet requested user consent"}

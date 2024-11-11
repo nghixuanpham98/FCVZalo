@@ -1,0 +1,174 @@
+﻿
+:root {
+    --main-color: #008BD0;
+    --gradient: linear-gradient(to left, #41A62B /*lá*/,25%, #008BD0 /*lam*/,50%, #E2007A /*hồng*/,75%, #E2001A /*đỏ*/,100%, #F39400 /*cam*/ 125% );
+    --gradient-blur: linear-gradient(to left, rgba(65, 166, 43, 0.3) /*lá*/,25%, rgba(0, 139, 208, 0.3) /*lam*/,50%, rgba(226, 0, 122, 0.3) /*hồng*/,75%, rgba(226, 0, 26, 0.3) /*đỏ*/,100%, rgba(243, 148, 0, 0.3) /*cam*/ 125% );
+    --gradient2: linear-gradient(to left, #DFDB00 /*mạ*/,25%, #41A62B /*lá*/,50%, #008BD0 /*lam*/,75%, #E2007A /*hồng*/,100%, #E2001A /*đỏ*/,87%, #F39400 /*cam*/ 31% );
+    --gradient-2-color: linear-gradient(to left, #41A62B /*lá*/, #008BD0 /*lam*/ );
+    --color-ma: #DFDB00 /*mạ*/;
+    --color-la: #41A62B /*lá*/;
+    --color-lam: #008BD0 /*lam*/;
+    --color-hong: #E2007A /*hồng*/;
+    --color-do: #E2001A /*đỏ*/;
+    --color-cam: #F39400 /*cam*/;
+}
+
+body {
+    background: #f3f3f3;
+    /* font-family: Calibri;
+    font-size: 18px;*/
+    font-size:10pt!important;
+}
+* {
+    font-size: 10pt !important;
+}
+
+.ivgFont {
+    font-family: Calibri;
+    font-size: 16px
+}
+
+.ivgTable {
+    width: 100%;
+    /*    font-size: 17px;
+    font-family: Calibri;*/
+}
+
+    .ivgTable thead {
+        background-color: darkred;
+        background-color: var(--main-color);
+        color: white;
+        /*box-shadow: rgba(131, 131, 131, 0.65) 10px 5px 10px;*/
+        padding: 0.3%;
+        margin-left: 1%;
+        margin-right: 1%;
+        position: sticky;
+        top:0;
+    }
+
+        .ivgTable thead tr th {
+            border: 1px dashed white;
+            position: sticky;
+            top: 0;
+            z-index: 1;
+            padding: 0.5%;
+            background: var(--main-color);
+            border: 1px solid #fff;
+            border-top: unset;
+            letter-spacing: 1px;
+            color: #fff;
+            box-shadow: 0px -3px 0px 0px rgba(255, 255, 255, 0.8) inset;
+        }
+
+    .ivgTable tr {
+        border: 1px solid lightgray;
+    }
+
+    .ivgTable tbody tr:hover {
+        border-top: 1px solid rgba(131, 131, 131, 0.65);
+        box-shadow: rgba(131, 131, 131, 0.3) 3px 3px 7px 3px;
+        background-color: rgba(255, 255, 255, 0.05);
+    }
+
+    .ivgTable tr td {
+        padding: .5rem;
+        border: 1px solid rgb(222, 222, 222);
+    }
+
+.ivgHr {
+    background-image: -webkit-linear-gradient(left, rgba(244,67,54,.8), rgba(244,67,54,.6), rgba(0,0,0,0));
+}
+
+.breadcrumb li a:hover {
+    text-decoration-line: unset;
+}
+
+.breadcrumb li a {
+    color: darkred;
+}
+
+.breadcrumb {
+    background: unset;
+    padding: unset;
+    font-weight: bold;
+    color: palevioletred;
+    font-size: 15px;
+}
+
+.urlEdit {
+    font-weight: bold;
+    color: darkred;
+}
+
+.btn {
+    border: unset;
+}
+
+
+.ivgPaging {
+    width: 98%;
+    bottom: 0px;
+    position: fixed;
+    padding: 0.2%;
+    background-color: #efefef;
+}
+
+
+
+.active {
+    font-weight: bold;
+    color: darkred;
+    border-bottom: 2px solid darkred;
+    border-bottom: 3px solid;
+    border-image-slice: 1;
+    border-image-source: var(--gradient);
+}
+
+
+.nav-item {
+    font-weight: bold;
+}
+
+
+#loading {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100000;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(240, 240, 240, 0.11);
+    background-image: url('../img/loader.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon-required {
+    font-weight: bold;
+    color: red;
+}
+
+#frmPage {
+    width: 100vw;
+    height: 105vh;
+    border: unset;
+    padding: .5rem;
+}
+
+
+.body-index {
+    overflow: hidden;
+}
+
+
+.chuyen-mau-gradient-text {
+    background: var(--gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.navbar-light .navbar-nav .active > .nav-link {
+    color: var(--color-lam);
+} 

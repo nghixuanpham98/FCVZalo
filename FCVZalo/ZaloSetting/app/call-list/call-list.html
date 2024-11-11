@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Zalo Setting</title>
+    <script src="../../assets/library/bootstrap/popper.min.js"></script>
+    <script src="../../assets/library/bootstrap/bootstrap.min.js"></script>
+    <link href="../../assets/library/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <script src="../../assets/library/bootstrap/popper2.min.js"></script>
+    <script src="../../assets/library/jquery/jquery-3.3.1.min.js"></script>
+
+    <script src="../../assets/library/fontawesome/all.js"></script>
+    <script src="../../assets/library/fontawesome/brands.js"></script>
+    <script src="../../assets/library/fontawesome/fontawesome.js"></script>
+    <script src="../../assets/library/fontawesome/regular.js"></script>
+    <script src="../../assets/library/fontawesome/solid.js"></script>
+    <link href="../../assets/library/fontawesome/fontawesome-all.css" rel="stylesheet" />
+
+    <link href="../../assets/library/select2/select2.min.css" rel="stylesheet" />
+    <script src="../../assets/library/select2/select2.min.js"></script>
+
+    <link href="../../assets/library/dtpicker/jquery.datetimepicker.min.css" rel="stylesheet" />
+    <script src="../../assets/library/dtpicker/jquery.datetimepicker.full.js"></script>
+
+    <link href="../../assets/library/toast/toastr.min.css" rel="stylesheet" />
+    <script src="../../assets/library/toast/toastr.min.js"></script>
+    <script src="../../assets/library/toast/toastr.js"></script>
+
+    <link href="../../assets/css/ivg-common.css" rel="stylesheet" />
+
+</head>
+<body>
+
+
+    <div class="container-fluid">
+         
+        <div class="row">
+            <div class="col-sm row lblPaging">
+
+                <div class="col-sm-2" hidden>
+                    <input class="form-control" type="search" spellcheck="false" autocomplete="off" placeholder="Tìm kiếm ..." id="txtKeyword" onchange="AdvancedFind(1)" />
+                </div>
+
+                <div class="col-sm-2"> 
+                    <select class="select2 form-control" id="ddlCallList" onchange="AdvancedFind(1)"></select>
+                    <input type="hidden" id="hdfCallListId" />
+                </div>
+
+                <div class="col-sm-2">
+                    <button onclick="AdvancedFind(1,1)" title="Thêm mới thông tin" data-toggle="tooltip" class="btn btn-sm btn-success"><i class="fas fa-download"></i> EXPORT EXCEL</button>
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <div class="row">
+
+            <div class="col-sm lblPaging">
+
+                <span>Tổng cộng: <b id="TotalRecords"></b> bản ghi</span>
+
+            </div>
+
+            <div class="col-sm text-right lblPaging">
+
+                <div>
+                    Hiển thị:
+                    <select id="PageSize" onchange="AdvancedFind(1)">
+                        <option value="25">25</option>
+                        <option value="50">50</option>
+                        <option value="100">100</option>
+                        <option value="500">500</option>
+                    </select> bản ghi
+                    &nbsp;
+
+                    <button onclick="FirstPage()" data-toggle="tooltip" title="Trang đầu" type="button" class="btn btn-sm btn-outline-primary"><i class="fa fa-angle-double-left"></i></button>
+                    <button onclick="PreviousPage()" data-toggle="tooltip" title="Trang trước" type="button" class="btn btn-sm btn-outline-primary"><i class="fa fa-angle-left"></i></button>
+                    Trang: <span id="PageIndex">1</span>/<span id="TotalPages">1</span>
+                    <button onclick="NextPage()" data-toggle="tooltip" title="Trang sau" type="button" class="btn btn-sm btn-outline-primary"><i class="fa fa-angle-right"></i></button>
+                    <button onclick="LastPage()" data-toggle="tooltip" title="Trang cuối" type="button" class="btn btn-sm btn-outline-primary"><i class="fa fa-angle-double-right"></i></button>
+                </div>
+
+                <input type="hidden" name="PageIndex" id="PageIndex" />
+
+            </div>
+
+        </div>
+
+
+        <div class="DataTable" style="overflow-y: scroll; height: calc(100vh - 200px)!important;">
+
+            <table class="ivgTable ivg-table" style="width:150%">
+                <thead id="tblHead"></thead>
+                <tbody id="tblBody"></tbody>
+            </table>
+        </div>
+
+    </div>
+
+    <div id="loading"></div>
+
+    <script>
+        $(".datepicker").datetimepicker({ format: 'Y-m-d', timepicker: false, });
+    </script>
+
+    <script src="../../assets/library/bootstrap/bootstrap.bundle.min.js"></script>
+
+    <script src="../../assets/js/ivg-common.js?ver=1.1"></script>
+
+    <script src="call-list.js?ver=1.2"></script>
+</body>
+</html>

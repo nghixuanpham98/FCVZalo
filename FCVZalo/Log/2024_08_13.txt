@@ -1,0 +1,192 @@
+
+15:02:01	"{\"error_name\":\"Invalid refresh token.\",\"error_reason\":\"\",\"ref_doc\":\"https://developers.zalo.me/docs/api/official-account-api/phu-luc/official-account-access-token-post-4307\",\"error_description\":\"Invalid refresh token.\",\"error\":-14014}"
+
+15:03:35	"{\"error_name\":\"Invalid refresh token.\",\"error_reason\":\"\",\"ref_doc\":\"https://developers.zalo.me/docs/api/official-account-api/phu-luc/official-account-access-token-post-4307\",\"error_description\":\"Invalid refresh token.\",\"error\":-14014}"
+
+15:04:22	"{\"error_name\":\"Invalid refresh token.\",\"error_reason\":\"\",\"ref_doc\":\"https://developers.zalo.me/docs/api/official-account-api/phu-luc/official-account-access-token-post-4307\",\"error_description\":\"Invalid refresh token.\",\"error\":-14014}"
+
+15:05:55	"{\"error_name\":\"Invalid refresh token.\",\"error_reason\":\"\",\"ref_doc\":\"https://developers.zalo.me/docs/api/official-account-api/phu-luc/official-account-access-token-post-4307\",\"error_description\":\"Invalid refresh token.\",\"error\":-14014}"
+
+15:07:39	"{\"error_name\":\"Invalid refresh token.\",\"error_reason\":\"\",\"ref_doc\":\"https://developers.zalo.me/docs/api/official-account-api/phu-luc/official-account-access-token-post-4307\",\"error_description\":\"Invalid refresh token.\",\"error\":-14014}"
+
+15:09:37	"{\"error_name\":\"Invalid refresh token.\",\"error_reason\":\"\",\"ref_doc\":\"https://developers.zalo.me/docs/api/official-account-api/phu-luc/official-account-access-token-post-4307\",\"error_description\":\"Invalid refresh token.\",\"error\":-14014}"
+
+15:18:02	"{\"error_name\":\"Invalid refresh token.\",\"error_reason\":\"\",\"ref_doc\":\"https://developers.zalo.me/docs/api/official-account-api/phu-luc/official-account-access-token-post-4307\",\"error_description\":\"Invalid refresh token.\",\"error\":-14014}"
+
+15:20:18	"{\"access_token\":\"9bC39OTP1r8aMmqlXr0BNIfK3oc9I7uuI35r5eDESo1jEoSmpKCv8JixE1VNJ6rW6Z0kVED0AcfQHKrA_HCxI0DCUshn3sLO0tK0RiqTG5yV6XmeuM5fBYmm41AFL6SSLpyaOR9ITNj3DWzsl3rBKcbV5I74BcKXCqy4DyyL0mOrQLusnoat6W0eF2_2GdvR2HKyAVHVFmSbEqC4y4OsSnu_TNU-E3Lc7bXC4Tyx1YSWVarH-0SnLW1gG43mO2TSC3DX8P1J6numA1e-xL5U8WmhEXMfNdyuToOSI91H6aefMdDZs1ntJdXMVJAfAGW51LvU4SK0ApW_MMaxsnugBZb8OGg0I25YU3rb4TfO7nLuKa84c1L64sPE5mA6BauhQ4rG7waq2Hz_LHS9fqfSUXuDC7TYQ9GoCqM6JmDK\",\"refresh_token\":\"vw8qHu-trqRbgZfDZxxRIUkbE4k1fgPDwS041Dw9fstcoZ4nZAgLJuZi3okl-8jTWOy9EeZZZJs5j2fxwSsG0l-t2NpQrO87iQzaVBZeydRMgN00pDFiUCcmOdFSsEmOsRTgVFJroGBUkYfhqFIi7hhWJ7cLYjjwiU1vBzIwo5UutbzLlyVnFwUCP432pFOOnTTjGzIfwGIuq5fDd8Vy2eR3PdVilyedWi1DN8VOrrQvhqydtF3QMBcyMJwmrln3lQqRH8ZigJgJXJHgz-2X2-obCb_3nwudgjWSSwIRvGo8tG1ceeA578pXQKw9Ylu5ZT9Y0BEd-5sasdajhfFzSgVQ6GESaPHvYkmY0gMAc0NApNfxphBwVDB8QIJRbl55_-9gJzkGypN9Ydr_eSNpU9I9OHnTBTGpZg7JG0\",\"expires_in\":\"90000\"}"
+
+15:20:22	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+15:20:22	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+15:20:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+15:21:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+15:22:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+15:23:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+15:23:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+15:23:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+15:24:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+15:28:27	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+15:29:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+15:29:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+15:29:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+15:30:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+15:31:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+15:32:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+15:32:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+15:32:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+15:33:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+15:34:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+15:35:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+15:35:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+15:35:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+15:36:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+15:37:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+15:38:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+15:38:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+15:38:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+15:39:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+15:40:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+15:41:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+15:41:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+15:41:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+15:42:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+15:43:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+15:44:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+15:44:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+15:44:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+15:45:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+15:46:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+15:47:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+15:47:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+15:47:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+15:48:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+15:49:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+15:50:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+15:50:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+15:50:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+15:51:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+15:52:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+15:53:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+15:53:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+15:53:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+15:54:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+15:55:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+15:56:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+15:56:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+15:56:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+15:57:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+15:58:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+15:59:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+15:59:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+15:59:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+16:00:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+16:01:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+16:02:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+16:02:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+16:02:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+16:03:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+16:04:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+16:05:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+16:05:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+16:05:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+16:06:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+16:07:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+16:08:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+16:08:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+16:08:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+16:09:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+16:10:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+16:10:26	"{\"access_token\":\"j98NPl0abNoscXbiy2sPSxYL6sh-DVWJreWBMi1_-m3OmJn4vWd7BjFOD7RLEEWkuzaxDg88n4pXmI0ztNsWNzMaSX_MGubaogm95inBtMJraWmkwJ7eO-pp5HpK9ETvaE0tEA83pdNcvoa4f0xc7e6o2dt83OiN-C8CKUu1-o3fnHPXqndWFi-l627qPzT2tQ0R3ivX_b_seWb1tcIC3Pw7Oqs_QE0Fk95ZVw8gjpgndNHVgapmJvQZ1nQVP8jfbwr4SezGm33DcY11n7x56-sA21xRHUXr-ezf5yvmWq-7kaCffGQvH8smEZdALiqZxhuYSjLxm0x2cXzquLR5AT6k05cMGSy8XBuFOx1Xw3wrfIT_WbpxCiky9c-CUVuibPOkD9nHrbMYiZ87XmkmVwNtIpfnZhKeyJAHUW\",\"refresh_token\":\"58-e4lRGXHuMXwOOzjc94HY8f1xumVfkI9Qw9klS-IvuWz9MuicHDmBjkds5qybx7DQb1u3xY7Ga-lipeQc7VXYUpYYeYBzpIDZfU-Nvh1CV-S18cEkS5Ggw_bANaxqd9OJWOQkadHafeirMc_Aa7YFJnt6Tsv0h7ElWHftXZ1Toyzzi_DgWVq_Hyp70ZfbdHgFa7zAqpMPSkQqNuwhMOLxxzH2_g8HP3vkjK-3Dq1S4dAz5bx_c5HAIass0ekLX4wgoD9w4n4yJXPOwhhNdSGseZG2uWSK90As6KewFxoTfnSTXv_ALENBXlNNzjD4Q69tcN9UipoGLvhzjYlBFFZpae7gOuCmA1R-7HQMi-0uj-gjocF-8EtYlo4h6h8f09AN78Qcla5OnlSmcif6vSY30yo7NPne-zyQ160\",\"expires_in\":\"90000\"}"
+
+16:11:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+16:11:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+16:11:23	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+16:11:48	"{\"access_token\":\"UaduUDlXx65uGVPos-ZWRdPEz7JLy98CUGxrKu2dWp5-0ymkhQM-KdPFrmsAZSHiRodJ3CB_mdCpDgusvDF1R0eYaYhaqE1r6H-5AjBwyd8MFEGIz-7-RH8ta2J_b_zYNd-l08s5lt9HRAuEywxAHrSAtrpttBqR2Zt8GitTk5eZ2UauZlt-VM0wacI0skH_PZZrPQhTu0WAEP10v9dz61vCgcJhai5_7NVH9FhVltiFAzXbrFMkAI8not3nvjiNBJE1JFhLr30sBQ9ArOhCKIvqeYFRlknP2q7y8SURYNe6MSaT-9opHG94frV3fk0cF7AAJjginH4XIDziqhU8Dov4-NhgeAu0IGB7Rkt5XGam4FnRtjExGo4nropUwP8o9YlaRyJZhYCADiD3tzVP63ulmbTJR9IG8olQz-Xd\",\"refresh_token\":\"9Vc6JfxU73idyOX4djSGD2d-YaAGptvJMBY4Tw6NR6b3-Pj-kfPZ0KwaX3-eqreDSO6K7QlCN0zluPqIh8a736ZqXp61W7uVUUcK3Bs4NWfxpvjzkR9XVbFvbGlle04-AENK0CgvAWObdyih_ki15GMU-ndYsJCA1A3c0-tK27SNiyXqyi4iHJ-pmsV1nHz_DhJQSTNJ3rfjdS1NrEWcLmEeqNM-vavaTBIdSR_bOLvvYQrJbUvaRM_7h6QmZqzcNTEG5R22RHDtqF8niAiECds6qqsdsmn_ROBNTRdl7bnSkVfld-nbNcB4W3IpY7z7UTY6HuIiKp9S-iONjwq_4LA2eXIJnLqmSEo30igRNIWNvRSSgubiRaBazas4gX4dNk3nAO2BCmbxtDiVXB8qDOuVhKUVo1Wz\",\"expires_in\":\"90000\"}"
+
+16:11:48	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+16:11:48	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+16:11:48	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"

@@ -1,0 +1,18 @@
+
+08:40:07	"{\"access_token\":\"3Y-1U0UCvsaC9uzo1uNhPW8eZNG9dQbkHp6o70B5cGr92hrUJEY7DmCUdtDwiPeX46IAQrQ-gd0cRiq0AiRlGd4dtrOWwkK4HGVnG3JmaL9_MO8Y9eggJbPymmXUdkPiCsdW0qEzmcSJJDOGUORHGd9UiHXtdPS3FZENHbN_dn4W5g9gJ-6g0pe8k0rC-AKT8G6cLtpvcJ0vEePhFUEEU5WpjIiLdhquGLsvToAUgpLSDxXyKPwV32P2-dnTczuoBslMMtUYxp8WJTmyUEAyUX9BknPUd89v6rEBCNAdgcKNJiboOgR0AIbJntCuczjcCtQw6ZsOXqnfJw8mPOExTIvLimDKWOzhAssfFKAVcaWxG_rUGRhK2Wf9ur5oflOz07BzQtc7uYeaV_fDAxViE41ya49bF9jH8mQQusy\",\"refresh_token\":\"RX6P6-DkjG9i6PSHusUv3M8MbHVjVzXpB5MgRQOZzWjDL9Hhk2B79NLGx7wwMSSNPtk_IB9ow3DTPQaeZbhWO65LedlqKEqMBLIz3znfx5qWTvL2xaZQEJTXi5NQGf8F67pbLyTNhaGE8lW1tb7HKYLNfatqIVTVAZUDGU4wrLaiC9b5-3FGBpKPYKcxDy4NEpsx3kuFa5rYF_n7Y3-iArennrdG4fuR7XZB1TuFvaaY09Wu-mxGTWSgeJc99_HV03YC5z0hmrfS9vS0hJhVP6SAzWYB9w9J0WpZIFvogW0WGOX8qJxV1pijz6EsMguaQdNZGRnLjmbrHTjfjs6J27vUtaxmOPHI14_62Srcx4GYMRfPpbZiEp5GhIVPLVKx34U-8_54adnmKjm_ks7qTteHXsXwMhX76olYUB44\",\"expires_in\":\"90000\"}"
+
+08:40:12	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+08:40:12	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+08:40:12	"{\"error\":-224,\"message\":\"The OA needs to upgrade OA Tier Package to use this feature. See more on https://zalo.cloud/oa/pricing\"}"
+
+10:39:12	"{\"error_name\":\"Invalid refresh token.\",\"error_reason\":\"\",\"ref_doc\":\"https://developers.zalo.me/docs/api/official-account-api/phu-luc/official-account-access-token-post-4307\",\"error_description\":\"Invalid refresh token.\",\"error\":-14014}"
+
+10:39:47	"{\"error_name\":\"Invalid refresh token.\",\"error_reason\":\"\",\"ref_doc\":\"https://developers.zalo.me/docs/api/official-account-api/phu-luc/official-account-access-token-post-4307\",\"error_description\":\"Invalid refresh token.\",\"error\":-14014}"
+
+10:40:48	"{\"error_name\":\"Invalid refresh token.\",\"error_reason\":\"\",\"ref_doc\":\"https://developers.zalo.me/docs/api/official-account-api/phu-luc/official-account-access-token-post-4307\",\"error_description\":\"Invalid refresh token.\",\"error\":-14014}"
+
+15:52:06	"{\"error_name\":\"Invalid refresh token.\",\"error_reason\":\"\",\"ref_doc\":\"https://developers.zalo.me/docs/api/official-account-api/phu-luc/official-account-access-token-post-4307\",\"error_description\":\"Invalid refresh token.\",\"error\":-14014}"
+
+16:22:17	"{\"error_name\":\"Invalid refresh token.\",\"error_reason\":\"\",\"ref_doc\":\"https://developers.zalo.me/docs/api/official-account-api/phu-luc/official-account-access-token-post-4307\",\"error_description\":\"Invalid refresh token.\",\"error\":-14014}"

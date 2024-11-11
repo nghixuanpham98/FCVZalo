@@ -1,0 +1,8 @@
+
+11:02:12	{"app_id":"3458727098795796717","user_id_by_app":"7805272442711811998","event_name":"user_send_text","timestamp":"1723521731972","sender":{"id":"5511728893503375128"},"recipient":{"id":"579745863508352884"},"message":{"msg_id":"This is message id","text":"This is testing message"}}
+
+11:02:27	{"app_id":"3458727098795796717","user_id_by_app":"7805272442711811998","event_name":"user_send_text","timestamp":"1723521747520","sender":{"id":"5511728893503375128"},"recipient":{"id":"579745863508352884"},"message":{"msg_id":"This is message id","text":"This is testing message"}}
+
+11:31:03	{"app_id":"3458727098795796717","user_id_by_app":"7805272442711811998","event_name":"user_send_text","timestamp":"1723523462596","sender":{"id":"5511728893503375128"},"recipient":{"id":"579745863508352884"},"message":{"msg_id":"This is message id","text":"This is testing message"}}
+
+16:04:26	{"oa_id":"980920582523369584","follower":{"id":"359809687214508032"},"event_name":"unfollow","source":"unfollow","app_id":"3458727098795796717","timestamp":"1723539863575"}

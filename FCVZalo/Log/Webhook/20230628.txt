@@ -1,0 +1,6 @@
+
+13:45:58	{"app_id":"3458727098795796717","user_id_by_app":"7805272442711811998","event_name":"user_send_text","timestamp":"1687934756678","sender":{"id":"5511728893503375128"},"recipient":{"id":"579745863508352884"},"message":{"msg_id":"This is message id","text":"This is testing message"}}
+
+13:46:00	{"app_id":"3458727098795796717","user_id_by_app":"7805272442711811998","event_name":"user_send_text","timestamp":"1687934760009","sender":{"id":"5511728893503375128"},"recipient":{"id":"579745863508352884"},"message":{"msg_id":"This is message id","text":"This is testing message"}}
+
+13:46:39	{"app_id":"3458727098795796717","oa_id":"579745863508352884","event_name":"user_reply_consent","timestamp":"1687934798758","expired_time":"1687934798758","confirmed_time":"1687934798758","phone":"84773543888"}

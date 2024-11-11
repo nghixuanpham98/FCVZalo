@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FCV Chat</title>
+    <!--Reset CSS-->
+    <link href="assets/reset-css/normalize.css" rel="stylesheet" />
+    <!--Bootstrap-->
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!--Fontawesome-->
+    <link href="assets/fontawesome/css/all.min.css" rel="stylesheet" />
+    <!--Jquery-->
+    <script src="assets/jquery/jquery-360.min.js"></script>
+    <!--JavaScript-->
+    <script src="assets/js/api-url.js"></script>
+    <script src="assets/js/common.js"></script>
+    <script src="assets/js/index.js"></script>
+    <!--Css-->
+    <link href="assets/css/common.css" rel="stylesheet" />
+    <!--Toast Notifications-->
+    <link href="assets/toast/toastr.min.css" rel="stylesheet" />
+    <script src="assets/toast/toastr.min.js"></script>
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <!--Main Content-->
+            <div class="main-content col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <!--Navigation-->
+                <div class="main-content-nav">
+                    <div class="nav-block">
+                        <div class="nav-block__avatar">
+                            <img alt="Hình ảnh" class="nav-block__avatar-img" src="" />
+                        </div>
+
+                        <ul class="nav-list">
+                            <li onclick="choosePlatform('zalo-chat')" class="nav-list__item">
+                                <span id="zaloChat" title="Tin nhắn" class="nav-list__item-block nav-list__item-block--active">
+                                    <i class="nav-icon fa-solid fa-comments"></i>
+                                </span>
+                                <span title="Tin nhắn mới" class="nav-list__item-icon-new"></span>
+                            </li>
+
+                            <li hidden class="nav-list__item">
+                                <span class="nav-list__item-block">
+                                    <i class="nav-icon fa-regular fa-address-book"></i>
+                                </span>
+                            </li>
+
+                            <li hidden class="nav-list__item">
+                                <span class="nav-list__item-block">
+                                    <i class="nav-icon fa-solid fa-toolbox"></i>
+                                </span>
+                            </li>
+
+                            <li hidden class="nav-list__item">
+                                <span class="nav-list__item-block">
+                                    <i class="nav-icon fa-solid fa-cloud-moon"></i>
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="nav-block d-flex align-items-center justify-content-center">
+                        <span hidden title="Cài đặt" class="nav-block__settings">
+                            <i class="nav-icon fa-solid fa-gear"></i>
+                        </span>
+                    </div>
+                </div>
+
+                <!--Iframe content-->
+                <iframe id="ivg-content" src="app/zalo-chat/zalo-chat.html">
+                </iframe>
+            </div>
+
+            <!--Loader-->
+            <div id="loader">
+                <div id="effBackground">
+                    Đang tải
+                    <span class="spanLoading"></span>
+                </div>
+            </div>
+
+            <input type="hidden" id="app_id"/>
+            <input type="hidden" id="secret_key"/>
+        </div>
+    </div>
+</body>
+</html>

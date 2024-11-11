@@ -1,0 +1,1301 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="content-language" content="vi" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Template - Homepage</title>
+
+    <!-- Library -->
+    <script type="text/javascript" src="https://c.na1.visual.force.com//support/api/43.0/lightning/opencti_min.js"></script>
+    <script src="https://ap1.salesforce.com/soap/ajax/29.0/connection.js" type="text/javascript"></script>
+    <script src="https://ap1.salesforce.com/soap/ajax/29.0/apex.js" type="text/javascript"></script>
+
+    <!-- Bootstrap CSS -->
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="./assets/css/fontawesome-all.min.css" rel="stylesheet" />
+    <link href="./assets/css/style.min.css" rel="stylesheet" />
+    <script src="./assets/js/jquery-3.2.1.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/style.js"></script>
+    <script src="./assets/js/devonline.js?ver=1.18"></script>
+
+    <style>
+        textarea {
+            width: 100%;
+        }
+
+        .popupclick {
+            display: block;
+            position: absolute;
+            bottom: 0.1rem;
+            left: 0.5rem;
+        }
+
+        .close {
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+
+        .slds-utility-panel.slds-is-open {
+            box-shadow: 0 -2px 2px 0 rgba(0, 0, 0, 0.16);
+            transform: translateY(0);
+            border-top-left-radius: 10px !important;
+            border-top-right-radius: 10px !important;
+            font-weight: bold;
+        }
+
+        .oneUtilityBarPanel .headerLink {
+            color: #fff !important
+        }
+    </style>
+</head>
+<body>
+    <div class="f5dev" style="width: 296px">
+        <div class="popupclick" style="display: none;">
+            <button class="btn btn-success" id="onClickPopup"> Smart Center</button>
+        </div>
+        <div class="test" style="position: absolute; top: 0;right: 0;width: 50%; height: 700px; display: none;">
+            <input id="btnConnect" type="button" value="Connect" onclick="onConnectClick()">
+            <hr>
+            <input id="btnLogIn" type="button" value="LogOn" onclick="onLogOnClick()">
+            <input id="btnLogOff" type="button" value="LogOff" onclick="onLogOffClick()" disabled="disabled">
+            <input id="btnAvail" type="button" value="Avail" onclick="onAvailClick()" disabled="disabled">
+            <input id="btnUnAvail" type="button" value="UnAvail" onclick="onUnAvailClick()" disabled="disabled">
+            <input id="btnWrapup" type="button" value="Wrapup" onclick="onWrapupClick()" disabled="disabled">
+            <hr>
+
+            <textarea id="incomingMsgOutput" rows="10" cols="20" disabled="disabled"></textarea>
+
+            <hr>
+        </div>
+        <div id="statics" class="statics" style="display: none">
+            <div class="stt_box stt_box_1">
+                <div class="tiles-heading">
+                    <div class="pull-left">Queue</div>
+                </div>
+                <div class="tiles-body">
+                    <div id="f5queue"></div>
+                </div>
+            </div>
+            <div class="stt_box stt_box_1">
+                <div class="tiles-heading">
+                    <div class="pull-left">Inc</div>
+                </div>
+                <div class="tiles-body">
+                    <div id="f5inc"></div>
+                </div>
+            </div>
+            <div class="stt_box stt_box_2">
+                <div class="tiles-heading">
+                    <div class="pull-left">Ans</div>
+                </div>
+                <div class="tiles-body">
+                    <div id="f5ans"></div>
+                </div>
+            </div>
+            <div class="stt_box stt_box_1">
+                <div class="tiles-heading">
+                    <div class="pull-left">%Ans</div>
+                </div>
+                <div class="tiles-body">
+                    <div id="f5ansf"></div>
+                </div>
+            </div>
+            <div class="stt_box stt_box_1">
+                <div class="tiles-heading">
+                    <div class="pull-left">Out</div>
+                </div>
+                <div class="tiles-body">
+                    <div id="f5out">500</div>
+                </div>
+            </div>
+            <div class="stt_box stt_box_1">
+                <div class="tiles-heading">
+                    <div class="pull-left">AvgTalk</div>
+                </div>
+                <div class="tiles-body">
+                    <div id="f5avg">8</div>
+                </div>
+            </div>
+        </div>
+        <div class="ivg">
+            <div class="f5dev_alert" style="position: absolute;top: 50%;text-align: center;padding: 20px;">
+                <div id="myAlert"></div>
+            </div>
+            <div class="form-login c-login" id="c-login" style="display: none">
+                <h4><i class="fas fa-assistive-listening-systems"></i> System Login</h4>
+                <label for="ext">Select Your Ext</label>
+                <select class="form-control fExt" id="fExt" onclick="GetDevices()">
+                </select>
+                </br>
+                <span class="group-btn">
+                    <a href="javascript:void(0)" onclick="fLogOnEtx()" class="btn btn-success"><i class="fas fa-sign-in-alt"></i> Login <i class="fa fa-sign-in"></i></a>
+                </span>
+            </div>
+            <input style="display: none" id="btnSingleStepTransfer" type="button" value="Transfer To IVR" onclick="onSingleStepTransferClick()" disabled="disabled">
+            <div class="tcontent" id="tcontent" style="display: none">
+                <div class="c-main">
+                    <div class="sheader" id="sHeader" disabled="disabled">
+                        <div class="row">
+                            <div class="col col-3">
+                                Agent: <span id="mAgent"></span>
+                            </div>
+                            <div class="col col-3">
+                                Ext: <span id="mExt"></span>
+                            </div>
+                            <div class="col col-3 stt">
+                                <select disabled="disabled" class="cStatus" id="cStatus">
+                                    <option value="Avail">Avail</option>
+                                    <option value="UnAvail">UnAvail</option>
+                                    <option value="Wrapup">Wrapup</option>
+                                </select>
+                            </div>
+                            <style>
+                                .cStatus option {
+                                    background: #2d3655;
+                                }
+                            </style>
+                            <div class="col col-3" id="fLog">
+                                <a href="javascript:void(0)" id="fLogOut" onclick="fLogOut()" style="display: block; color: #fff"><i class="fas fa-sign-out-alt"></i> Logout</a>
+                                <a href="javascript:void(0)" id="fLogOn" onclick="fLogOn()" style="display: none; color: #fff"><i class="fas fa-sign-out-alt"></i> LogOn</a>
+                            </div>
+                            <button class="close" style="display: none;"><i class="far fa-times-circle"></i></button>
+                        </div>
+                    </div><!-- End Header-->
+                    <div class="home" id="home">
+                        <div class="c-tsearch">
+                            <div class="row">
+                                <div class="col col-10">
+                                    <div class="f5dev_form">
+                                        <input id="SearchInput" class="form-control input-lg" placeholder="Enter Number to Search..." autocomplete="off">
+                                        <button id="SearchAction" style="display: none" onclick="onSearchContactClick()">Button</button>
+                                    </div>
+
+                                </div>
+                                <div class="col col-2">
+                                    <div class="action">
+                                        <button class="btn btn-success" id="callnow"><i class="fas fa-calculator"></i></button>
+                                    </div>
+                                </div>
+                            </div><!-- End Row Dial-->
+                            <div id="filter-records"></div>
+                        </div><!-- End Search-->
+                        <!-- -->
+                        <div id="searchSubmit"></div>
+                        <div class="c-tab">
+                            <!-- Nav tabs -->
+                            <ul class="nav nav-tabs">
+                                <li class="nav-item">
+                                    <a class="nav-link active" data-toggle="tab" href="#history">Call History</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#report">Report</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#misscall">Miss Call</a>
+                                </li>
+                            </ul>
+                            <!-- Tab panes -->
+                            <div class="tab-content">
+                                <div id="history" class="tab-pane active">
+                                    <div id="filter-his"></div>
+                                </div>
+                                <div id="report" class="tab-pane fade">
+
+                                    <div id="filter-report">
+                                        <div id="reportView"></div>
+                                        <div id="reportExport"></div>
+                                    </div>
+                                    <hr>
+                                    <div>
+                                        <small>Version 1.18</small>
+                                    </div>
+                                    <hr>
+
+
+                                    <style>
+                                        .tab-content {
+                                            border-top: 1px solid rgba(0,0,0,.1);
+                                        }
+
+                                        #report {
+                                            padding-top: 20px;
+                                        }
+
+                                            #report input {
+                                                margin: 10px 0;
+                                            }
+
+                                            #report button {
+                                                border-radius: .25rem;
+                                                padding: .375rem .75rem;
+                                            }
+
+                                            #report a {
+                                                font-size: 12px;
+                                            }
+
+                                        #reportView {
+                                            float: left;
+                                            display: block;
+                                            margin-left: 60px;
+                                            margin-right: 20px;
+                                        }
+                                    </style>
+                                </div>
+                                <div id="misscall" class="tab-pane fade">
+                                    <div id="filter-misscall"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Home -->
+                    <div class="lCallOut" id="lCallOut">
+                        <div class="call-now" id="call-now" style="display: none">
+                            <!-- <h4><i class="fas fa-phone-volume"></i> Dial Now</h4> -->
+                            <div class="keyboard" style="width: 80%;margin-left: auto;margin-right: auto;display: block">
+                                <div class="row">
+                                    <div id="numInput">
+                                        <input type="text" id="txtPhoneOut" class="form-control" value="" placeholder="Enter Call Number..." autofocus>
+                                        <button onclick="document.getElementById('txtPhoneOut').value = ''">Clear</button>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-4">
+                                        <button class="btn num" id="num1" name="num1" value="1">1</button>
+                                    </div>
+                                    <div class="col-4">
+                                        <button class="btn num" id="num2" name="num2" value="2">2</button>
+                                    </div>
+                                    <div class="col-4">
+                                        <button class="btn num" id="num3" name="num3" value="3">3</button>
+                                    </div>
+                                    <div class="col-4">
+                                        <button class="btn num" value="4">4</button>
+                                    </div>
+                                    <div class="col-4">
+                                        <button class="btn num" value="5">5</button>
+                                    </div>
+                                    <div class="col-4">
+                                        <button class="btn num" value="6">6</button>
+                                    </div>
+                                    <div class="col-4">
+                                        <button class="btn num" value="7">7</button>
+                                    </div>
+                                    <div class="col-4">
+                                        <button class="btn num" value="8">8</button>
+                                    </div>
+                                    <div class="col-4">
+                                        <button class="btn num" value="9">9</button>
+                                    </div>
+                                    <div class="col-4">
+                                        <button class="btn num" value="*">*</button>
+                                    </div>
+                                    <div class="col-4">
+                                        <button class="btn num" value="0">0</button>
+                                    </div>
+                                    <div class="col-4">
+                                        <button class="btn num" value="#">#</button>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="action text-center">
+                                            <button id="btnMakeCallOut" class="btn btn-success callOut mx-auto" onclick="onMakeCallOut()"><i class="fas fa-phone"></i> Call Now</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="back" style="display: none;">
+                                            <button class="btn btn-danger" id="backhome"><i class="fas fa-home"></i> Home</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- <div class="row">
+                                <div class="col col-10">
+                                    <input type="text" id="txtPhoneOut" class="form-control" placeholder="Enter Call Number..." autofocus>
+                                </div>
+                                <div class="col col-2">
+                                    <div class="action">
+                                        <button id="btnMakeCallOut" class="btn btn-success callOut" onclick="onMakeCallOut()"><i class="fas fa-phone"></i></button>
+                                    </div>
+                                </div>
+                            </div> -->
+
+                        </div><!-- End Call Now-->
+                        <div class="callingOut" id="callingOut" style="display: none;">
+                            <div class="user">
+                                <img class="img" src="./assets/images/user.png" alt="">
+                                <div class="name"><span id="fa1"></span></div>
+                            </div>
+                            <div class="stt">
+                                <p>Dialing...</p>
+                            </div>
+                            <div class="stt">
+                                <p><span id="fa2"></span></p>
+                            </div>
+                            <div class="outcall_action">
+                                <button id="endCallOut" onclick="onEndCallOut()" class="btn btn-danger endCallOut"><i class="fas fa-phone-slash"></i> End call</button>
+                            </div>
+                        </div>
+                    </div><!-- End CallOut-->
+                    <div class="lCallIn" id="lCallIn" style="display: none;">
+                        <div class="user">
+                            <img class="img" src="./assets/images/user.png" alt="">
+                            <div class="name" id="callNumber"></div>
+                        </div>
+                        <div class="stt">
+                            <p>Calling...</p>
+                        </div>
+                        <div class="incall_action">
+                            <button id="btnCancel" class="btn btn-danger endCallIn" onclick="onCancelClick()" disabled="disabled"><i class="fas fa-phone-slash"></i></button>
+                            <button id="btnAnswer" class="btn btn-success fcallIn" onclick="onAnswerClick()" disabled="disabled"><i class="fas fa-phone"></i></button>
+                        </div>
+                    </div>
+                    <!-- End Call In -->
+                    <div class="scalling" id="scalling" style="display: none;">
+                        <div class="row">
+                            <div class="col-4">
+                                <img class="img" src="./assets/images/user.png" alt="">
+                            </div>
+                            <div class="col-8">
+
+                                <p><i class="fas fa-mobile-alt"></i> <span id="fNumberCalling"></span> <span id="fNumberCaller"></span></p>
+                                <p><i class="far fa-clock"></i> <span id="time"></span></p>
+
+                            </div>
+                        </div>
+                        <div class="row justify-content-center callAction">
+                            <div class="col-2">
+                                <div class="callPause">
+                                    <button id="aHoldCall" class="btn btn-warning" onclick="aHoldCall()" disabled="disabled"><img src="./assets/images/a4.png"></button>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="callEnd">
+                                    <button id="aStopCall" class="btn btn-danger btnClear" onclick="onStopClick()" disabled="disabled"><img src="./assets/images/a2.png"></button>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="callEnd">
+                                    <button id="aCallIvr" class="btn btn-info btnIvr" onclick="onIvrClick()" disabled="disabled"><img src="./assets/images/a9.png"></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lConsult">
+                            <div class="card-header">
+                                <h5 class="lTitle">
+                                    Call Consult & Tranfer
+                                </h5>
+                            </div>
+                            <div class="card-body1">
+                                <div class="row" style="margin-bottom: 10px; margin-top: 10px;">
+                                    <div class="col-6">
+                                        <div class="cNumber">
+                                            <input type="text" id="txtPhoneNumber" placeholder="Number Consult">
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="cConsult1 callAction">
+                                            <button class="btn btn-secondary" id="btnConsult" onclick="onConsultClick()" disabled="disabled"><img src="./assets/images/a5.png"></button>
+                                            <button id="btnReconnect" class="btn btn-success fcallIn" onclick="onReconnectClick()" disabled="disabled"><img src="./assets/images/a7.png"></button>
+                                            <button class="btn btn-warning btnTransfer" id="btnTransfer" onclick="onTransferClick()" disabled="disabled"><img src="./assets/images/a6.png"></button>
+                                            <button id="btnClear" class="btn btn-danger btnClear" onclick="onClearClick()" disabled="disabled" style="display: none;">Cancel</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <input id="btnMakeCall" type="button" value="Dial" onclick="onMakeCallClick()" style="display: none;">
+                            </div>
+                        </div>
+                        <div class="lHistory" style="margin-top: 10px;">
+                            <div class="card-header">
+                                <h5 class="lTitle">
+                                    Save CallLog
+                                </h5>
+                            </div>
+                            <!-- <p id="demo"></p> -->
+                            <div class="card-body">
+                                <div class="fContactSelect">
+                                    <label>Select Name:</label>
+                                    <select class="ContactSelect" id="myselect">
+                                    </select>
+                                </div>
+                                <div class="fContactNew">
+                                    <p class="fText" style="display: none;">This is the fisrt time calling...Please click "New Lead" to save this Phone</p>
+                                    <div class="form-group">
+                                        <input id="txtCustomerName" />
+                                    </div>
+                                    <input id="btnNewCustomer" class="btn btn-success" type="button" value="New Lead" onclick="onNewCustomerClick()">
+                                </div>
+                                <div class="fSaveLog" style="text-align: right">
+                                    <input id="btnOpenCon" class="btn btn-success" type="button" value="Open Contact" onclick="onOpenConClick()" style="width: auto!important">
+                                    <div class="f5None" style="display: none">
+                                        <div class="form-group">
+                                            <input type="text" id="txtSubject" text="Subject" placeholder="Input Subject"></input>
+                                        </div>
+                                        <div class="form-group">
+                                            <textarea id="txtContent" rows="3" cols="10" placeholder="Input Comment"></textarea>
+                                        </div>
+
+                                        <input id="btnCreateCase" class="btn btn-success" type="button" value="Create To Case" onclick="onCreateCaseClick()">
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Calling -->
+                </div>
+            </div>
+            <!-- <div class="tfooter">
+                <p>Copyright @2018 by IVG Corp</p>
+            </div> -->
+        </div>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <style>
+            input, textarea, select {
+                border: 1px solid #e3e2e2 !important;
+            }
+
+                select.cStatus {
+                    border: 0px solid #e3e2e2 !important;
+                }
+
+            input {
+                height: 2rem !important;
+                padding: 0 0.5rem !important;
+                /* line-height: 18px; */
+                width: 100%;
+                /* padding-left: 1rem; */
+                border-radius: 0 !important;
+                font-size: 0.8rem !important;
+            }
+
+            textarea {
+                padding-left: : 0.5rem !important;
+            }
+
+            .sheader {
+                margin-bottom: 0.5rem !important;
+            }
+
+            .fSaveLog .form-group {
+                margin-bottom: 0.5rem !important;
+            }
+
+            #btnCreateCase, #btnNewCustomer {
+                width: auto !important;
+            }
+
+            select {
+                font-size: 0.8rem;
+            }
+
+            .lCallOut .call-now {
+                margin-top: 10% !important;
+            }
+
+            #callnow {
+                width: 33px;
+                height: 33px;
+                padding: 3px;
+            }
+
+            .fContactSelect select {
+                padding: 0.3rem;
+                width: 60%;
+                float: right;
+            }
+
+            .fSaveLog textarea {
+                padding-left: 8px;
+            }
+
+            .fContactSelect label {
+                display: inline-block;
+                margin-bottom: 0;
+            }
+
+            .lConsult .btn {
+                border-radius: 50%;
+                padding: 0;
+            }
+
+            .callAction img {
+                width: auto !important;
+                height: 28px !important;
+            }
+
+            .callAction button {
+                width: 32px;
+                padding: 0px;
+                height: 32px;
+                border-radius: 50%;
+            }
+
+            .callAction img {
+                width: 76% !important;
+                height: auto !important;
+            }
+
+            .lConsult {
+                margin-top: 10px;
+            }
+
+                .lConsult .btn {
+                    font-size: 0.8rem;
+                    margin-right: 4px;
+                }
+
+                .lConsult h5, .lHistory h5 {
+                    font-size: 0.8rem;
+                    padding-top: 5px;
+                    text-align: center;
+                    font-weight: bold;
+                }
+
+                .lConsult .card-body, .lHistory .card-body {
+                    display: block;
+                    padding: 0.5rem 1rem;
+                }
+
+                .lConsult .card-header, .lHistory .card-header {
+                    padding: .2rem 1.25rem;
+                    margin-bottom: 0;
+                    background-color: rgba(0,0,0,.03);
+                    border-bottom: 0;
+                    border-radius: 0;
+                }
+
+            .cConsult, .cTranfer {
+                display: block;
+                text-align: center;
+            }
+
+            .cConsult {
+                /*padding-left: 15px;*/
+            }
+
+                .cConsult .btn {
+                    width: 124px;
+                }
+
+            .cNumber {
+                float: left;
+                display: block;
+            }
+
+                .cNumber input {
+                    height: 2rem;
+                    padding: 0.5rem 0;
+                    line-height: 18px;
+                    width: 139px;
+                    padding-left: 1rem;
+                    border-radius: 0px;
+                    font-size: 0.8rem;
+                    border: 1px solid #e3e2e2;
+                }
+
+            .cTranfer .btn {
+                width: 86px;
+            }
+
+            .cClear .btn {
+                width: 73px;
+            }
+
+            .scalling p i {
+                color: green;
+                margin-right: 10px;
+            }
+
+            .lConsult .cConsult:hover, .lConsult .cTranfer:hover {
+                background: #f7f7f7;
+                border-radius: 5px;
+            }
+
+            .cConsult:disabled, .cTranfer:disabled {
+                opacity: .65;
+            }
+
+            .scalling_img {
+                width: 30%;
+            }
+
+            .callOut {
+                padding: 0.25rem 0.50rem !important;
+            }
+
+            .lCallOut {
+                margin-top: 0 !important;
+            }
+
+            #callingOut {
+                margin-top: 25% !important;
+            }
+            /*Search Form*/
+            #custom-search-form {
+                margin: 0;
+                margin-top: 5px;
+                padding: 0;
+            }
+
+                #custom-search-form .search-query {
+                    padding-right: 3px;
+                    padding-right: 4px \9;
+                    padding-left: 3px;
+                    padding-left: 4px \9;
+                    /* IE7-8 doesn't have border-radius, so don't indent the padding */
+                    margin-bottom: 0;
+                    -webkit-border-radius: 3px;
+                    -moz-border-radius: 3px;
+                    border-radius: 3px;
+                }
+
+                #custom-search-form button {
+                    border: 0;
+                    background: none;
+                    /** belows styles are working good */
+                    padding: 2px 5px;
+                    margin-top: 2px;
+                    position: relative;
+                    left: -28px;
+                    /* IE7-8 doesn't have border-radius, so don't indent the padding */
+                    margin-bottom: 0;
+                    -webkit-border-radius: 3px;
+                    -moz-border-radius: 3px;
+                    border-radius: 3px;
+                }
+
+            .search-query:focus + button {
+                z-index: 3;
+            }
+
+            .tcenter {
+                text-align: center;
+            }
+
+                .tcenter a i {
+                    color: #1b5297;
+                }
+
+            .c-tsearch table {
+                margin-bottom: 0 !important;
+            }
+
+            .ivg .c-tsearch {
+                margin-bottom: 0 !important;
+            }
+
+            .ivg .table td {
+                padding: 0.1rem .3rem !important;
+            }
+
+            .c-tab .nav-link {
+                padding: .3rem 1rem;
+            }
+
+            .lCallOut {
+                padding-top: 0 !important;
+            }
+
+            #numInput {
+                position: relative;
+            }
+
+                #numInput input {
+                    width: 270px;
+                }
+
+                #numInput button {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    background: rgba(0,0,0,0.0);
+                    border: none;
+                    padding: 5px 10px;
+                    border-radius: 0;
+                    z-index: 11;
+                    cursor: pointer;
+                }
+
+            .keyboard .num {
+                width: 50px;
+                height: 50px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+            /*.keyboard .num:focus {
+                    border-color: green;
+                }*/
+            .keyboard button {
+                border-radius: 10px !important;
+            }
+
+            .keyboard .action {
+                width: 100%;
+            }
+
+            .keyboard .back button {
+                border-radius: 10px !important;
+                padding: 0.3rem 0.5rem;
+            }
+
+            .statics {
+                padding: 0 4px;
+                position: absolute;
+                bottom: 44px;
+                display: block;
+                left: 0;
+                width: 100%;
+                background: #2d3655;
+                border-bottom: 2px solid #0070d2;
+                position: fixed;
+                bottom: 0;
+            }
+
+            .stt_box {
+                width: 15%;
+                border-radius: 1px;
+                display: inline-block;
+                text-align: center;
+            }
+
+            .stt_box_1 {
+                background: #2d3655;
+            }
+
+            .stt_box_2 {
+                background: #2d3655;
+            }
+
+            .stt_box_3 {
+                background: #2d3655;
+            }
+
+            .stt_box .tiles-footer {
+                background: rgba(0,0,0,0.3);
+                color: #fff;
+                font-size: 8px;
+            }
+
+            .stt_box .tiles-heading {
+                color: #fff;
+                font-size: 10px;
+                padding-bottom: 0;
+                margin-bottom: 0;
+            }
+
+            .stt_box .tiles-body {
+                font-weight: bold;
+                color: #fff;
+                padding: 0 0 3px 0;
+            }
+
+            .sCrollY {
+                height: 355px !important;
+                overflow: hidden;
+                display: block;
+                width: 100%;
+            }
+
+                .sCrollY:hover {
+                    overflow-y: auto;
+                }
+
+            ::-webkit-scrollbar {
+                display: none;
+            }
+
+            .sCrollY tr {
+                display: block;
+            }
+
+            .f5table thead {
+                display: none;
+                border-top: 0px solid #ccc;
+            }
+
+            .f5table th {
+                border-bottom: none;
+                border-top: none !important;
+            }
+
+            tab-content {
+                border-top: 1px solid #ccc;
+            }
+
+            .nav-tabs {
+                border-bottom: 0px solid #dee2e6;
+                background: #ccc;
+            }
+
+            .ivg .c-tab .nav-tabs .nav-link {
+                border: none;
+                border-top-left-radius: 0px;
+                border-top-right-radius: 0px;
+                color: #2d3655;
+            }
+        </style>
+    </div>
+    <!-- Onload Function -->
+    <script>
+        window.onload = function () {
+            GetCaseByCus("", "Contact");
+            GetCallHistory("");
+            GetMissCall("");
+
+            GetUserNameSalesforce();
+            // document.getElementById('SearchInput').value = '';
+            // document.getElementById('txtPhoneOut').value = '';
+        };
+    </script>
+    <script>
+        /* SalesForce Functions */
+        var callbackUserName = function (response) {
+            if (response.success) {
+                if (response.returnValue != null || response.returnValue != "") {
+                    myuser = response.returnValue.runApex;
+                    //alert("Xin chao: "+ myuser);
+                    onConnectClick();
+                }
+            } else {
+                alert(response.error);
+            }
+        };
+
+        function GetUserNameSalesforce() {
+            var param = { apexClass: 'UserInfo', methodName: 'getUserName', methodParams: '' };
+            param.callback = callbackUserName;
+            sforce.opencti.runApex(param);
+        };
+    </script>
+    <!-- Stop Watch -->
+    <script>
+        function stopWatch() {
+            let time, intervalId;
+
+            //btnAnswer.addEventListener("click", function () {
+            time = -1;
+            incrementTime();
+            intervalId = setInterval(incrementTime, 1000);
+            //});
+
+            btnClear.addEventListener("click", function () {
+                clearInterval(intervalId);
+            });
+
+            function incrementTime() {
+                time++;
+                document.getElementById("time").textContent =
+                    ("0" + Math.trunc(time / 3600)).slice(-2) +
+                    ":" + ("0" + Math.trunc(time / 60)).slice(-2) +
+                    ":" + ("0" + (time % 60)).slice(-2);
+            }
+        }
+    </script>
+    <!-- Load Cases -->
+    <script>
+        var callbackCaseByCus = function (response) {
+
+            if (response.success) {
+                if (response.returnValue != null || response.returnValue != "") {
+                    var cases = response.returnValue.runApex;
+                    //alert(cases);
+                    var output = '<table class="table f5table">';
+                    output += '<thead>';
+                    output += '<tr>';
+                    output += '<th>Number</th>';
+                    output += '<th>Subject</th>';
+                    output += '<th></th>';
+                    output += '</tr>';
+                    output += '</thead>';
+                    output += '<tbody class="sCrollY">';
+                    $.each($.parseJSON(cases), function (idx, item) {
+                        output += '<tr>';
+                        output += '<td>' + item.CaseNumber + '</td>';
+                        output += '<td style="width: 250px;">' + item.Subject + '</td>';
+                        output += '<td  class="tcenter"><a href="javascript:void(0)" onclick="viewCasesClick(\'' + item.Id + '\')"><i class="far fa-eye"></i></a></td>';
+                        output += '</tr>';
+                    });
+                    output += '</tbody>';
+                    output += '</table>';
+                    $('#filter-cases').html(output);
+                }
+            } else {
+                alert(response.error);
+            }
+        };
+
+        function GetCaseByCus(cusid, custype) {
+
+            if (cusid != undefined && cusid != null && cusid != "") {
+                var findInput = 'cusid=' + cusid;
+                if (custype == "Contact") {
+                    var param = { apexClass: 'SCSearchController', methodName: 'getCasesByContactId', methodParams: findInput };
+                    param.callback = callbackCaseByCus;
+                    sforce.opencti.runApex(param);
+                }
+                else if (custype == "Account") {
+                    var param = { apexClass: 'SCSearchController', methodName: 'getCasesByAccountId', methodParams: findInput };
+                    param.callback = callbackCaseByCus;
+                    sforce.opencti.runApex(param);
+                }
+            }
+            else {
+                var param = { apexClass: 'SCSearchController', methodName: 'getCases', methodParams: '' };
+                param.callback = callbackCaseByCus;
+                sforce.opencti.runApex(param);
+            }
+        };
+        var callback = function (response) {
+            if (response.success) {
+                console.log('API method call executed successfully! returnValue:', response.returnValue);
+            } else {
+                console.error('Something went wrong! Errors:', response.errors);
+            }
+        };
+        function viewCasesClick(val) {
+
+            //var data = document.getElementById('mycase').value;
+            //alert("Click duwoc vao roi day"+val);
+            sforce.opencti.screenPop({ type: sforce.opencti.SCREENPOP_TYPE.SOBJECT, params: { recordId: val } });
+            //alert("Loi roi");
+        }
+    </script>
+    <!-- Search Contact -->
+    <script>
+        var SearchContact = document.getElementById("SearchInput");
+        SearchContact.addEventListener("keyup", function (event) {
+            event.preventDefault();
+            if (event.keyCode === 13) {
+                document.getElementById("SearchAction").click();
+            }
+        });
+        function onSearchContactClick() {
+
+            var SearchContact = document.getElementById("SearchInput").value;
+            if (SearchContact != "") {
+                SearchCus(SearchContact);
+            } else {
+                alert("Vui long nhap so can tim kiem");
+            }
+        }
+        function SearchCus(input) {
+
+            var findInput = 'ani=' + input;
+            var param = { apexClass: 'SCSearchController', methodName: 'getContacts', methodParams: findInput };
+            param.callback = callbackSearchCus;
+            sforce.opencti.runApex(param);
+
+        };
+        var callbackSearchCus = function (response) {
+
+            if (response.success) {
+                if (response.returnValue != null || response.returnValue != "") {
+                    var calls = response.returnValue.runApex;
+                    //alert(calls);
+                    var output = '<table class="table fSearch">';
+                    output += '<thead>';
+                    output += '<tr>';
+                    output += '<th>Fullname</th>';
+                    output += '<th class="tcenter">Number</th>';
+                    output += '<th class="tcenter">Value</th>';
+                    output += '</tr>';
+                    output += '</thead>';
+                    output += '<tbody>';
+                    $.each($.parseJSON(calls), function (idx, item) {
+                        //alert(item.Id +" - "+item.Name);
+                        output += '<tr>';
+                        output += '<td>' + item.Name + '</td>';
+                        output += '<td class="tcenter">' + item.Phone + '</td>';
+                        output += '<td class="tcenter"><a href="javascript:void(0)" onclick="sCallNow(\'' + item.Phone + '\')"><i class="fas fa-headset"></i></a></td>';
+                        output += '</tr>';
+                    });
+                    output += '</tbody>';
+                    output += '</table>';
+                    $('#filter-records').html(output);
+                }
+            } else {
+                alert(response.error);
+            }
+        };
+        function sCallNow(val) {
+            var called = val;
+            if (called != "")
+                MakeCall(called);
+        }
+    </script>
+    <!-- Load History Call -->
+    <script>
+        var callbackCallHistory = function (response) {
+
+            if (response.success) {
+                if (response.returnValue != null || response.returnValue != "") {
+                    var calls = response.returnValue.runApex;
+                    //alert(calls);
+                    var output = '<table class="table f5table">';
+                    output += '<thead>';
+                    output += '<tr>';
+                    output += '<th style="display: block;width:122px">Time</th>';
+                    //output += '<th style="width: 110px;">Name</th>';
+                    output += '<th style="width: 180px; text-align: left">Number <Name></th>';
+                    output += '<th></th>';
+                    output += '</tr>';
+                    output += '</thead>';
+                    output += '<tbody class="sCrollY">';
+                    $.each($.parseJSON(calls), function (idx, item) {
+                        var time = item.CreatedDate;
+                        var data = new Date(time);
+                        var b1 = data.getDate();
+                        if (b1 < 10) {
+                            var b11 = '0' + b1;
+                        }
+                        else {
+                            var b11 = b1 + '';
+                        }
+                        var b2 = data.getMonth() + 1;
+                        if (b2 < 10) {
+                            var b22 = '0' + b2;
+                        }
+                        else {
+                            var b22 = b2 + '';
+                        }
+                        var b3 = data.getFullYear();
+                        var b33 = b3.toString().substring(2, 4);
+                        var b4 = data.getHours();
+                        if (b4 < 10) {
+                            var b44 = '0' + b4;
+                        }
+                        else {
+                            var b44 = b4 + '';
+                        }
+                        var b5 = data.getMinutes().toString();
+                        if (b5 < 10) {
+                            var b55 = '0' + b5;
+                        } else {
+                            var b55 = b5 + '';
+                        }
+                        var datetime = b44 + ':' + b55;
+                        //Set Call Way
+                        var call = item.Subject;
+                        //alert("E1: "+call);
+                        if (call != null && call != "" && call != undefined) {
+                            if (item.WhoId != null) {
+                                var num = call.substring(call.lastIndexOf("-") + 1);
+
+                                var name = call.substring(call.lastIndexOf(":") + 1);
+                                var fname = name.substring(0, name.indexOf("-"));
+                            } else {
+                                var num = call.substring(call.lastIndexOf(":") + 1);
+                                var fname = "";
+                            }
+                        }
+
+                        if (item.Customer_Name__c != null && item.Customer_Name__c != undefined && item.Customer_Name__c != "")
+                            fname = item.Customer_Name__c;
+                        if (item.Phone__c != null && item.Phone__c != undefined && item.Phone__c != "")
+                            num = item.Phone__c;
+                        //Set Type
+                        var cType = item.CallType;
+                        var cStatus = item.Connected_Time__c;
+                        if (cType == "Inbound") {
+                            if (cStatus != undefined && cStatus != null) {
+                                var imgName = "callIn.png";
+                            } else {
+                                var imgName = "callInCan.png";
+                            }
+                        } else if (cType == "Outbound") {
+                            if (cStatus != undefined && cStatus != null) {
+                                var imgName = "callOut.png";
+                            } else {
+                                var imgName = "callOutCan.png";
+                            }
+                        } else {
+                            var caType = "";
+                        }
+                        //Duration
+                        var duration = item.CallDurationInSeconds;
+                        if (duration != null) {
+                            var fduration = duration;
+                        } else {
+                            var fduration = '0';
+                        }
+
+                        //Status
+                        var status = item.Status;
+                        //print screen
+                        output += '<tr>';
+                        output += '<td style="text-align:left;width:122px">' + datetime + '<br><p><strong>Duaration: </strong>' + fduration + '</p></td>';
+                        // += '<td style="text-align:left;width:110px">' + fname + '</td>';
+                        if (fname != null) {
+                            var dataname = '';
+                        } else {
+                            var dataname = '(' + fname + ')';
+                        }
+                        output += '<td style="width:180px; text-align: left"><a href="javascript:void(0)" onclick="aCallHis(\'' + num + '\')">' + num + dataname + '</a><br><p><strong>Call Status: </strong>' + status + '</p></td>';
+                        output += '<td class="tcenter"><a href="javascript:void(0)" onclick="viewAudioClick(\'' + item.Id + '\')"><img style="width: 20px;" src="./assets/images/' + imgName + '" /></a></td>';
+                        output += '</tr>';
+                    });
+                    output += '</tbody>';
+                    output += '</table>';
+                    $('#filter-his').html(output);
+                }
+            } else {
+                alert(response.error);
+            }
+        };
+        function GetCallHistory(input) {
+            //alert("F5Dev.Net");
+            var findInput = 'ani=' + input;
+            var param = { apexClass: 'SCSearchController', methodName: 'getCallHistory', methodParams: '' };
+            param.callback = callbackCallHistory;
+            sforce.opencti.runApex(param);
+        };
+        function viewAudioClick(val) {
+            //alert("Nghe Audio"+val);
+            sforce.opencti.screenPop({ type: sforce.opencti.SCREENPOP_TYPE.SOBJECT, params: { recordId: val } });
+        };
+        function aCallHis(val) {
+            var called = val;
+            if (called != "")
+                MakeCall(called);
+        };
+    </script>
+    <script>
+        var callbackCallMiss = function (response) {
+            if (response.success) {
+                if (response.returnValue != null || response.returnValue != "") {
+                    //Insert Miss Call
+                    var misscalls = response.returnValue.runApex;
+                    var moutput = '<table class="table f5table">';
+                    moutput += '<thead>';
+                    moutput += '<tr>';
+                    moutput += '<th>Number</th>';
+                    moutput += '<th>Subject</th>';
+                    moutput += '<th></th>';
+                    moutput += '</tr>';
+                    moutput += '</thead>';
+                    moutput += '<tbody class="sCrollY">';
+                    $.each($.parseJSON(misscalls), function (idx, item) {
+                        //alert(item.Id);
+                        //Format Time
+                        var time = item.CreatedDate;
+                        var data = new Date(time);
+                        var b1 = data.getDate();
+                        var b4 = data.getHours();
+                        if (b4 < 10) {
+                            var b44 = '0' + b4;
+                        }
+                        else {
+                            var b44 = b4 + '';
+                        }
+                        var b5 = data.getMinutes().toString();
+                        if (b5 < 10) {
+                            var b55 = '0' + b5;
+                        } else {
+                            var b55 = b5 + '';
+                        }
+                        var datetime = b44 + ':' + b55;
+                        //Format Number
+                        var call = item.Subject;
+                        if (call != null && call != "" && call != undefined) {
+                            if (item.WhoId != null) {
+                                var num = call.substring(call.lastIndexOf("-") + 1);
+
+                                var name = call.substring(call.lastIndexOf(":") + 1);
+                                var fname = name.substring(0, name.indexOf("-"));
+                            } else {
+                                var num = call.substring(call.lastIndexOf(":") + 1);
+                                var fname = "";
+                            }
+                        }
+
+                        if (item.Customer_Name__c != null && item.Customer_Name__c != undefined && item.Customer_Name__c != "")
+                            fname = item.Customer_Name__c;
+                        if (item.Phone__c != null && item.Phone__c != undefined && item.Phone__c != "")
+                            num = item.Phone__c;
+                        //Status Type
+                        var imgName = "callInCan.png";
+                        //Show Now
+                        moutput += '<tr>';
+                        moutput += '<td>' + datetime + '</td>';
+                        if (fname != null) {
+                            var dataname = '';
+                        } else {
+                            var dataname = '(' + fname + ')';
+                        }
+                        moutput += '<td style="width: 250px;"><a href="javascript:void(0)" onclick="aCallHis(\'' + num + '\')">' + num + dataname + '</a></td>';
+                        //moutput += '<td style="width: 250px;"><a href="javascript:void(0)" onclick="aCallMiss(\''+num+'\')">' + num + dataname +'</a></td>';
+                        moutput += '<td  class="tcenter"><a href="javascript:void(0)" onclick="viewCallMiss()"><img style="width: 20px;" src="./assets/images/' + imgName + '" /></a></td>';
+                        moutput += '</tr>';
+
+                    });
+                    moutput += '</tbody>';
+                    moutput += '</table>';
+                    $('#filter-misscall').html(moutput);
+                    //$('#filter-misscall').html("<p>Xin chao cac ban123</p>");
+
+                }
+            } else {
+                alert(response.error);
+            }
+        };
+        function GetMissCall(input) {
+            var findInput = 'ani=' + input;
+            var param = { apexClass: 'SCSearchController', methodName: 'getCallMiss', methodParams: '' };
+            param.callback = callbackCallMiss;
+            sforce.opencti.runApex(param);
+        };
+
+    </script>
+    <script>
+        var eCallNow = document.getElementById("txtPhoneOut");
+        eCallNow.addEventListener("keyup", function (event) {
+            event.preventDefault();
+            if (event.keyCode === 13) {
+                document.getElementById("btnMakeCallOut").click();
+            }
+        });
+    </script>
+    <script>
+        var input = document.querySelector("#txtPhoneOut")
+        var buttons = document.querySelectorAll("button.num")
+        for (i = 0; i < buttons.length; i++) {
+            buttons[i].addEventListener("click", function (event) {
+                input.value = input.value + event.currentTarget.value
+            })
+        }
+
+        // function onMakeCallOut1()
+        // 	{
+        // 	    var called = document.getElementById("txtPhoneOut").value;
+        // 	    if (called != "")
+        // 	        alert(called);
+        // 	}
+
+    </script>
+
+    <script>
+        function checkForUpdate() {
+            if (window.applicationCache != undefined && window.applicationCache != null) {
+                window.applicationCache.addEventListener('updateready', updateApplication);
+            }
+        }
+        function updateApplication(event) {
+            if (window.applicationCache.status != 4) return;
+            window.applicationCache.removeEventListener('updateready', updateApplication);
+            window.applicationCache.swapCache();
+            window.location.reload();
+        }
+        checkForUpdate();
+    </script>
+</body>
+</html>

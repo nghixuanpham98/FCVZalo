@@ -1,0 +1,12 @@
+
+11:54:13	"{\"data\":{\"description\":\"Công ty Cổ Phần IVG Việt nam là nhà cung cấp tiên phong trong lĩnh vực chăm sóc khách hàng và quản trị kinh doanh. Với đội ngũ chuyên gia tài năng giàu kinh nghiệm, được hỗ trợ toàn diện bởi mạng lưới đối tác trên toàn cầu, IVG luôn sẵn sàng tư vấn, cung cấp, triển khai và khai thác hiệu quả các hệ thống được tối ưu hóa cao độ, đáp ứng những yêu cầu cầu đặc thù và phù hợp với định hướng phát triển của từng tổ chức, doanh nghiệp.\",\"name\":\"IVG JSC\",\"avatar\":\"https://s160-ava-talk.zadn.vn/3/9/8/7/2/160/fd8330fcc4e59743c87d3aa6947cba7c.jpg\",\"cover\":\"https://cover-talk.zadn.vn/f/2/9/3/4/fd8330fcc4e59743c87d3aa6947cba7c.jpg\",\"oa_id\":\"980920582523369584\",\"is_verified\":true},\"error\":0,\"message\":\"Success\"}"
+
+11:56:52	""
+
+16:12:24	"{\"error\":-201,\"message\":\"file is invalid. We only support pdf, doc, csv\"}"
+
+16:13:47	"{\"data\":{\"token\":\"bh7T9a1DKXAVwfvc5qfN4TUXasKHLGDGplVDPHrVGaQF_ODjJ5uM4DseXJePMq4LZwpJ8HbTIWEBhjCh6Lr60eolrYWVMqvit_-h3J9LEsRKsl0G82GsO-YumKjzHoKNiChFT5HyA0U0syrDTsK8E-Faq5WNLI1mqTxgFaT_8rs4oDPtPpuKEQknyaqxE1udgikJKbnFKHYXqAKmC5GmM_dL_tHaOcvTkz24FobyKLV0oC5x9cSO1VRjqKPhR2vi_Pk-JcfbGMofcuT0E3uJQVpCX40yEq0vhvxN4cm-Hp2hmOGJCMDXfSQW6ri32Kq\"},\"error\":0,\"message\":\"Success\"}"
+
+16:17:20	"{\"error\":-201,\"message\":\"file is invalid. We only support pdf, doc, csv\"}"
+
+16:17:59	"{\"data\":{\"attachment_id\":\"HIdB3je0VXvF8SyDsWjd2aqnsHxQ6MqNNJBB2CuTUW59CTmUpa4iJnigaaMHK6G3LJkK2vrGTmD889nIWXPY5aDWo4M8LtzK7tdBIOrOTrGRTSf1XbLvLnLYcq667oPLGMQLGO97A5n6QCz8XaXb1rCtmr-b68GbcnD-2G\"},\"error\":0,\"message\":\"Success\"}"

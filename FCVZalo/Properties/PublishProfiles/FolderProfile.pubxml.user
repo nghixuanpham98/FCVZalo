@@ -1,0 +1,1741 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\xxxqmfrman\Documents\GitHub\FCVZalo\FCVZalo\bin\app.publish\</_PublishTargetUrl>
+    <History>True|2024-08-14T09:23:37.9051212Z;True|2024-08-13T10:22:38.8174510+07:00;True|2023-03-27T16:15:32.6146864+07:00;True|2023-03-27T15:46:10.9491773+07:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Areas/HelpPage/HelpPage.css">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/Api.cshtml">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/ApiGroup.cshtml">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/CollectionModelDescription.cshtml">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/ComplexTypeModelDescription.cshtml">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/DictionaryModelDescription.cshtml">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/EnumTypeModelDescription.cshtml">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/HelpPageApiModel.cshtml">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/ImageSample.cshtml">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/InvalidSample.cshtml">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/KeyValuePairModelDescription.cshtml">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/ModelDescriptionLink.cshtml">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/Parameters.cshtml">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/Samples.cshtml">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/SimpleTypeModelDescription.cshtml">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/TextSample.cshtml">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/Index.cshtml">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/ResourceModel.cshtml">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Shared/_Layout.cshtml">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Web.config">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/_ViewStart.cshtml">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>09/10/2013 23:29:20</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.pdb">
+      <publishTime>09/10/2013 23:29:20</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>04/17/2020 03:38:42</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>04/17/2020 03:38:56</publishTime>
+    </File>
+    <File Include="bin/EPPlus.dll">
+      <publishTime>07/19/2023 16:23:36</publishTime>
+    </File>
+    <File Include="bin/EPPlus.Interfaces.dll">
+      <publishTime>11/21/2022 19:51:04</publishTime>
+    </File>
+    <File Include="bin/EPPlus.System.Drawing.dll">
+      <publishTime>11/21/2022 19:51:06</publishTime>
+    </File>
+    <File Include="bin/FCVZalo.dll">
+      <publishTime>08/14/2024 16:23:01</publishTime>
+    </File>
+    <File Include="bin/FCVZalo.pdb">
+      <publishTime>08/14/2024 16:23:01</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>09/05/2018 23:10:50</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/25/2012 18:48:56</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>04/22/2019 08:06:16</publishTime>
+    </File>
+    <File Include="bin/RestSharp.dll">
+      <publishTime>08/26/2015 23:33:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>06/28/2016 04:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>06/28/2016 04:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>06/28/2016 04:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>06/28/2016 04:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>06/28/2016 04:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>06/28/2016 04:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>06/28/2016 04:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>06/28/2016 04:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>06/28/2016 04:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>06/28/2016 04:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>06/28/2016 04:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>06/28/2016 04:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>06/28/2016 04:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>06/28/2016 04:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>06/28/2016 04:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>06/28/2016 04:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>06/28/2016 04:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>06/28/2016 04:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>06/28/2016 04:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>06/28/2016 04:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>06/28/2016 04:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>06/28/2016 04:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>06/28/2016 04:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>06/28/2016 04:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>06/28/2016 04:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>06/28/2016 04:50:24</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>11/28/2018 20:00:36</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>11/28/2018 20:04:24</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>11/28/2018 20:01:00</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>11/28/2018 20:02:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>11/28/2018 19:59:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>02/11/2014 22:26:04</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>11/28/2018 20:00:12</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>11/28/2018 20:04:24</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>11/28/2018 20:04:24</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>11/28/2018 20:04:24</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>01/23/2014 20:57:34</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css.map">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css.map">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css.map">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css.map">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>03/20/2023 12:08:27</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>03/20/2023 12:08:27</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>03/20/2023 12:08:27</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>03/20/2023 12:08:27</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>03/20/2023 12:08:27</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>03/20/2023 12:08:27</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.js">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.min.js">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.min.map">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.slim.js">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.slim.min.js">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.slim.min.map">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.8.3.js">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="Softphone/devonline-crm.js">
+      <publishTime>09/26/2023 09:42:15</publishTime>
+    </File>
+    <File Include="Softphone/devonline-hotline.js">
+      <publishTime>09/26/2023 09:42:15</publishTime>
+    </File>
+    <File Include="Softphone/softphone-crm.html">
+      <publishTime>09/26/2023 09:42:15</publishTime>
+    </File>
+    <File Include="Softphone/softphone-hotline.html">
+      <publishTime>09/26/2023 09:42:15</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>03/28/2023 08:45:29</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>03/28/2023 08:45:29</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>08/14/2024 16:23:31</publishTime>
+    </File>
+    <File Include="Zalo/app/index.html">
+      <publishTime>03/28/2023 17:04:45</publishTime>
+    </File>
+    <File Include="Zalo/app/zalo-chat/zalo-chat.css">
+      <publishTime>05/17/2023 14:47:08</publishTime>
+    </File>
+    <File Include="Zalo/app/zalo-chat/zalo-chat.html">
+      <publishTime>04/10/2023 14:06:09</publishTime>
+    </File>
+    <File Include="Zalo/app/zalo-chat/zalo-chat.js">
+      <publishTime>04/19/2023 14:03:01</publishTime>
+    </File>
+    <File Include="Zalo/app/zalo-login/index.html">
+      <publishTime>04/04/2023 15:25:48</publishTime>
+    </File>
+    <File Include="Zalo/app/zalo-login/zalo-login.css">
+      <publishTime>03/15/2023 17:02:27</publishTime>
+    </File>
+    <File Include="Zalo/app/zalo-login/zalo-login.html">
+      <publishTime>08/13/2024 11:24:08</publishTime>
+    </File>
+    <File Include="Zalo/app/zalo-login/zalo-login.js">
+      <publishTime>08/13/2024 11:26:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/bootstrap-icons.css">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/bs-select/bootstrap-select.css">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/bs-select/bootstrap-select.js">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/bs-select/bootstrap-select.min.css">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/bs-select/bootstrap-select.min.js">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/chart/Chart-3.8.0.min.js">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/css/app.min.css">
+      <publishTime>04/05/2023 09:30:34</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/css/bootstrap-grid.css">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/css/bootstrap-grid.css.map">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/css/bootstrap-grid.min.css">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/css/bootstrap-grid.min.css.map">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/css/bootstrap-grid.rtl.css">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/css/bootstrap-grid.rtl.css.map">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/css/bootstrap-grid.rtl.min.css">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/css/bootstrap-grid.rtl.min.css.map">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/css/bootstrap-reboot.css">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/css/bootstrap-reboot.css.map">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/css/bootstrap-reboot.min.css">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/css/bootstrap-reboot.min.css.map">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/css/bootstrap-reboot.rtl.css">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/css/bootstrap-reboot.rtl.css.map">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/css/bootstrap-reboot.rtl.min.css">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/css/bootstrap-reboot.rtl.min.css.map">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/css/bootstrap-utilities.css">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/css/bootstrap-utilities.css.map">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/css/bootstrap-utilities.min.css">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/css/bootstrap-utilities.min.css.map">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/css/bootstrap-utilities.rtl.css">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/css/bootstrap-utilities.rtl.css.map">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/css/bootstrap-utilities.rtl.min.css">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/css/bootstrap-utilities.rtl.min.css.map">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/css/bootstrap.css">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/css/bootstrap.css.map">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/css/bootstrap.min.css">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/css/bootstrap.min.css.map">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/css/bootstrap.rtl.css">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/css/bootstrap.rtl.css.map">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/css/bootstrap.rtl.min.css">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/css/bootstrap.rtl.min.css.map">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/css/selectize.bootstrap5.min.css">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/dropdowntree/dropdowntree.css">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/dropdowntree/dropdowntree.js">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/dtpicker/jquery.datetimepicker.full.js">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/dtpicker/jquery.datetimepicker.min.css">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/dtpicker/timepicker-1.3.5.min.css">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/dtpicker/timepicker-1.3.5.min.js">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/album-rtl/index.html">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/album/index.html">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/assets/brand/bootstrap-logo-white.svg">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/assets/brand/bootstrap-logo.svg">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/assets/dist/css/bootstrap.min.css">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/assets/dist/css/bootstrap.min.css.map">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/assets/dist/css/bootstrap.rtl.min.css">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/assets/dist/css/bootstrap.rtl.min.css.map">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/assets/dist/js/bootstrap.bundle.min.js">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/assets/dist/js/bootstrap.bundle.min.js.map">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/blog-rtl/index.html">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/blog/blog.css">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/blog/blog.rtl.css">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/blog/index.html">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/carousel-rtl/index.html">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/carousel/carousel.css">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/carousel/carousel.rtl.css">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/carousel/index.html">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/cheatsheet-rtl/index.html">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/cheatsheet/cheatsheet.css">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/cheatsheet/cheatsheet.js">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/cheatsheet/cheatsheet.rtl.css">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/cheatsheet/index.html">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/checkout-rtl/index.html">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/checkout/form-validation.css">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/checkout/form-validation.js">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/checkout/index.html">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/cover/cover.css">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/cover/index.html">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/dashboard-rtl/dashboard.js">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/dashboard-rtl/index.html">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/dashboard/dashboard.css">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/dashboard/dashboard.js">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/dashboard/dashboard.rtl.css">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/dashboard/index.html">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/features/features.css">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/features/index.html">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/features/unsplash-photo-1.jpg">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/features/unsplash-photo-2.jpg">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/features/unsplash-photo-3.jpg">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/grid/grid.css">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/grid/index.html">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/headers/headers.css">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/headers/index.html">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/heroes/bootstrap-docs.png">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/heroes/bootstrap-themes.png">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/heroes/heroes.css">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/heroes/index.html">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/jumbotron/index.html">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/masonry/index.html">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/navbar-bottom/index.html">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/navbar-fixed/index.html">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/navbar-fixed/navbar-top-fixed.css">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/navbar-static/index.html">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/navbar-static/navbar-top.css">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/navbars/index.html">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/navbars/navbar.css">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/offcanvas-navbar/index.html">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/offcanvas-navbar/offcanvas.css">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/offcanvas-navbar/offcanvas.js">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/offcanvas/index.html">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/pricing/index.html">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/pricing/pricing.css">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/product/index.html">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/product/product.css">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/sidebars/index.html">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/sidebars/sidebars.css">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/sidebars/sidebars.js">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/sign-in/index.html">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/sign-in/signin.css">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/starter-template/index.html">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/starter-template/starter-template.css">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/sticky-footer-navbar/index.html">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/sticky-footer-navbar/sticky-footer-navbar.css">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/sticky-footer/index.html">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/examples/sticky-footer/sticky-footer.css">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/jquery/jquery-3.4.1.js">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/jquery/jquery-3.4.1.min.js">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/jquery/jquery-3.4.1.min.map">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/jquery/jquery-3.4.1.slim.js">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/jquery/jquery-3.4.1.slim.min.js">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/jquery/jquery-3.4.1.slim.min.map">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/jquery/jquey-datetimepicker.2.5.20.min.js">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/js/bootstrap.bundle.js">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/js/bootstrap.bundle.js.map">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/js/bootstrap.bundle.min.js">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/js/bootstrap.bundle.min.js.map">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/js/bootstrap.esm.js">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/js/bootstrap.esm.js.map">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/js/bootstrap.esm.min.js">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/js/bootstrap.esm.min.js.map">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/js/bootstrap.js">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/js/bootstrap.js.map">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/js/bootstrap.min.js">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/js/bootstrap.min.js.map">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/js/bstreeview.js">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/js/jquery-3.4.1.min.js">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/js/jquery-ui-1.13.1.js">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/js/jquery-ui.js">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/js/popper.min.js">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/js/selectize.js">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/multi-select/bootstrap-multiselect.css">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/multi-select/bootstrap-multiselect.js">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/select2/select2.min.css">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/select2/select2.min.js">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/tree-view/tree-view.css">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/tree-view/tree-view.min.js">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/css/common.css">
+      <publishTime>04/10/2023 15:00:46</publishTime>
+    </File>
+    <File Include="Zalo/assets/firebase/firebase-app-compat.js">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/firebase/firebase-messaging-compat.js">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/fontawesome/css/all.css">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/fontawesome/css/all.min.css">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/fontawesome/css/brands.css">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/fontawesome/css/brands.min.css">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/fontawesome/css/fontawesome.css">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/fontawesome/css/fontawesome.min.css">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/fontawesome/css/regular.css">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/fontawesome/css/regular.min.css">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/fontawesome/css/solid.css">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/fontawesome/css/solid.min.css">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/fontawesome/css/svg-with-js.css">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/fontawesome/css/svg-with-js.min.css">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/fontawesome/css/v4-font-face.css">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/fontawesome/css/v4-font-face.min.css">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/fontawesome/css/v4-shims.css">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/fontawesome/css/v4-shims.min.css">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/fontawesome/css/v5-font-face.css">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/fontawesome/css/v5-font-face.min.css">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/fontawesome/js/all.js">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/fontawesome/js/all.min.js">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/fontawesome/js/brands.js">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/fontawesome/js/brands.min.js">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/fontawesome/js/conflict-detection.js">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/fontawesome/js/conflict-detection.min.js">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/fontawesome/js/fontawesome.js">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/fontawesome/js/fontawesome.min.js">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/fontawesome/js/regular.js">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/fontawesome/js/regular.min.js">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/fontawesome/js/solid.js">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/fontawesome/js/solid.min.js">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/fontawesome/js/v4-shims.js">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/fontawesome/js/v4-shims.min.js">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/fontawesome/webfonts/fa-brands-400.ttf">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/fontawesome/webfonts/fa-brands-400.woff2">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/fontawesome/webfonts/fa-regular-400.ttf">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/fontawesome/webfonts/fa-regular-400.woff2">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/fontawesome/webfonts/fa-solid-900.ttf">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/fontawesome/webfonts/fa-solid-900.woff2">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/fontawesome/webfonts/fa-v4compatibility.ttf">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/fontawesome/webfonts/fa-v4compatibility.woff2">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/fonts/Anuphan/Anuphan-Bold.ttf">
+      <publishTime>03/31/2023 12:11:16</publishTime>
+    </File>
+    <File Include="Zalo/assets/fonts/Anuphan/Anuphan-ExtraLight.ttf">
+      <publishTime>03/31/2023 12:11:16</publishTime>
+    </File>
+    <File Include="Zalo/assets/fonts/Anuphan/Anuphan-Light.ttf">
+      <publishTime>03/31/2023 12:11:16</publishTime>
+    </File>
+    <File Include="Zalo/assets/fonts/Anuphan/Anuphan-Medium.ttf">
+      <publishTime>03/31/2023 12:11:16</publishTime>
+    </File>
+    <File Include="Zalo/assets/fonts/Anuphan/Anuphan-Regular.ttf">
+      <publishTime>03/31/2023 12:11:16</publishTime>
+    </File>
+    <File Include="Zalo/assets/fonts/Anuphan/Anuphan-SemiBold.ttf">
+      <publishTime>03/31/2023 12:11:16</publishTime>
+    </File>
+    <File Include="Zalo/assets/fonts/Anuphan/Anuphan-Thin.ttf">
+      <publishTime>03/31/2023 12:11:16</publishTime>
+    </File>
+    <File Include="Zalo/assets/fonts/Anuphan/Anuphan-VariableFont_wght.ttf">
+      <publishTime>03/31/2023 12:11:16</publishTime>
+    </File>
+    <File Include="Zalo/assets/fonts/Lato/Lato-Black.ttf">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/fonts/Lato/Lato-BlackItalic.ttf">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/fonts/Lato/Lato-Bold.ttf">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/fonts/Lato/Lato-BoldItalic.ttf">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/fonts/Lato/Lato-Italic.ttf">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/fonts/Lato/Lato-Light.ttf">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/fonts/Lato/Lato-LightItalic.ttf">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/fonts/Lato/Lato-Regular.ttf">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/fonts/Lato/Lato-Thin.ttf">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/fonts/Lato/Lato-ThinItalic.ttf">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/fonts/Lato/OFL.txt">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/fonts/Merriweather/Merriweather-Black.ttf">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/fonts/Merriweather/Merriweather-BlackItalic.ttf">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/fonts/Merriweather/Merriweather-Bold.ttf">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/fonts/Merriweather/Merriweather-BoldItalic.ttf">
+      <publishTime>03/20/2023 12:08:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/fonts/Merriweather/Merriweather-Italic.ttf">
+      <publishTime>03/20/2023 12:08:27</publishTime>
+    </File>
+    <File Include="Zalo/assets/fonts/Merriweather/Merriweather-Light.ttf">
+      <publishTime>03/20/2023 12:08:27</publishTime>
+    </File>
+    <File Include="Zalo/assets/fonts/Merriweather/Merriweather-LightItalic.ttf">
+      <publishTime>03/20/2023 12:08:27</publishTime>
+    </File>
+    <File Include="Zalo/assets/fonts/Merriweather/Merriweather-Regular.ttf">
+      <publishTime>03/20/2023 12:08:27</publishTime>
+    </File>
+    <File Include="Zalo/assets/fonts/Merriweather/OFL.txt">
+      <publishTime>03/20/2023 12:08:27</publishTime>
+    </File>
+    <File Include="Zalo/assets/fonts/Montserrat Font/Montserrat-Italic-VariableFont_wght.ttf">
+      <publishTime>03/20/2023 12:08:27</publishTime>
+    </File>
+    <File Include="Zalo/assets/fonts/Montserrat Font/Montserrat-VariableFont_wght.ttf">
+      <publishTime>03/20/2023 12:08:27</publishTime>
+    </File>
+    <File Include="Zalo/assets/fonts/Montserrat Font/OFL.txt">
+      <publishTime>03/20/2023 12:08:27</publishTime>
+    </File>
+    <File Include="Zalo/assets/fonts/Montserrat Font/README.txt">
+      <publishTime>03/20/2023 12:08:27</publishTime>
+    </File>
+    <File Include="Zalo/assets/fonts/Montserrat Font/static/Montserrat-Black.ttf">
+      <publishTime>03/20/2023 12:08:27</publishTime>
+    </File>
+    <File Include="Zalo/assets/fonts/Montserrat Font/static/Montserrat-BlackItalic.ttf">
+      <publishTime>03/20/2023 12:08:27</publishTime>
+    </File>
+    <File Include="Zalo/assets/fonts/Montserrat Font/static/Montserrat-Bold.ttf">
+      <publishTime>03/20/2023 12:08:27</publishTime>
+    </File>
+    <File Include="Zalo/assets/fonts/Montserrat Font/static/Montserrat-BoldItalic.ttf">
+      <publishTime>03/20/2023 12:08:27</publishTime>
+    </File>
+    <File Include="Zalo/assets/fonts/Montserrat Font/static/Montserrat-ExtraBold.ttf">
+      <publishTime>03/20/2023 12:08:27</publishTime>
+    </File>
+    <File Include="Zalo/assets/fonts/Montserrat Font/static/Montserrat-ExtraBoldItalic.ttf">
+      <publishTime>03/20/2023 12:08:27</publishTime>
+    </File>
+    <File Include="Zalo/assets/fonts/Montserrat Font/static/Montserrat-ExtraLight.ttf">
+      <publishTime>03/20/2023 12:08:27</publishTime>
+    </File>
+    <File Include="Zalo/assets/fonts/Montserrat Font/static/Montserrat-ExtraLightItalic.ttf">
+      <publishTime>03/20/2023 12:08:27</publishTime>
+    </File>
+    <File Include="Zalo/assets/fonts/Montserrat Font/static/Montserrat-Italic.ttf">
+      <publishTime>03/20/2023 12:08:27</publishTime>
+    </File>
+    <File Include="Zalo/assets/fonts/Montserrat Font/static/Montserrat-Light.ttf">
+      <publishTime>03/20/2023 12:08:27</publishTime>
+    </File>
+    <File Include="Zalo/assets/fonts/Montserrat Font/static/Montserrat-LightItalic.ttf">
+      <publishTime>03/20/2023 12:08:27</publishTime>
+    </File>
+    <File Include="Zalo/assets/fonts/Montserrat Font/static/Montserrat-Medium.ttf">
+      <publishTime>03/20/2023 12:08:27</publishTime>
+    </File>
+    <File Include="Zalo/assets/fonts/Montserrat Font/static/Montserrat-MediumItalic.ttf">
+      <publishTime>03/20/2023 12:08:27</publishTime>
+    </File>
+    <File Include="Zalo/assets/fonts/Montserrat Font/static/Montserrat-Regular.ttf">
+      <publishTime>03/20/2023 12:08:27</publishTime>
+    </File>
+    <File Include="Zalo/assets/fonts/Montserrat Font/static/Montserrat-SemiBold.ttf">
+      <publishTime>03/20/2023 12:08:27</publishTime>
+    </File>
+    <File Include="Zalo/assets/fonts/Montserrat Font/static/Montserrat-SemiBoldItalic.ttf">
+      <publishTime>03/20/2023 12:08:27</publishTime>
+    </File>
+    <File Include="Zalo/assets/fonts/Montserrat Font/static/Montserrat-Thin.ttf">
+      <publishTime>03/20/2023 12:08:27</publishTime>
+    </File>
+    <File Include="Zalo/assets/fonts/Montserrat Font/static/Montserrat-ThinItalic.ttf">
+      <publishTime>03/20/2023 12:08:27</publishTime>
+    </File>
+    <File Include="Zalo/assets/fonts/Roboto/LICENSE.txt">
+      <publishTime>03/20/2023 12:08:27</publishTime>
+    </File>
+    <File Include="Zalo/assets/fonts/Roboto/Roboto-Black.ttf">
+      <publishTime>03/20/2023 12:08:27</publishTime>
+    </File>
+    <File Include="Zalo/assets/fonts/Roboto/Roboto-BlackItalic.ttf">
+      <publishTime>03/20/2023 12:08:27</publishTime>
+    </File>
+    <File Include="Zalo/assets/fonts/Roboto/Roboto-Bold.ttf">
+      <publishTime>03/20/2023 12:08:27</publishTime>
+    </File>
+    <File Include="Zalo/assets/fonts/Roboto/Roboto-BoldItalic.ttf">
+      <publishTime>03/20/2023 12:08:27</publishTime>
+    </File>
+    <File Include="Zalo/assets/fonts/Roboto/Roboto-Italic.ttf">
+      <publishTime>03/20/2023 12:08:27</publishTime>
+    </File>
+    <File Include="Zalo/assets/fonts/Roboto/Roboto-Light.ttf">
+      <publishTime>03/20/2023 12:08:27</publishTime>
+    </File>
+    <File Include="Zalo/assets/fonts/Roboto/Roboto-LightItalic.ttf">
+      <publishTime>03/20/2023 12:08:27</publishTime>
+    </File>
+    <File Include="Zalo/assets/fonts/Roboto/Roboto-Medium.ttf">
+      <publishTime>03/20/2023 12:08:27</publishTime>
+    </File>
+    <File Include="Zalo/assets/fonts/Roboto/Roboto-MediumItalic.ttf">
+      <publishTime>03/20/2023 12:08:27</publishTime>
+    </File>
+    <File Include="Zalo/assets/fonts/Roboto/Roboto-Regular.ttf">
+      <publishTime>03/20/2023 12:08:27</publishTime>
+    </File>
+    <File Include="Zalo/assets/fonts/Roboto/Roboto-Thin.ttf">
+      <publishTime>03/20/2023 12:08:27</publishTime>
+    </File>
+    <File Include="Zalo/assets/fonts/Roboto/Roboto-ThinItalic.ttf">
+      <publishTime>03/20/2023 12:08:27</publishTime>
+    </File>
+    <File Include="Zalo/assets/images/ivg.png">
+      <publishTime>03/20/2023 12:08:27</publishTime>
+    </File>
+    <File Include="Zalo/assets/images/user/1.jpg">
+      <publishTime>03/20/2023 14:34:38</publishTime>
+    </File>
+    <File Include="Zalo/assets/images/user/2.jpg">
+      <publishTime>03/20/2023 14:34:38</publishTime>
+    </File>
+    <File Include="Zalo/assets/images/user/3.jpg">
+      <publishTime>03/20/2023 14:34:38</publishTime>
+    </File>
+    <File Include="Zalo/assets/images/users/1.jpg">
+      <publishTime>03/29/2023 16:35:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/images/users/2.jpg">
+      <publishTime>03/29/2023 16:35:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/images/users/3.jpg">
+      <publishTime>03/29/2023 16:35:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/jquery/jquery-360.min.js">
+      <publishTime>03/20/2023 12:08:27</publishTime>
+    </File>
+    <File Include="Zalo/assets/js/api-url.js">
+      <publishTime>03/20/2023 14:45:07</publishTime>
+    </File>
+    <File Include="Zalo/assets/js/common.js">
+      <publishTime>04/05/2023 14:21:55</publishTime>
+    </File>
+    <File Include="Zalo/assets/js/index.js">
+      <publishTime>03/24/2023 11:27:29</publishTime>
+    </File>
+    <File Include="Zalo/assets/mdbootstrap/mdb-plugins-gathered.min.js">
+      <publishTime>03/20/2023 12:08:27</publishTime>
+    </File>
+    <File Include="Zalo/assets/mdbootstrap/MDB-Pro_4.7.4.js">
+      <publishTime>03/20/2023 12:08:27</publishTime>
+    </File>
+    <File Include="Zalo/assets/mdbootstrap/mdbootstrap4-compiled-4.20.0.min.css">
+      <publishTime>03/20/2023 12:08:27</publishTime>
+    </File>
+    <File Include="Zalo/assets/mdbootstrap/mouseflow.css">
+      <publishTime>03/20/2023 12:08:27</publishTime>
+    </File>
+    <File Include="Zalo/assets/mdbootstrap/poper-2.9.2.min.css">
+      <publishTime>03/20/2023 12:08:27</publishTime>
+    </File>
+    <File Include="Zalo/assets/reset-css/normalize.css">
+      <publishTime>03/20/2023 12:08:27</publishTime>
+    </File>
+    <File Include="Zalo/assets/sweat-alert/sweetalert.min.js">
+      <publishTime>03/20/2023 12:08:27</publishTime>
+    </File>
+    <File Include="Zalo/assets/toast/toastr.js">
+      <publishTime>03/20/2023 12:08:27</publishTime>
+    </File>
+    <File Include="Zalo/assets/toast/toastr.min.css">
+      <publishTime>03/20/2023 12:08:27</publishTime>
+    </File>
+    <File Include="Zalo/assets/toast/toastr.min.js">
+      <publishTime>03/20/2023 12:08:27</publishTime>
+    </File>
+    <File Include="Zalo/index.html">
+      <publishTime>04/10/2023 15:40:38</publishTime>
+    </File>
+    <File Include="Zalo/Note.txt">
+      <publishTime>03/20/2023 12:08:25</publishTime>
+    </File>
+    <File Include="ZaloAdmin/app/auto-dial - Copy/devonline.js">
+      <publishTime>03/20/2023 17:27:29</publishTime>
+    </File>
+    <File Include="ZaloAdmin/app/auto-dial - Copy/FCVSoftphone.html">
+      <publishTime>03/20/2023 17:27:29</publishTime>
+    </File>
+    <File Include="ZaloAdmin/app/auto-dial/devonline.js">
+      <publishTime>03/20/2023 13:58:55</publishTime>
+    </File>
+    <File Include="ZaloAdmin/app/auto-dial/FCVSoftphone.html">
+      <publishTime>03/20/2023 13:58:55</publishTime>
+    </File>
+    <File Include="ZaloAdmin/app/consent/consent.html">
+      <publishTime>03/29/2023 11:11:36</publishTime>
+    </File>
+    <File Include="ZaloAdmin/app/consent/consent.js">
+      <publishTime>03/29/2023 10:57:51</publishTime>
+    </File>
+    <File Include="ZaloAdmin/app/customer/customer.html">
+      <publishTime>03/29/2023 14:58:29</publishTime>
+    </File>
+    <File Include="ZaloAdmin/app/customer/customer.js">
+      <publishTime>03/22/2023 09:31:55</publishTime>
+    </File>
+    <File Include="ZaloAdmin/app/oa-info/oa-info.html">
+      <publishTime>03/29/2023 11:12:39</publishTime>
+    </File>
+    <File Include="ZaloAdmin/app/oa-info/oa-info.js">
+      <publishTime>03/27/2023 16:31:12</publishTime>
+    </File>
+    <File Include="ZaloAdmin/app/oa-setting/oa-setting.html">
+      <publishTime>03/29/2023 11:10:05</publishTime>
+    </File>
+    <File Include="ZaloAdmin/app/oa-setting/oa-setting.js">
+      <publishTime>03/27/2023 16:31:12</publishTime>
+    </File>
+    <File Include="ZaloAdmin/app/sf-contact/sf-contact.html">
+      <publishTime>03/29/2023 11:11:37</publishTime>
+    </File>
+    <File Include="ZaloAdmin/app/sf-contact/sf-contact.js">
+      <publishTime>03/29/2023 10:42:30</publishTime>
+    </File>
+    <File Include="ZaloAdmin/app/table/table.html">
+      <publishTime>03/20/2023 17:27:29</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/bootstrap/jquery-360.min.js">
+      <publishTime>03/21/2023 15:25:28</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/css/ivg-custom.css">
+      <publishTime>03/29/2023 10:44:53</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/datetime-picker/jquery.datetimepicker.full.js">
+      <publishTime>03/20/2023 17:27:29</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/datetime-picker/jquery.datetimepicker.min.css">
+      <publishTime>03/20/2023 17:27:29</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/font-awesome/all.min.css">
+      <publishTime>03/20/2023 17:27:29</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/font-awesome/all.min.js">
+      <publishTime>03/20/2023 17:27:29</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/font-awesome/font-awesome-6.css">
+      <publishTime>03/20/2023 17:27:29</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/image/favicon.png">
+      <publishTime>03/20/2023 17:27:29</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/image/icon/about.png">
+      <publishTime>03/20/2023 17:27:29</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/image/icon/bookmark-ribbon.png">
+      <publishTime>03/20/2023 17:27:29</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/image/icon/bookmark.png">
+      <publishTime>03/20/2023 17:27:29</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/image/icon/briefcase--v2.png">
+      <publishTime>03/20/2023 17:27:29</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/image/icon/cancel.png">
+      <publishTime>03/20/2023 17:27:29</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/image/icon/checkmark.png">
+      <publishTime>03/20/2023 17:27:29</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/image/icon/clock.png">
+      <publishTime>03/20/2023 17:27:29</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/image/icon/contacts.png">
+      <publishTime>03/20/2023 17:27:29</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/image/icon/cursor.png">
+      <publishTime>03/20/2023 17:27:29</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/image/icon/delete-sign.png">
+      <publishTime>03/20/2023 17:27:29</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/image/icon/document.png">
+      <publishTime>03/20/2023 17:27:29</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/image/icon/edit.png">
+      <publishTime>03/20/2023 17:27:29</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/image/icon/folder-invoices--v1.png">
+      <publishTime>03/20/2023 17:27:29</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/image/icon/folder-invoices--v2.png">
+      <publishTime>03/20/2023 17:27:29</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/image/icon/globe-asia.png">
+      <publishTime>03/20/2023 17:27:29</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/image/icon/home.png">
+      <publishTime>03/20/2023 17:27:29</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/image/icon/info.png">
+      <publishTime>03/20/2023 17:27:29</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/image/icon/lock--v1.png">
+      <publishTime>03/20/2023 17:27:29</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/image/icon/lock--v2.png">
+      <publishTime>03/20/2023 17:27:29</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/image/icon/menu.png">
+      <publishTime>03/20/2023 17:27:29</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/image/icon/news.png">
+      <publishTime>03/20/2023 17:27:29</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/image/icon/ok.png">
+      <publishTime>03/20/2023 17:27:29</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/image/icon/opened-folder.png">
+      <publishTime>03/20/2023 17:27:29</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/image/icon/picture--v1.png">
+      <publishTime>03/20/2023 17:27:29</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/image/icon/picture--v2.png">
+      <publishTime>03/20/2023 17:27:29</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/image/icon/plus.png">
+      <publishTime>03/20/2023 17:27:29</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/image/icon/puzzle.png">
+      <publishTime>03/20/2023 17:27:29</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/image/icon/refresh.png">
+      <publishTime>03/20/2023 17:27:29</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/image/icon/restart--v1.png">
+      <publishTime>03/20/2023 17:27:29</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/image/icon/restart--v2.png">
+      <publishTime>03/20/2023 17:27:29</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/image/icon/services--v2.png">
+      <publishTime>03/20/2023 17:27:29</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/image/icon/synchronize.png">
+      <publishTime>03/20/2023 17:27:29</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/image/icon/trash.png">
+      <publishTime>03/20/2023 17:27:29</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/image/icon/unlock--v2.png">
+      <publishTime>03/20/2023 17:27:29</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/js/common.js">
+      <publishTime>03/28/2023 17:04:45</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/js/index.js">
+      <publishTime>03/27/2023 16:31:12</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/layout/bootstrap.min.css">
+      <publishTime>03/20/2023 17:27:29</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/layout/bootstrap.min.js">
+      <publishTime>03/20/2023 17:27:29</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/layout/img/1.png">
+      <publishTime>03/20/2023 17:27:29</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/layout/img/user-2.png">
+      <publishTime>03/20/2023 17:27:29</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/layout/img/user.png">
+      <publishTime>03/20/2023 17:27:29</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/layout/img/wallpaper.png">
+      <publishTime>03/20/2023 17:27:29</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/layout/index - full.html">
+      <publishTime>03/20/2023 17:27:29</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/layout/nifty.min.css">
+      <publishTime>03/20/2023 17:27:29</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/layout/nifty.min.js">
+      <publishTime>03/21/2023 16:58:02</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/Note.txt">
+      <publishTime>03/27/2023 17:23:14</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/theme/css/buttons.bootstrap5.css">
+      <publishTime>03/20/2023 14:39:43</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/theme/css/core.css">
+      <publishTime>03/20/2023 14:39:43</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/theme/css/datatables.bootstrap5.css">
+      <publishTime>03/20/2023 14:39:43</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/theme/css/demo.css">
+      <publishTime>03/20/2023 14:39:43</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/theme/css/flag-icons.css">
+      <publishTime>03/20/2023 14:39:43</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/theme/css/fontawesome.css">
+      <publishTime>03/20/2023 14:39:43</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/theme/css/formValidation.min.css">
+      <publishTime>03/20/2023 14:39:43</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/theme/css/node-waves.css">
+      <publishTime>03/20/2023 14:39:43</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/theme/css/perfect-scrollbar.css">
+      <publishTime>03/20/2023 14:39:43</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/theme/css/responsive.bootstrap5.css">
+      <publishTime>03/20/2023 14:39:43</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/theme/css/select2.css">
+      <publishTime>03/20/2023 14:39:43</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/theme/css/tabler-icons.css">
+      <publishTime>03/20/2023 14:39:43</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/theme/css/theme-default.css">
+      <publishTime>03/20/2023 14:39:43</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/theme/css/typeahead.css">
+      <publishTime>03/20/2023 14:39:43</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/theme/js/app-user-list.js">
+      <publishTime>03/20/2023 14:39:43</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/theme/js/AutoFocus.min.js">
+      <publishTime>03/20/2023 14:39:43</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/theme/js/bootstrap.js">
+      <publishTime>03/20/2023 14:39:43</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/theme/js/Bootstrap5.min.js">
+      <publishTime>03/20/2023 14:39:43</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/theme/js/cleave-phone.js">
+      <publishTime>03/20/2023 14:39:43</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/theme/js/cleave.js">
+      <publishTime>03/20/2023 14:39:43</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/theme/js/config.js">
+      <publishTime>03/20/2023 14:39:43</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/theme/js/datatables-bootstrap5.js">
+      <publishTime>03/20/2023 14:39:43</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/theme/js/FormValidation.min.js">
+      <publishTime>03/20/2023 14:39:43</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/theme/js/hammer.js">
+      <publishTime>03/20/2023 14:39:43</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/theme/js/helpers.js">
+      <publishTime>03/20/2023 14:39:43</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/theme/js/i18n.js">
+      <publishTime>03/20/2023 14:39:43</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/theme/js/jquery.js">
+      <publishTime>03/20/2023 14:39:43</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/theme/js/main.js">
+      <publishTime>03/20/2023 14:39:43</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/theme/js/menu.js">
+      <publishTime>03/20/2023 14:39:43</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/theme/js/moment.js">
+      <publishTime>03/20/2023 14:39:43</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/theme/js/node-waves.js">
+      <publishTime>03/20/2023 14:39:43</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/theme/js/perfect-scrollbar.js">
+      <publishTime>03/20/2023 14:39:43</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/theme/js/popper.js">
+      <publishTime>03/20/2023 14:39:43</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/theme/js/select2.js">
+      <publishTime>03/20/2023 14:39:43</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/theme/js/template-customizer.js">
+      <publishTime>03/20/2023 14:39:43</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/theme/js/typeahead.js">
+      <publishTime>03/20/2023 14:39:43</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/toast/toastr.js">
+      <publishTime>03/27/2023 16:31:12</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/toast/toastr.min.css">
+      <publishTime>03/27/2023 16:31:12</publishTime>
+    </File>
+    <File Include="ZaloAdmin/assets/toast/toastr.min.js">
+      <publishTime>03/27/2023 16:31:12</publishTime>
+    </File>
+    <File Include="ZaloAdmin/index.html">
+      <publishTime>03/29/2023 10:20:29</publishTime>
+    </File>
+    <File Include="ZaloSetting/app/call-list/call-list.html">
+      <publishTime>09/26/2023 09:42:15</publishTime>
+    </File>
+    <File Include="ZaloSetting/app/call-list/call-list.js">
+      <publishTime>09/26/2023 09:42:15</publishTime>
+    </File>
+    <File Include="ZaloSetting/app/cau-hinh/cau-hinh.html">
+      <publishTime>06/22/2023 09:27:45</publishTime>
+    </File>
+    <File Include="ZaloSetting/app/cau-hinh/cau-hinh.js">
+      <publishTime>06/22/2023 09:27:45</publishTime>
+    </File>
+    <File Include="ZaloSetting/app/login/login.html">
+      <publishTime>06/27/2023 09:07:00</publishTime>
+    </File>
+    <File Include="ZaloSetting/app/login/login.js">
+      <publishTime>06/27/2023 09:07:00</publishTime>
+    </File>
+    <File Include="ZaloSetting/app/request-detail/request-detail.html">
+      <publishTime>07/04/2023 16:37:30</publishTime>
+    </File>
+    <File Include="ZaloSetting/app/request-detail/request-detail.js">
+      <publishTime>07/04/2023 16:37:30</publishTime>
+    </File>
+    <File Include="ZaloSetting/app/request-queue/index.html">
+      <publishTime>07/04/2023 16:37:30</publishTime>
+    </File>
+    <File Include="ZaloSetting/app/request-queue/request-queue.js">
+      <publishTime>07/04/2023 16:37:30</publishTime>
+    </File>
+    <File Include="ZaloSetting/app/request/request.html">
+      <publishTime>07/04/2023 16:37:30</publishTime>
+    </File>
+    <File Include="ZaloSetting/app/request/request.js">
+      <publishTime>07/04/2023 16:37:30</publishTime>
+    </File>
+    <File Include="ZaloSetting/app/tai-khoan/tai-khoan.html">
+      <publishTime>06/26/2023 09:54:53</publishTime>
+    </File>
+    <File Include="ZaloSetting/app/tai-khoan/tai-khoan.js">
+      <publishTime>06/26/2023 09:54:53</publishTime>
+    </File>
+    <File Include="ZaloSetting/app/webhook/index.html">
+      <publishTime>07/04/2023 16:37:30</publishTime>
+    </File>
+    <File Include="ZaloSetting/app/webhook/webhook.js">
+      <publishTime>07/04/2023 16:37:30</publishTime>
+    </File>
+    <File Include="ZaloSetting/assets/css/ivg-admin.css">
+      <publishTime>06/14/2023 09:23:53</publishTime>
+    </File>
+    <File Include="ZaloSetting/assets/css/ivg-common.css">
+      <publishTime>09/26/2023 09:42:15</publishTime>
+    </File>
+    <File Include="ZaloSetting/assets/img/loader.gif">
+      <publishTime>06/14/2023 09:23:53</publishTime>
+    </File>
+    <File Include="ZaloSetting/assets/img/logo.png">
+      <publishTime>06/14/2023 09:23:53</publishTime>
+    </File>
+    <File Include="ZaloSetting/assets/img/wallpaper.jpg">
+      <publishTime>06/22/2023 09:27:45</publishTime>
+    </File>
+    <File Include="ZaloSetting/assets/js/index.js">
+      <publishTime>09/26/2023 09:42:15</publishTime>
+    </File>
+    <File Include="ZaloSetting/assets/js/ivg-common.js">
+      <publishTime>06/22/2023 09:27:45</publishTime>
+    </File>
+    <File Include="ZaloSetting/assets/library/bootstrap/bootstrap-grid.css">
+      <publishTime>06/14/2023 09:23:53</publishTime>
+    </File>
+    <File Include="ZaloSetting/assets/library/bootstrap/bootstrap-grid.css.map">
+      <publishTime>06/14/2023 09:23:53</publishTime>
+    </File>
+    <File Include="ZaloSetting/assets/library/bootstrap/bootstrap-grid.min.css">
+      <publishTime>06/14/2023 09:23:53</publishTime>
+    </File>
+    <File Include="ZaloSetting/assets/library/bootstrap/bootstrap-grid.min.css.map">
+      <publishTime>06/14/2023 09:23:53</publishTime>
+    </File>
+    <File Include="ZaloSetting/assets/library/bootstrap/bootstrap-reboot.css">
+      <publishTime>06/14/2023 09:23:53</publishTime>
+    </File>
+    <File Include="ZaloSetting/assets/library/bootstrap/bootstrap-reboot.css.map">
+      <publishTime>06/14/2023 09:23:53</publishTime>
+    </File>
+    <File Include="ZaloSetting/assets/library/bootstrap/bootstrap-reboot.min.css">
+      <publishTime>06/14/2023 09:23:53</publishTime>
+    </File>
+    <File Include="ZaloSetting/assets/library/bootstrap/bootstrap-reboot.min.css.map">
+      <publishTime>06/14/2023 09:23:53</publishTime>
+    </File>
+    <File Include="ZaloSetting/assets/library/bootstrap/bootstrap.bundle.js">
+      <publishTime>06/14/2023 09:23:53</publishTime>
+    </File>
+    <File Include="ZaloSetting/assets/library/bootstrap/bootstrap.bundle.min.js">
+      <publishTime>06/14/2023 09:23:53</publishTime>
+    </File>
+    <File Include="ZaloSetting/assets/library/bootstrap/bootstrap.css">
+      <publishTime>06/14/2023 09:23:53</publishTime>
+    </File>
+    <File Include="ZaloSetting/assets/library/bootstrap/bootstrap.css.map">
+      <publishTime>06/14/2023 09:23:53</publishTime>
+    </File>
+    <File Include="ZaloSetting/assets/library/bootstrap/bootstrap.js">
+      <publishTime>06/14/2023 09:23:53</publishTime>
+    </File>
+    <File Include="ZaloSetting/assets/library/bootstrap/bootstrap.min.css">
+      <publishTime>06/14/2023 09:23:53</publishTime>
+    </File>
+    <File Include="ZaloSetting/assets/library/bootstrap/bootstrap.min.css.map">
+      <publishTime>06/14/2023 09:23:53</publishTime>
+    </File>
+    <File Include="ZaloSetting/assets/library/bootstrap/bootstrap.min.js">
+      <publishTime>06/14/2023 09:23:53</publishTime>
+    </File>
+    <File Include="ZaloSetting/assets/library/bootstrap/popper-utils.js">
+      <publishTime>06/14/2023 09:23:53</publishTime>
+    </File>
+    <File Include="ZaloSetting/assets/library/bootstrap/popper-utils.js.map">
+      <publishTime>06/14/2023 09:23:53</publishTime>
+    </File>
+    <File Include="ZaloSetting/assets/library/bootstrap/popper-utils.min.js">
+      <publishTime>06/14/2023 09:23:53</publishTime>
+    </File>
+    <File Include="ZaloSetting/assets/library/bootstrap/popper-utils.min.js.map">
+      <publishTime>06/14/2023 09:23:53</publishTime>
+    </File>
+    <File Include="ZaloSetting/assets/library/bootstrap/popper-utils2.js">
+      <publishTime>06/14/2023 09:23:53</publishTime>
+    </File>
+    <File Include="ZaloSetting/assets/library/bootstrap/popper.js">
+      <publishTime>06/14/2023 09:23:53</publishTime>
+    </File>
+    <File Include="ZaloSetting/assets/library/bootstrap/popper.js.map">
+      <publishTime>06/14/2023 09:23:53</publishTime>
+    </File>
+    <File Include="ZaloSetting/assets/library/bootstrap/popper.min.js">
+      <publishTime>06/14/2023 09:23:53</publishTime>
+    </File>
+    <File Include="ZaloSetting/assets/library/bootstrap/popper.min.js.map">
+      <publishTime>06/14/2023 09:23:53</publishTime>
+    </File>
+    <File Include="ZaloSetting/assets/library/bootstrap/popper2.min.js">
+      <publishTime>06/14/2023 09:23:53</publishTime>
+    </File>
+    <File Include="ZaloSetting/assets/library/dtpicker/jquery.datetimepicker.full.js">
+      <publishTime>06/14/2023 09:23:53</publishTime>
+    </File>
+    <File Include="ZaloSetting/assets/library/dtpicker/jquery.datetimepicker.min.css">
+      <publishTime>06/14/2023 09:23:53</publishTime>
+    </File>
+    <File Include="ZaloSetting/assets/library/fontawesome/all.js">
+      <publishTime>06/14/2023 09:23:53</publishTime>
+    </File>
+    <File Include="ZaloSetting/assets/library/fontawesome/brands.js">
+      <publishTime>06/14/2023 09:23:53</publishTime>
+    </File>
+    <File Include="ZaloSetting/assets/library/fontawesome/conflict-detection.js">
+      <publishTime>06/14/2023 09:23:53</publishTime>
+    </File>
+    <File Include="ZaloSetting/assets/library/fontawesome/font-awesome.min.css">
+      <publishTime>06/14/2023 09:23:53</publishTime>
+    </File>
+    <File Include="ZaloSetting/assets/library/fontawesome/fontawesome-all.css">
+      <publishTime>06/14/2023 09:23:53</publishTime>
+    </File>
+    <File Include="ZaloSetting/assets/library/fontawesome/fontawesome-all.min.css">
+      <publishTime>06/14/2023 09:23:53</publishTime>
+    </File>
+    <File Include="ZaloSetting/assets/library/fontawesome/fontawesome.css">
+      <publishTime>06/14/2023 09:23:53</publishTime>
+    </File>
+    <File Include="ZaloSetting/assets/library/fontawesome/fontawesome.js">
+      <publishTime>06/14/2023 09:23:53</publishTime>
+    </File>
+    <File Include="ZaloSetting/assets/library/fontawesome/fontawesome.min.css">
+      <publishTime>06/14/2023 09:23:53</publishTime>
+    </File>
+    <File Include="ZaloSetting/assets/library/fontawesome/regular.js">
+      <publishTime>06/14/2023 09:23:53</publishTime>
+    </File>
+    <File Include="ZaloSetting/assets/library/fontawesome/solid.js">
+      <publishTime>06/14/2023 09:23:53</publishTime>
+    </File>
+    <File Include="ZaloSetting/assets/library/fontawesome/v4-shims.js">
+      <publishTime>06/14/2023 09:23:53</publishTime>
+    </File>
+    <File Include="ZaloSetting/assets/library/jquery/jquery-3.3.1.min.js">
+      <publishTime>06/14/2023 09:23:53</publishTime>
+    </File>
+    <File Include="ZaloSetting/assets/library/note.txt">
+      <publishTime>06/14/2023 09:23:53</publishTime>
+    </File>
+    <File Include="ZaloSetting/assets/library/select2/select2.min.css">
+      <publishTime>06/14/2023 09:23:53</publishTime>
+    </File>
+    <File Include="ZaloSetting/assets/library/select2/select2.min.js">
+      <publishTime>06/14/2023 09:23:53</publishTime>
+    </File>
+    <File Include="ZaloSetting/assets/library/toast/toastr.js">
+      <publishTime>06/14/2023 09:23:53</publishTime>
+    </File>
+    <File Include="ZaloSetting/assets/library/toast/toastr.min.css">
+      <publishTime>06/14/2023 09:23:53</publishTime>
+    </File>
+    <File Include="ZaloSetting/assets/library/toast/toastr.min.js">
+      <publishTime>06/14/2023 09:23:53</publishTime>
+    </File>
+    <File Include="ZaloSetting/index.html">
+      <publishTime>09/26/2023 09:42:15</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
